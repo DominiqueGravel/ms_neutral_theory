@@ -1,5 +1,5 @@
 ########################################################################
-# Source for the figures 1-3 in the paper
+# Source for the figures 1-4 in the paper
 # Gravel, Poisot and Desjardins. 2013. XXX. J. Limnology. 
 #
 # By: Dominique Gravel (dominique_gravel@uqar.ca) 
@@ -65,6 +65,18 @@ topoLattice = spm(lattice[[2]])
 topoGeograph = spm(geograph[[2]])
 topoGeotree = spm(geotree[[2]])
 
+# Degree centrality
+degGeograph = deg_cen(geograph)
+degGeotree = deg_cen(geotree)
+
+# Eigen centrality
+eigGeograph = eig_cen(geograph)
+eigGeotree = eig_cen(geotree)
+
+# Closeness centrality
+clsGeograph = cls_cen(geograph)
+clsGeotree = cls_cen(geotree)
+
 ###############################
 # Run the three models with the four landscapes
 
@@ -102,7 +114,7 @@ d = 0.1
 J = 100
 sdN = Inf
 sdE = 5
-nsteps = 10000
+nsteps = 1000
 
 # Simulations
 neutralConnected = lottery_model(m,M,d,S,J,sdE,sdN,connected,nsteps)
@@ -153,31 +165,60 @@ betaSSGeotree = as.matrix(vegdist(ssGeotree[[1]],method = "bray",diag=T,upper=T)
 
 ###############################
 # Figure 1
-quartz(height = 6, width = 6)
-t = matrix(c(1:12),nr = 4, nc = 3, byrow = T)
+quartz(height = 6, width = 3)
+t = matrix(c(1:4),nr = 4, nc = 1, byrow = T)
 layout(t)
-layout.show(12)
+layout.show(4)
 
-plot_alpha(connected,alphaPatchConnected)
+#plot_alpha(connected,alphaPatchConnected)
 plot_alpha(connected,alphaNeutralConnected)
-plot_alpha(connected,alphaSSConnected)
+#plot_alpha(connected,alphaSSConnected)
 
-plot_alpha(lattice,alphaPatchLattice)
+#plot_alpha(lattice,alphaPatchLattice)
 plot_alpha(lattice,alphaNeutralLattice)
-plot_alpha(lattice,alphaSSLattice)
+#plot_alpha(lattice,alphaSSLattice)
 
-plot_alpha(geograph,alphaPatchGeograph)
+#plot_alpha(geograph,alphaPatchGeograph)
 plot_alpha(geograph,alphaNeutralGeograph)
-plot_alpha(geograph,alphaSSGeograph)
+#plot_alpha(geograph,alphaSSGeograph)
 
-plot_alpha(geotree,alphaPatchGeotree)
+#plot_alpha(geotree,alphaPatchGeotree)
 plot_alpha(geotree,alphaNeutralGeotree)
-plot_alpha(geotree,alphaSSGeotree)
+#plot_alpha(geotree,alphaSSGeotree)
 
 dev.copy2pdf(file = "Figure1.pdf")
 
 ###############################
 # Figure 2
+quartz(height = 6, width = 6)
+t = matrix(c(1:4),nr = 2, nc = 2, byrow = T)
+layout(t)
+layout.show(4)
+
+par(mar=c(3,6,4,1))
+plot(degGeograph,apply(patchGeograph[[1]],1,sum),pch = 19, xlab = "", ylab = "Species richness", ylim = c(0,S),cex.lab = 1.5, cex.axis = 1.25)
+points(degGeograph,apply(neutralGeograph[[1]],1,sum),pch = 21, bg = "red")
+points(degGeograph,apply(ssGeograph[[1]],1,sum),pch = 21, bg = "blue")
+
+par(mar=c(3,4,4,3))
+plot(eigGeograph,apply(patchGeograph[[1]],1,sum),pch = 19, xlab = "", ylab = "", ylim = c(0,S),cex.lab = 1.5, cex.axis = 1.25)
+points(eigGeograph,apply(neutralGeograph[[1]],1,sum),pch = 21, bg = "red")
+points(eigGeograph,apply(ssGeotree[[1]],1,sum),pch = 21, bg = "blue")
+
+par(mar=c(6,6,1,1))
+plot(degGeotree,apply(patchGeotree[[1]],1,sum),pch = 19, xlab = "Degree centrality", ylab = "Species richness", ylim = c(0,S),cex.lab = 1.5, cex.axis = 1.25)
+points(degGeotree,apply(neutralGeotree[[1]],1,sum),pch = 21, bg = "red")
+points(degGeotree,apply(ssGeotree[[1]],1,sum),pch = 21, bg = "blue")
+
+par(mar=c(6,4,1,3))
+plot(eigGeotree,apply(patchGeotree[[1]],1,sum),pch = 19, xlab = "Eigen centrality", ylab = "", ylim = c(0,S),cex.lab = 1.5, cex.axis = 1.25)
+points(eigGeotree,apply(neutralGeotree[[1]],1,sum),pch = 21, bg = "red")
+points(eigGeotree,apply(ssGeotree[[1]],1,sum),pch = 21, bg = "blue")
+
+dev.copy2pdf(file = "Figure2.pdf")
+
+###############################
+# Figure 3
 
 quartz(height = 4.5, width = 6)
 t = matrix(c(1:12),nr = 3, nc = 3, byrow = T)
@@ -197,10 +238,10 @@ plot(distLattice,betaSSLattice,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8
 plot(distGeograph,betaSSGeograph,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8)
 plot(distGeotree,betaSSGeotree,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8)
 
-dev.copy2pdf(file = "Figure2.pdf")
+dev.copy2pdf(file = "Figure3.pdf")
 
 ###############################
-# Figure 3
+# Figure 4
 
 quartz(height = 4.5, width = 6)
 t = matrix(c(1:12),nr = 3, nc = 3, byrow = T)
@@ -220,6 +261,6 @@ plot(topoLattice,betaSSLattice,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8
 plot(topoGeograph,betaSSGeograph,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8)
 plot(topoGeotree,betaSSGeotree,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8)
 
-dev.copy2pdf(file = "Figure3.pdf")
+dev.copy2pdf(file = "Figure4.pdf")
 
 
