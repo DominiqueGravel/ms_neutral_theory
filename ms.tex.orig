@@ -14,9 +14,15 @@
 
 \textbf{Authors:}  Dominique Gravel$^{1,2,*}$, Timoth\'ee Poisot$^{1,2}$, Philippe Desjardins-Proulx$^{1,2}$\\
 
+<<<<<<< HEAD
 1: Canada Research Chair on Terrestrial Ecosystems. D\'epartement de biologie, chimie et g\'eographique, Universit\'e du Qu\'ebec \`a Rimouski, 300 All\'ee des Ursulines, Qu\'ebec, Canada. G5L 3A1.\\
 
 2: Qu\'ebec Centre for Biodiversity Sciences, Stewart Biological Sciences Building, 1205 Dr.~Penfield Avenue, Montr\'eal (QC), H3A 1B1, Canada\\
+=======
+1: Canada Research Chair on Continental Ecosystem Ecology. D\'epartement de biologie, chimie et g\'eographique, Universit\'e du Qu\'ebec \`a Rimouski, 300 All\'ee des Ursulines, Qu\'ebec, Canada. G5L 3A1.\\
+
+2: Qu\'ebec Centre for Biodiversity Sciences\\
+>>>>>>> 7bd90f3fc922e2e059e4aa0e383966572646fbba
 
 \textbf{Words in the abstract:}      \\
 \textbf{Words in the main text:}    \\
@@ -26,6 +32,21 @@
 
 \newpage
 \doublespacing
+
+%========================================================%
+
+\section*{Abstract}
+Background: \\
+Question: \\
+Approach: \\
+Key results: \\
+Conclusion\\
+
+\textbf{Keywords:} metacommunity ecology, neutral theory, species
+sorting, patch dynamics, spatial networks, dispersal\\
+<<<<<<< HEAD
+
+\newpage
 
 %========================================================%
 \section{Introduction}
@@ -146,19 +167,34 @@ models and all simulations conducted for this paper. We then conduct simple
 simulations of these models to reveal the impact of spatial network structure on
 diversity distribution. We conclude with a discussion on the operationally of
 the framework.
+=======
+
+\newpage
 
 %========================================================%
-\section{Network representation of landscapes}
+\section*{Introduction}
+
+Community assembly is concerned by patterns and processes occurring at various spatial scales \parencite{Levin1992}. Until the development of metacommunity ecology, studies on community assembly were often restricted to local populations, with a strong focus on pairwise interactions (e.g. \textcite{MacArthur1972, May1973,Pimm1982,DeAngelis1992}). The emphasis on local communities has been vigorously criticized by \textcite{Ricklefs2008}, who has long recognized that local dynamics and community structure are strongly contingent on processes occurring at much larger spatial scales \parencite{Ricklefs1987}. This perspective is particularly relevant to limnology, where exchanges of organisms and nutrients impact community and ecosystem properties from the local (e.g. vertical mixing \parencite{Ryabov2011}) to the regional (e.g. connection of lakes \parencite{Leibold2004b} scales. It emphasizes the importance of dispersal relative to pairwise interactions in the organization of ecological communities. The metacommunity concept has been proposed by \textcite{Leibold2004a} as a novel approach to link different spatial scales in ecology. It builds on feedbacks between local scale processes, such as competitive interactions and local adaptation, and regional scale processes such as dispersal, gene flow and speciation. Ecologists are now required to move toward a predictive ecology, integrating elements of theoretical ecology \parencite{Thuiller2013}, and the metacommunity perspective appears naturally as the appropriate conceptual framework to develop the new modeling techniques required to fill this challenge. The development of neutral theory has been quite provocative in that respect, as one could see it as a step back in time. Neutral theory makes the provocative assumption that species are ecologically equivalent and thereby any variation in the environment has no impact on demography \parencite{Bell2000,Hubbell2001}. Only demographic stochasticity and dispersal drive the structure of neutral ecological communities. It therefore appears that, on first sight, neutral theory is useless.  We will develop in this paper the argument that neutral theory could be a useful tool to understand the impact of dispersal on community organization in landscapes of various complexities. 
+
+Neutral theory sparked an historical debate in community ecology that is still lasting after more than a decade \parencite{Chave2004, Etiennee2011, Rosindell2012,Clark2012}. It was stimulated by the impressive ability of neutral models to fit several well studied empirical observations such as species abundance distributions and distance-decay relationships. A remarkable strenght of neutral theory is to provide a \textit("formal general theory of abundance and diversity that will account, in a simple and economical fashion, for the many patterns that ecologists have documented") \parencite{Bell2001}. Even if new studies rejecting neutral theory are consistently published (e.g. \textcite{Ricklefs2012}), there is now almost a consensus that neutral theory is a well-developed null hypothesis for niche theory and could even be used as an adequate approximation of ecological dynamics in some situations. \textcite{Bell2001} nicely envisionned two perspectives to neutral theory that are still standing today. Under the weak perspective, neutral theory provides a set of realistic predictions of community organization despite false assumptions. Even if being fundamentally wrong, neutral theory is still useful when used as a null hypothesis \parencite{Gotelli2006}. It is considered as an improvement over traditional null hypotheses based on randomization \parencite{Gotelli2000} because it readily integrates dispersal. The strong version on the other hand posits that neutral theory is a satisfying approximation to community dynamics and an appropriate theory to explain the distribution of biodiversity. It implies that the right mechanisms have been identified and that the consistently observed differences among species do not impact community organization. 
+
+Neutral theory has also been proposed as a useful tool to understand and predict some aspects of community dynamics. It links to an old philosophical debate between realism and instrumentalism \parencite{Wennekes2011}. Because every ecological model is a simplification of reality, any scientist has to subjectively decide the level of details he puts in, leaving out some elements judged unimportant. The realism perspective requires that all assumptions of theory to be true, while the utility of the theory is more important to instrumentalism. The utilitarian value of a theory could either be for understanding or prediction (another old philosophical debate, see \textcite{Schmueli2010}). Obviously neutral theory could only be instrumental. The question then is if such a 'general, large-scale, but vague' theory \parencite{Wennekes2011} is a satisfying approximation. 
+
+The instrumentalism view of neutral theory raises the question of why should it be a satisfying approximation despite knowing the pieces are wrong? We see two potential answers to this question. A first answer might be that stochasticity of various origins can blur the deterministic differences among species and promote the ecological drift \parencite{Gravel2011}. Much has been said the existence of demographic stochasticity, some ecologists even arguing that neutral models impede progress in community ecology by hidding niche differences \parencite{Clark2012}, and we therefore will keep this discussion for other papers. The second answer is that dispersal and historical contingencies might have a much more profound impact on species distribution \parencite{Bahn2007} and ecological dynamics. The debate over the equivalence assumption and demographic stochasticity has perhaps overlook the recognition of how much dispersal influence community assembly.
+
+We will adopt the perspective that neutral theory is a useful tool to both understand and predict the impact of dispersal on community organization. Even for a theoretical analysis, we need a benchmark without niche differences to reveal the role of dispersal in structuring communities and understand the interaction with niche differentiation. We will explore recent applications of neutral theory, at the crossroad of network theory, to better represent the impact of landscape structure on biodiversitity distribution. This analysis will prove particularly relevant to limnology, where most riverine and lacustre habitats are characterized by a their discrete nature and spatially complex arrangements. We will also reveal the relative contribution of ecological interaction and niche differentiation by contrasting predictions of a neutral model to other metacommunity perspectives. 
+
+Our main objective in this paper is to use neutral theory to stress the importance of landscape network structure on the distribution of diversity. We refer to the landscape organization as a "spatial contingency" \parencite{Peres-Neto2013} that could potentially impact the coexistence mechanisms at play. We will therefore move from a perspective where dispersal is either global or spatially explicity (e.g. over a lattice), and spatial constant, to a perspective focusing on the variance of dispersal. A second generation of neutral models (e.g. \textcite{Economo2008, Economo2011,Desjardins2012a,Desjardins2012b}, and even experiments \parencite{Altermat2012}, recently introduced more realistic lanscapes and found surprising contributions of spatial contingencies. We will start with a short review of the main approaches to describe spatial networks and the studies investigating them. Then we will describe three simple toy models of metacommunity dynamics, taking this opportunity to review their assumptions and main predictions. We provide as Supplementary Material the R scripts for the toy models and all simulations conducted for this paper. We then conduct simple simulations of these models to reveal the impact of spatial network structure on diversity distribution. We conclude with a discussion on the operationally of the framework.
+>>>>>>> 7bd90f3fc922e2e059e4aa0e383966572646fbba
+
+%========================================================%
+\section*{Network representation of landscapes}
 % PDP
 
-Entités discrètes --> réseaux
-
- 
+PDP
 
 % Table 1: main descriptors of spatial networks. Column 1: Name of the metric; Column 2: Definition
 % We might want to distinguish network level versus node-level metrics.
-
- 
 
 %========================================================%
 \section*{Model description}
@@ -234,7 +270,19 @@ The lottery dynamics described above for the neutral model assume there is a ver
 Analyses of similar models with a combination of dispersal and species-sorting shown that predictions are extremely variables and depend on the distribution of environmental conditions, niche optimums and breadth. For instance, a well-studied prediction of neutral models is the species abundance distribution. It was shown that niche models can predict similar distributions \parencite{Tilman2004,Gravel2006}. The main prediction is nonetheless that stable and predictable (meaning which species will coexist) if species are sufficiently dissimilar. Local species richness will first depend on the joint effects of local heterogeneity and niche breadth because coexistence requires a limiting similarity \parencite{Schwilk2005}. Local species richness could be increased by a mass effect when dispersal is consistently supplying individuals coming from more favorable locations (refuges). The limiting similarity required to maintain regional coexistence depends on the amount of dispersal because exchanges among communities homogenizes environmental conditions. This is one of the main result from the species sorting theory and a clever example of local-regional feedbacks: increasing dispersal promotes local coexistence, but on the other hand it diminishes regional coexistence. Only the best average competitors will remain at very high dispersal.  We therefore expect a hump-shaped relationship between dispersal and alpha diversity, with a peak at intermediate dispersal. On the other hand, we expect a monotonic decrease of beta and gamma diversity with dispersal \parencite{Mouquet2003}. This prediction has been validated in some experiments \parencite{Venail2008, Logue2011}.
 
 %========================================================%
-\section{Discussion}
+\section*{Results}
+TP
+
+\subsection*{Alpha diversity}
+TP
+
+\subsection*{Beta diversity} 
+TP
+
+
+
+%========================================================%
+\section*{Discussion}
 % TP
 
 Contrasting the three perspectives: what do we learn?
@@ -246,9 +294,51 @@ Making the theory operational
 	- making predictions for specific landscapes
 	- 
 
+<<<<<<< HEAD
+=======
 
 Distribution attendue des espèces dans un paysage: utiliser la théorie neutre pour avoir un attendu (différents de la méthode classique de permutation)
 
+- Utiliser les déviations locales pour comprendre le rôle de la sélection 
+
+- Approche par réseau: vers une approche qui intègre la variance des mécanismes de coexistence
+
+- Importance de la structure du paysage sur les propriétés émergentes
+	- importance relative de species sorting et drift va dépendre de l'organisation du paysage
+	- prédiction
+	- rôle de la distribution de degrés
+- 
+
+>>>>>>> 7bd90f3fc922e2e059e4aa0e383966572646fbba
+%========================================================%
+\section{Acknowledgements}
+DG received financial support from NSERC and Canada Research Chair program. TP is funded by a MELS-FQRNT post-doctoral fellowship and PDP by a NSERC fellowship.
+\newpage
+
+%========================================================%
+\printbibliography
+
+\newpage
+%========================================================%
+\section*{Figure legends}
+
+<<<<<<< HEAD
+Making the theory operational
+	- how to parameterize neutral models
+	- making predictions for specific landscapes
+	- 
+
+=======
+%------------------------
+\subsection*{Figure 1}
+\textbf{Illustration of the four simulated landscapes}. The color codes represents the local species richness simulated with a neutral model, ranked from the poorest (red) to the richest (blue). Parameters are: $P = 100$, $N = 25$, $m = 0.2$, $M = 0.01$, $k = 0.1$, $J_x = 100$.
+>>>>>>> 7bd90f3fc922e2e059e4aa0e383966572646fbba
+
+%------------------------
+\subsection*{Figure 2}
+\textbf{Relationship between local species richness and metrics of node centrality}. The upper two panels are simulation results conducted with the random geometric graph illustrated at Fig. 1 and the lower two panels are runs with the random tree graph. 
+
+<<<<<<< HEAD
 - Utiliser les déviations locales pour comprendre le rôle de la sélection 
 
 - Approche par réseau: vers une approche qui intègre la variance des mécanismes de coexistence
@@ -271,19 +361,8 @@ DG received financial support from NSERC and Canada Research Chair program. TP i
 
 %========================================================%
 \printbibliography
-
 \newpage
-%========================================================%
-\section*{Figure legends}
-
-%------------------------
-\subsection*{Figure 1}
-\textbf{Illustration of the four simulated landscapes}. The color codes represents the local species richness simulated with a neutral model, ranked from the poorest (red) to the richest (blue). Parameters are: $P = 100$, $N = 25$, $m = 0.2$, $M = 0.01$, $k = 0.1$, $J_x = 100$.
-
-%------------------------
-\subsection*{Figure 2}
-\textbf{Relationship between local species richness and metrics of node centrality}. The upper two panels are simulation results conducted with the random geometric graph illustrated at Fig. 1 and the lower two panels are runs with the random tree graph. 
-
+=======
 %------------------------
 \subsection*{Figure 3}
 \textbf{Bray curtis dissimilarity as a function of geographic distance}. 
@@ -326,6 +405,7 @@ DG received financial support from NSERC and Canada Research Chair program. TP i
 
 %------------------------
 \subsection*{Figure 4}
+>>>>>>> 7bd90f3fc922e2e059e4aa0e383966572646fbba
 
 \begin{figure}[ht!]
 	\centering\includegraphics[width=0.65\textwidth]{BetaTopoDist.pdf}
