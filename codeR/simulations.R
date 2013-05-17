@@ -186,7 +186,7 @@ plot_alpha(geograph,alphaNeutralGeograph)
 plot_alpha(geotree,alphaNeutralGeotree)
 #plot_alpha(geotree,alphaSSGeotree)
 
-dev.copy2pdf(file = "Figure1.pdf")
+dev.copy2pdf(file = "Networks.pdf")
 
 ###############################
 # Figure 2
@@ -215,7 +215,7 @@ plot(eigGeotree,apply(patchGeotree[[1]],1,sum),pch = 19, xlab = "Eigen centralit
 points(eigGeotree,apply(neutralGeotree[[1]],1,sum),pch = 21, bg = "red")
 points(eigGeotree,apply(ssGeotree[[1]],1,sum),pch = 21, bg = "blue")
 
-dev.copy2pdf(file = "Figure2.pdf")
+dev.copy2pdf(file = "Centrality.pdf")
 
 ###############################
 # Figure 3
@@ -238,7 +238,7 @@ plot(distLattice,betaSSLattice,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8
 plot(distGeograph,betaSSGeograph,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8)
 plot(distGeotree,betaSSGeotree,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8)
 
-dev.copy2pdf(file = "Figure3.pdf")
+dev.copy2pdf(file = "BetaGeoDist.pdf")
 
 ###############################
 # Figure 4
@@ -261,6 +261,6 @@ plot(topoLattice,betaSSLattice,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8
 plot(topoGeograph,betaSSGeograph,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8)
 plot(topoGeotree,betaSSGeotree,pch = 19,labels = F,xlab = "",ylab = "",cex = 0.8)
 
-dev.copy2pdf(file = "Figure4.pdf")
+dev.copy2pdf(file = "BetaTopoDist.pdf")
 
 
