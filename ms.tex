@@ -149,16 +149,70 @@ the framework.
 
 %========================================================%
 \section{Network representation of landscapes}
-% PDP
 
-Entités discrètes --> réseaux
+A network is a discrete mathematical object made of two sets: a set of
+vertices (or nodes) $V$ and a set of edges $E$ connecting the vertices
+\cite{new10}. The term ``graph'' is often preferred in computer science and
+mathematics \cite{gro06}, with graph algorithms being an important and active
+area of research \cite{sed01}. A network is a combinatorial object: it is
+used to study how discrete entities are connected and how they combine
+together to create complex structures. They are used to study molecules, food
+webs, social networks, or even the relationship between variables in
+statistics \cite{wri21,new10}. We are especially interested in spatial
+networks, a special kind of network mixing the combinatorial properties of
+networks with a topological space \cite{kob94}. Thus, the vertices in a
+spatial graph are embedded in some other space, most often the two or three-
+dimensional Euclidean space. This object brings a rich representation to
+spatial ecology and is particularly suited for systems of lakes and rivers, which can
+easily be represented by vertices and edges. There are two notions of
+distance in spatial networks. Euclidean distance represents the geographical
+distance between the vertices $(i, j)$, i.e.: $\sqrt{(x_i - x_j)^2 + (y_i - y_
+j)^2}$. Geodesic distance is the distance in the graph space, i.e.: the
+length of the shortest path \cite{dij59}. For example, two lakes could be
+very close on a map (short Euclidean distance) but if they are not directly
+linked by a river the geodesic distance could be great.
 
- 
+For simulations, spatial networks can easily be generated with the random
+geometric graph algorithm \cite{sed01}. In this algorithm, all vertices are
+assigned to a position in some two-dimensional space, most often the unit
+square. Then, all pairs of vertices within some threshold Euclidean distance $r$
+are connected with an edge. The resulting networks have the desirable
+property of locality: if a vertex $A$ is connected to two vertices $B$ and $C$.
+then $B$ and $C$ are more likely to be connected than two random vertices.
+Random geometric networks have been extensively studied \cite{app97a,app97
+b,app02a,app02b,pen03} and we provide a R function to generate them. We also
+provide the code for another structure that we call the geometric tree of
+doom. It builds a tree from the shortest path tree \cite{dij59} of a vertex in
+a random geometric network. This random geometric tree of doom looks like a
+lake connected by rivers to a series of smaller lakes.
+
+Spatial graphs are increasingly popular in spatial ecology and conservation
+biology, where patterns of connections can be used to study and influence the
+flow of organisms \cite{min07,fal07,min08,gar08,urb09,dal10}. In the neutral
+theory, networks were pioneered by Economo and Keitt \cite{eco08, eco10}.
+They used networks to study how different spatial structures influenced
+diversity. They were also used to study how the spatial structure influenced
+nonsympatric speciation \cite{des12,des12b}.
 
 % Table 1: main descriptors of spatial networks. Column 1: Name of the metric; Column 2: Definition
 % We might want to distinguish network level versus node-level metrics.
-
- 
+Concepts
+  Path A sequence of edges forming a sequence of vertices.
+  Connection Two vertices are connected iff there is a path between them.
+  Geodesic distance Length of the shortest path between two vertices.
+Network-level metrics
+  Order Total number of vertices.
+  Size Total number of edges.
+  Connectivity A measure of robustness: the minimum number of elements to remove
+                          to isolate the vertices.
+  Components The number of connected subsets.
+Vertex-level metrics
+  Degree The number of edges of a vertex.
+  Closeness centrality Average geodesic distance between a vertex and all other vertex.
+  Eigenvector centrality A measure of centrality based on the concept that connection to
+                          highly connected vertices are more important.
+  Betweenness centrality The number of shortest paths from all vertices to all others that
+                          pass through that vertex.
 
 %========================================================%
 \section*{Model description}
@@ -453,34 +507,21 @@ having the maximal dissimilarity.
 
 %========================================================%
 \section{Discussion}
-% TP
 
 Contrasting the three perspectives: what do we learn?
 
-New questions
+Network approach brings spatial variation in coexistence mechanisms; emergent properties
+	- role of the degree distribution
 
 Making the theory operational
 	- how to parameterize neutral models
 	- making predictions for specific landscapes
-	- 
 
+Working with more realistic landscapes
 
-Distribution attendue des espèces dans un paysage: utiliser la théorie neutre pour avoir un attendu (différents de la méthode classique de permutation)
+How to add other types of interactions
+	- Wootton: variation arises from unaccounted interactions
 
-- Utiliser les déviations locales pour comprendre le rôle de la sélection 
-
-- Approche par réseau: vers une approche qui intègre la variance des mécanismes de coexistence
-
-Our results point to an important, although often overlooked, consequence of
-neutral dynamics. Emerging properties of a community (i.e. the number of
-species, but also their spatial distribution and co-occurence in different local
-patches), are affected by the dispersal structure. 
-
-- Importance de la structure du paysage sur les propriétés émergentes
-	- importance relative de species sorting et drift va dépendre de l'organisation du paysage
-	- prédiction
-	- rôle de la distribution de degrés
-- 
 
 %========================================================%
 \section{Acknowledgements}
