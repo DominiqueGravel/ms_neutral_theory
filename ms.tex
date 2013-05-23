@@ -497,25 +497,36 @@ remarkably congruent signal.
 %maintained tend to increase with the node centrality.
 
 Finally, Figs. 3 and 4 present, respectively, the between patch $\beta$
-diversity as a function of the shape of the network, under the three dynamic models. We simply used Bray-Curtis measure of dissimilarity between patches. 
-In Fig. 3, the distance is expressed as the euclidean (geographic) distance
-between two patches. Although this neglects how dispersal connects the different
-patches, there is already a clear signal of geographic distance on $\beta$ diversity. In both the
-neutral and patch dynamics model, local communities become increasingly
-dissimilar when the distance between them increases. In other words, two
-communities which are close to each other will share a large proportion of their
-species, whereas two communities which are afar will share a small proportion.
-In the species-sorting model, the relationship between distance and
-dissimilarity is similar, Nonetheless, it forms an enveloppe of points (with
-most points lying in the upper-left part of the graph). While two distant
-communities will be dissimilar, there is no telling how dissimilar two close
-communities will be. Note this relationship for SS varies significantly with the spatial distribution of microsites (not shown). At one extreme, if all patches hold the same average conditions, then we should expect no relationship between dissimilarity and distance. On the other hand, if the average conditions are highly variable among localities (as in here), then we should expect two communities close to be potentially dissimilar (if conditions are different) or similar (if they are the same). The variance should thus be larger. A distance-dissimilarity relationship arises in the situation where dispersal promotes a mass effect (as in here). Such results emphasize the interaction between spatial contingencies (here connectivity and distribution of environmental conditions).  
+diversity as a function of the shape of the network, under the three dynamic
+models. We simply used Bray-Curtis measure of dissimilarity between patches. In
+Fig. 3, the distance is expressed as the euclidean (geographic) distance between
+two patches. Although this neglects how dispersal connects the different
+patches, there is already a clear signal of geographic distance on $\beta$
+diversity. In both the neutral and patch dynamics model, local communities
+become increasingly dissimilar when the distance between them increases. In
+other words, two communities which are close to each other will share a large
+proportion of their species, whereas two communities which are afar will share a
+small proportion. In the species-sorting model, the relationship between
+distance and dissimilarity is similar, Nonetheless, it forms an enveloppe of
+points (with most points lying in the upper-left part of the graph). While two
+distant communities will be dissimilar, there is no telling how dissimilar two
+close communities will be. Note this relationship for SS varies significantly
+with the spatial distribution of microsites (not shown). At one extreme, if all
+patches hold the same average conditions, then we should expect no relationship
+between dissimilarity and distance. On the other hand, if the average conditions
+are highly variable among localities (as in here), then we should expect two
+communities close to be potentially dissimilar (if conditions are different) or
+similar (if they are the same). The variance should thus be larger. A
+distance-dissimilarity relationship arises in the situation where dispersal
+promotes a mass effect (as in here). Such results emphasize the interaction
+between spatial contingencies (here connectivity and distribution of
+environmental conditions).
 
 To a vast extent, these relationships are preseved when looking at the
-topological distances (Fiig. 4), i.e. along how many edges should one travel to connect
-two patchs. Interestingly enough, the distance-dissimilarity relationship for
-the neutral model is markedly hump-shaped, with sites being at a medium distance
-having the maximal dissimilarity.
+topological distances (Fiig. 4), i.e. along how many edges should one travel to
+connect two patchs. Interestingly enough, the distance-dissimilarity
+relationship for the neutral model is markedly hump-shaped, with sites being at
+a medium distance having the maximal dissimilarity.
 
 %========================================================%
 \section{Discussion}
@@ -523,14 +534,38 @@ having the maximal dissimilarity.
 %TP:
 Contrasting the three perspectives: what do we learn?
 
-%TP OR DG
-Network approach brings spatial variation in coexistence mechanisms; emergent properties
-	- role of the degree distribution
-%DG
-Making the theory operational
-	- how to parameterize neutral models
-	- making predictions for specific landscapes
+% DG
+Network approach to spatial landscapes is a major advancement in metacommunity ecology.
+- First step to make the concept operational (instrumental perspective) because it accounts for more realistic landscape structures and dispersal kernels.
+- The realism comes at a first degree from spatially explicit dispersal instead of the simple island-mainland or global dispersal approaches used previously (e.g. Tilman, Mouquet, Hubbell)
+- But dispersal is also spatially explicit over a lattice and it does not make the landscape more realistic
+- The fundamental feature is the heterogeneity of dispersal
+- We found that the more central nodes are usually more diverse
+- They might also contribute more to maintain regional diversity, as they are essential for species to spread throughout the landscape.
+- Keystone communities \parencite{Mouquet2013} 
+- The comparison between metaco perspectives revealed some interesting results in that respect. 
+- The patch vs neutral comparison shows that competitive interactions....
+- On the other hand the effect of network topology is much weaker with the ss model. We could even hypothesize it will vanish in the extreme case of niche differentiation (with low overlap for instance) and low mass effect. 
+- The neutral versus niche comparison therefore illustrates that very strong unequal competitive interactions could overwhelm the impact of dispersal. 
+ 
+The network approach brings spatial variation in coexistence mechanisms.
+- If we take the SS perspective for instance, we find that alpha div. is higher in more central nodes
+- Since the environment is constant, it means diversity in these communities must be maintained by a stronger mass effect. 
+- It results in spatial variation in the relative importance of ss, mass effect and to a certain extent neutral drift. 
+- Because the degree centrality was the best variable explaining diversity (here; Altermat 2012; Desjardins 2012b), we should expect the degree distribution to strongly impact the relative importance of these coexistence mechanisms. 
+- For a given set of ecological processes and distribution of species traits, we might expect the coexistence mechanisms to differ from one landscape to another. 
 
+%DG
+We introduced this article arguing that neutral theory could be used as an instrument to make predictions. 
+- So far we have treated only theoretical models, but we could also envision to parameterize them and simulate real landscapes. 
+- The recruitment probabilities defined above could be used as satistical models to fit to empirical data. 
+- Prior information could be used to define apriori dispersal kernels  and then fit the model
+- Long tradition of this in metapopulation ecology (Hasnki 1998) and now new species distribution models are including dispersal limitations (Boulangeat2012)
+- Given the parameterization, one could run neutral models to generate null hypotheses that could be eventually compared to observed distribution. 
+- This would make a significant improvement over traditional null models in ecology (Gotelli1996) where there are no interactions and no dispersal limitations.
+- In addition, neutral models could be used to predict the consequences of habitat destruction and fragmentation (ref Hubbell PNAS)
+- The spatially explicit description of the landscape is a major improvement toward that end, providing much flexibility in the scenarios that could be explored. 
+  
 %PDP
 Working with more realistic landscapes
 
@@ -569,7 +604,7 @@ with the random tree graph.
 
 %------------------------
 \subsection*{Figure 3}
-\textbf{Bray curtis dissimilarity as a function of geographic distance}. 
+\textbf{Bray curtis dissimilarity as a function of geographic distance}.  
 
 %------------------------
 \subsection*{Figure 4}
