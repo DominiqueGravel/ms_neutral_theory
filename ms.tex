@@ -1,16 +1,25 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{color,lineno,setspace,graphicx,multirow,kpfonts}
+\usepackage{color,lineno,setspace,multirow,kpfonts}
+\usepackage{graphicx}
 \usepackage[top=2.4cm,left=2.4cm,top=2.4cm,bottom=2.4cm,includefoot]{geometry}
 \usepackage[style=bes]{biblatex}
 \bibliography{./library}
+
+% TODO:
+% TP, PDP & DG: Complete the discussion
+% PDP: Additional paragraph on the metrics
+% DG: Figure legends
+% DG: Abstract
+% DG: Compile references
+% TP & PDP: fix bugs I generated!!!
 
 \begin{document}
 
 \linenumbers 
 \modulolinenumbers[1]
 
-\textbf{Title:}   Using neutral theory to reveal the contribution of dispersal to community assembly\\
+\textbf{Title:}   Using neutral theory to reveal the contribution of dispersal to community assembly in complex landscales\\
 
 \textbf{Authors:}  Dominique Gravel$^{1,2,*}$, Timoth\'ee Poisot$^{1,2}$, Philippe Desjardins-Proulx$^{1,2}$\\
 
@@ -30,29 +39,21 @@
 %========================================================%
 \section{Introduction}
 
-Community assembly is concerned by patterns and processes occurring at various
-spatial scales \parencite{Levin1992}. Until the development of metacommunity
-ecology, studies on community assembly were often restricted to local
-populations, with a strong focus on pairwise interactions (e.g.
-\textcite{MacArthur1972, May1973,Pimm1982,DeAngelis1992}). The emphasis on local
-communities has been vigorously criticized by \textcite{Ricklefs2008}, who has
-long recognized that local dynamics and community structure are strongly
-contingent on processes occurring at much larger spatial scales
-\parencite{Ricklefs1987}. This perspective is particularly relevant to
+Ecologists are required to move toward a predictive ecology,
+integrating elements of theoretical ecology \parencite{Thuiller2013}, and the
+metacommunity perspective appears naturally as the appropriate conceptual
+framework to develop the new modeling techniques required to fill this
+challenge. The metacommunity concept builds on 
+feedbacks between local scale processes, such as competitive interactions and
+local adaptation, and regional scale processes such as dispersal, gene flow and
+speciation \textcite{Leibold2004a}. This perspective is particularly relevant to
 limnology, where exchanges of organisms and nutrients affect community and
 ecosystem properties from the local (e.g. vertical mixing
 \parencite{Ryabov2011}) to the regional (e.g. connection of lakes
 \parencite{Leibold2004b} scales. It emphasizes the importance of dispersal
 relative to pairwise interactions in the organization of ecological communities.
-The metacommunity concept has been proposed by \textcite{Leibold2004a} as a
-novel approach to link different spatial scales in ecology. It builds on
-feedbacks between local scale processes, such as competitive interactions and
-local adaptation, and regional scale processes such as dispersal, gene flow and
-speciation. Ecologists are now required to move toward a predictive ecology,
-integrating elements of theoretical ecology \parencite{Thuiller2013}, and the
-metacommunity perspective appears naturally as the appropriate conceptual
-framework to develop the new modeling techniques required to fill this
-challenge. The development of neutral theory has been quite provocative in that
+
+The development of neutral theory has been quite provocative in that
 respect, as one could see it as a step back in time. Neutral theory makes the
 provocative assumption that species are ecologically equivalent and thereby any
 variation in the environment has no impact on demography
@@ -62,9 +63,9 @@ that, on first sight, neutral theory is useless.  We will develop in this paper
 the argument that neutral theory could be a useful tool to understand the impact
 of dispersal on community organization in landscapes of various complexities. 
 
-Neutral theory sparked an historical debate in community ecology that is still
+Neutral theory sparked an historical debate that is still
 lasting after more than a decade \parencite{Chave2004, Etiennee2011,
-Rosindell2012,Clark2012}. It was stimulated by the impressive ability of neutral
+Rosindell2012,Clark2012}. It was stimulated by the surprising ability of neutral
 models to fit several well studied empirical observations such as species
 abundance distributions and distance-decay relationships. A remarkable strenght
 of neutral theory is to provide a \emph{"formal general theory of abundance
@@ -104,12 +105,12 @@ The instrumentalist view of neutral theory raises the question of why it should
 be a satisfying approximation despite knowing the pieces are wrong? We see two
 potential answers to this question. A first answer might be that stochasticity
 of various origins can blur the deterministic differences among species and
-promote the ecological drift \parencite{Gravel2011}. Much has been said the
+promote ecological drift \parencite{Gravel2011}. Much has been said the
 existence of demographic stochasticity, some ecologists even arguing that
 neutral models impede progress in community ecology by hidding niche differences
-\parencite{Clark2012}, and we therefore will keep this discussion for other
+\parencite{Clark2012}, and we therefore will let this discussion for other
 papers. The second answer is that dispersal and historical contingencies might
-have a much more profound impact on species distribution \parencite{Bahn2007}
+have a much more profound impact on species distribution \parencite{Bahn2007, Boulangeat2012}
 and ecological dynamics. The debate over the equivalence assumption and
 demographic stochasticity has perhaps overlook the recognition of how much
 dispersal influence community assembly.
@@ -123,7 +124,7 @@ neutral theory, at the crossroad of network theory, to better represent the
 impact of landscape structure on biodiversitity distribution. This analysis will
 prove particularly relevant to limnology, where most riverine and lacustre
 habitats are characterized by a their discrete nature and spatially complex
-arrangements. We will also reveal the relative contribution of ecological
+arrangements \parencite{Peterson2013}. We will also reveal the relative contribution of ecological
 interaction and niche differentiation by contrasting predictions of a neutral
 model to other metacommunity perspectives. 
 
@@ -143,7 +144,7 @@ investigating them. Then we will describe three simple toy models of
 metacommunity dynamics, taking this opportunity to review their assumptions and
 main predictions. We provide as Supplementary Material the R scripts for the toy
 models and all simulations conducted for this paper. We then conduct simple
-simulations of these models to reveal the impact of spatial network structure on
+simulations of these models to reveal with simple examples the impact of spatial network structure on
 diversity distribution. We conclude with a discussion on the operationally of
 the framework.
 
@@ -180,11 +181,14 @@ are connected with an edge. The resulting networks have the desirable
 property of locality: if a vertex $A$ is connected to two vertices $B$ and $C$.
 then $B$ and $C$ are more likely to be connected than two random vertices.
 Random geometric networks have been extensively studied \cite{app97a,app97
-b,app02a,app02b,pen03} and we provide a R function to generate them. We also
-provide the code for another structure that we call the geometric tree of
-doom. It builds a tree from the shortest path tree \cite{dij59} of a vertex in
-a random geometric network. This random geometric tree of doom looks like a
-lake connected by rivers to a series of smaller lakes.
+b,app02a,app02b,pen03} and we provide a R function to generate them. The 
+position of vertices is typically random, but we could also imagine alterations
+where they are either more aggregated or segregated than expected by chance alone. 
+
+We also provide the code for a second structure that we call a random geometric tree. 
+It builds a tree from the shortest path tree \cite{dij59} of a vertex in a random geometric 
+network. This random geometric tree does not exaxctly represent dendritic landscapes 
+but is a convenient model to simulate lake connected by rivers to a series of smaller lakes.
 
 Spatial graphs are increasingly popular in spatial ecology and conservation
 biology, where patterns of connections can be used to study and influence the
@@ -193,6 +197,11 @@ theory, networks were pioneered by Economo and Keitt \cite{eco08, eco10}.
 They used networks to study how different spatial structures influenced
 diversity. They were also used to study how the spatial structure influenced
 nonsympatric speciation \cite{des12,des12b}.
+
+% TO PHIL: IT WOULD BE GREAT IF YOU COULD EXPAND ONE OR TWO PARAGRAPHS ON THE 
+% MAIN STATISTICS USED TO DESCRIBE SPATIAL GRAPHS. AT LEAST PRESENT THE MAIN 
+% DIFFERENCE BETWEEN NETWORK AND VERTEX LEVEL METRICS, AND THEN REFER TO THE 
+% TABLE.
 
 % Table 1: main descriptors of spatial networks. Column 1: Name of the metric; Column 2: Definition
 % We might want to distinguish network level versus node-level metrics.
@@ -226,7 +235,7 @@ interaction between these processes and landscape structure. Despite neutral,
 competitive interactions in neutral models are very strong because of the
 zero-sum assumption (the community is always at carrying capacity). We will
 first review the fundamental assumptions of each model with their description
-(Table 1 summarizes the parameters and variables that are used), and then
+(Table 2 summarizes the parameters and variables that are used), and then
 briefly discuss their main predictions. Simulation results are presented in the
 next section, with the corresponding R code provided in the Supplementary
 Material.
@@ -320,14 +329,14 @@ colonization probability will increase asymptotically with the degree of a patch
 (because of the product). It is easy to show from metapopulation theory that the
 occurrence probability in a patch is then $p_ix=I_x(I_ix+e)^{-1}$. The feedback
 between local and regional dynamics arises because all $p_ix$ from the landscape
-are dependent from each other. Simulation are usually conducted to solve the
+are dependent from each other. Simulations are usually conducted to solve the
 model for a large landscape, but numerical solutions are theoretically possible.
 The aggregation across the $S$ species of the regional species pool is obtained
 by taking the summation of occurrence probabilities over all species, $s_x =
 \sum{p_i}$. Because in this model all species are equal, we expect the local
-species richness to be a linear function of the patch degree. Multi-species
+species richness to be a linear function of the patch degree (number of edges). Multi-species
 analysis of metapopulation models also reveals interesting predictions on other
-aspects of community organization at various spatial scales such as species-area
+aspects of community organization at various spatial scales such as the species-area
 relationship \parencite{Hanski1997}, and proved to be useful in conservation
 ecology with predictions of extinctions following habitat destruction
 \parencite{Nee1994,Rybicki2013}.
@@ -343,7 +352,7 @@ species could only occur after an equivalent decrease by another species. One
 important change in the formulation of most neutral models relative the patch
 dynamics model presented above is therefore that it is individual-based, not
 population based. We therefore considered in our toy model of neutral dynamics
-that each local patch is made of $J_x$ individuals. The model tracts the local
+that each local patch holds $J_x$ individuals. The model tracts the local
 abundance of all species $N_{ix}$ in each local patch. At each time step an
 individidual dies with probability $k$. Recruitment only occurs in vacant sites,
 similarly to a tree by tree replacement process in a closed canopy forest. 
@@ -352,14 +361,14 @@ The formulation of the recruitment probability is the central piece of all
 neutral models, making possible the coupling with the metacommunity and
 neighbouring patches. We adopt a simple formulation in our model based on
 \parencite{Gravel2006}. The approach is conceptually similar to placing a seed
-trap in a gap in a forest and picking a seed at random among the one that fall
+trap in a canopy gap and picking a seed at random among the ones falling
 in to determine the identity of the recruited species. The composition of the
 seed pool in that trap will be a mixture of local dispersal and immigrants from
 the metacommunity. For simplicity, we consider three spatial scales of dispersal
 but it would be easy to generalize the approach to a continuous seed dispersal
 kernel \parencite{Gravel2006}. The parameter $m$ is the probability that the
 recruit is a migrant from neighbouring patches, $M$ is the probability it comes
-from a larger (and fixed) metacommunity, and consequently by substraction
+from a larger (and fixed) metacommunity, and consequently, by substraction,
 $1-m-M$ is the probability it comes from local dispersal. The fraction
 $N_{ix}J_x^{-1}$ is the local relative abundance and $P_ix$ is the relative
 abundance of species $i$ in the seed pool coming from neigbouring patches $x$.
@@ -368,7 +377,7 @@ connected nodes because some nodes will spread their seeds across a higher
 number of nodes and thus contribute less to the seed pool. We consider simply
 $P_{ix} =\frac{\sum d_y^{-1}P_{iy}}{\sum dy^{-1}}$.  We assume for simplicity
 (and without loss of generality, \parencite{Bell2000}) that the relative
-abundance in the metacommunity is uniform, ie equal to $S^{-1}$. This
+abundance in the metacommunity is uniform, i.-e. equal to $S^{-1}$. This
 immigration prevents the collapse of the metacommunity because otherwise all
 species except one will face extinction by ecological drift (speciation prevents
 this phenomenon to occur in \textcite{Hubbell2001}). The local recruitment
@@ -376,8 +385,8 @@ probability is consequently $Pr_{ix} = MS^{-1} + mP_{ix} +
 (1-m-M)N_{ix}J_x^{-1}$.  
 
 The model is neutral because it assumes that the probabilities of a local
-recruitment, an immigration and a mortality event are all equal. Demographic
-stochasticity is the source of variations in abundance but larger disturbances
+recruitment, an immigration and a mortality event are all equal across species. Demographic
+stochasticity is the source of variations in abundance, but larger disturbances
 could be simulated as well, as long as they hit all species with the same
 probability, independently of their density. The fundamental feature of neutral
 dynamics is therefore the ecological drift, defined as population changes
@@ -388,10 +397,10 @@ analysis of the model, with specific attention to the effect of the different
 parameters on the drift (and consequently variance in abundance) and time to
 extinction. Despite its simplicity, the neutral model is surprisingly rich in
 the predictions it makes. \textcite{Bell2001} and \textcite{Hubbell2001}
-analyzed the ability of neutral models to predict species abundance
+analyzed the performance of neutral models to predict species abundance
 distributions, range-abundance relationship, spatial variation in abundance,
 species-area relationship, community turnover (beta-diversity) and
-co-occurrence. Other than the ecological equivalence assumption, one of the most
+co-occurrence. Recent trophic neutral models also predicted realistic ecological networks \parenciteCanard2012}. Other than the ecological equivalence assumption, one of the most
 criticized aspect of neutral models is the realism of the speciation process and
 the required speciation rates to sustain species richness
 \parencite{Ricklefs2003,Etienne2007}. Recent neutral models with more credible
@@ -406,33 +415,32 @@ endemic species richness \parencite{Rosindell2011,Desjardins2012b}.
 The species-sorting and the mass effect perspectives build on the notion of
 species-specific responses to a spatially varying environment
 \parencite{Leibold2004a}. There are various ways to simulate such dynamics and
-we picked the lottery models, in line with tradition \parencite{Mouquet2002} and
+we picked the lottery model, in line with tradition \parencite{Mouquet2002} and
 for its proximity to the neutral model described above. Competition for space
 occurs during recruitment after the death of an adult. The recruitment is a
-lottery against potential candidates. The recruitment probability is however
-biased by species specific response to local environmental conditions. 
+lottery among potential candidates as in the neutral model. The recruitment probability 
+is however biased by species specific response to local environmental conditions. 
 
 The lottery dynamics described above for the neutral model assume there is a
 very large number of offsprings that are candidate for recruitment but only one
 will survive and develop to the adult stage. The effect of a differentiation to
-local environmental conditions could be implemented at this stage.The $J_x$
-individuals all experience unique environmental conditions $E_{nx}$ called a
-microsite $n$. We considered a patch average $\overline{E_x}$, with a
+local environmental conditions could be implemented at this stage with a biased 
+survival probability. The $J_x$ individuals all experience a unique environmental condition 
+$E_{nx}$ called a microsite $n$. We considered a patch average $\overline{E_x}$, with a
 within-patch variance $\sigma_x$. The regional average is $\overline{E_R}$ and
 the regional variance $\sigma_R$ (for simplicity we considered normal
 distributions, but different distributions will lead to different regional
 similarity constraints \parencite{Mouquet2003,Tilman2004,Gravel2006}). We
 consider that a fraction $\lambda_{inx}$ of offsprings reaching the microsite
 where recruitment occurs will survive. The recruitment probability is therefore
-biased because only some species will be able to cope with the local
-environmental conditions. For tractability we define the relative abundance in
+biased in favour of the species with highest survival because only some species will be able to cope with the local environmental conditions. For tractability we define the relative abundance in
 the seed rain as $Z_{ix} = MS^{-1} + mP_{ix} + (1-m-M)N_{ix}J_x^{-1}$. The
 calculation of the relative abundance in the seed rain is the same as the
 neutral model but the recruitment probability differs because only a fraction of
 offspring survive. It is formulated as $Pr_{ix} =
 \frac{\lambda_{inx}Z_{ix}}{\sum \lambda_{jnx}Z_{jx}}$. The function describing
-the relationship between microsite conditions and survival could take various
-forms and we used the traditional gaussian curve describing the niche,
+the relationship between a microsite condition and survival could take various
+forms; we used the traditional gaussian curve describing the niche,
 $\lambda_{inx} =  \exp{-\frac{(E_{nx}-u_i)^2}{2\Pi b_i^2}}$, where $u_i$ is the
 niche optimum and $b_i$ is niche breadth. Note that the model will converge to a
 neutral model when the niche breadth tends to infinity (which is in fact how we
@@ -443,12 +451,12 @@ Analyses of similar models with a combination of dispersal and species-sorting
 shown that predictions are extremely variables and depend on the distribution of
 environmental conditions, niche optimums and breadth. For instance, a
 well-studied prediction of neutral models is the species abundance distribution.
-It was shown that niche models can predict similar distributions
+It was shown that niche models can predict similar distributions given appropriate parameters
 \parencite{Tilman2004,Gravel2006}. The main prediction is nonetheless that
 stable and predictable (meaning which species will coexist) if species are
 sufficiently dissimilar. Local species richness will first depend on the joint
 effects of local heterogeneity and niche breadth because coexistence requires a
-limiting similarity \parencite{Schwilk2005}. Local species richness could be
+sufficient dissimilaritya mong species \parencite{Schwilk2005}. Local species richness could be
 increased by a mass effect when dispersal is consistently supplying individuals
 coming from more favorable locations (refuges). The limiting similarity required
 to maintain regional coexistence depends on the amount of dispersal because
@@ -464,31 +472,35 @@ has been validated in some experiments \parencite{Venail2008, Logue2011}.
 
 \section{Results}
 
-In fig. 1, we illustrate the outcome of simulations using the neutral model on
-the four different network shapes considered in this article. All of these
+In this section we provide simple simulation results to illustrate the impact of saptial contingencies on species distribution and coexistence. We consider four different landscapes, illustrated at Fig. 1.
+with the outcome of simulations using the neutral model. All of these
 networks have the same number of nodes (e.g. spatial sampling sites), but both
 different number of edges (e.g. dispersal routes between sampling sites) and
 patterns of connectivity between nodes. We ask how these differences in
 connectivity will shape the emerging properties of the community under the
-scenarios represented by each meta-community model.
+scenarios represented by each meta-community model. Our analysis is not exhaustive, it is provided simply to illustrate the interaction between metacommunity perspectives and landscape structures on alpha, beta and gamma diversity. 
 
-In fig. 2, we present the richness of each node of the network, as a function of
-the centrality of the node, under different assumptions of meta-community
-dynamics and network structure. It appears that both in the goeographical and
-tree graph, the path dynamics model allows more diversity to persist overall.
-However, the local diversity increases with the node centrality, whether it is
+In Fig. 2, we present the species richness of each node of the network (alpha diversity), as a function of
+the centrality of the node, under different assumptions of metacommunity
+dynamics and network structure. We scaled the species richness by the maximal local species richness to 
+facilitate comparison between models. The model parameterization is responsible for differences in both alpha and gamma diversity.  It appears that both in the goeographical and
+tree graph, the path dynamics model has a much more considerable variation in local species richness. 
+However, in all cases the alpha diversity increases with the node centrality, whether it is
 measured by the degree or the eigencentrality. All situations examined give a
-remarkably congruent signal. The patch dynamics model, \emph{i.e.} when there
-are no interactions between species, allows more $\alpha$ diversity. The neutral
-model allowed the maintenance of slightly more diversity than the
-species-sorting model. In all cases however, it is clear that the richness
-maintained tend to increase with the node centrality.
+remarkably congruent signal. 
 
-Finally, fig. 3 and fig. 4 present, respectively, the between patch $\beta$
-diversity as a function of the shape of the network, under three dynamic models.
-In figure 3, the distance is expressed as the euclidean (geographic) distance
+% TO CHANGE WITH NEW FIGURE (SCALED DIVERSITY)
+%The patch dynamics model, \emph{i.e.} when there
+%are no interactions between species, allows more $\alpha$ diversity. The neutral
+%model allowed the maintenance of slightly more diversity than the
+%species-sorting model. In all cases however, it is clear that the richness
+%maintained tend to increase with the node centrality.
+
+Finally, Figs. 3 and 4 present, respectively, the between patch $\beta$
+diversity as a function of the shape of the network, under the three dynamic models. We simply used Bray-Curtis measure of dissimilarity between patches. 
+In Fig. 3, the distance is expressed as the euclidean (geographic) distance
 between two patches. Although this neglects how dispersal connects the different
-patches, there is already a clear signal of $\beta$ diversity. In both the
+patches, there is already a clear signal of geographic distance on $\beta$ diversity. In both the
 neutral and patch dynamics model, local communities become increasingly
 dissimilar when the distance between them increases. In other words, two
 communities which are close to each other will share a large proportion of their
@@ -497,10 +509,10 @@ In the species-sorting model, the relationship between distance and
 dissimilarity is similar, Nonetheless, it forms an enveloppe of points (with
 most points lying in the upper-left part of the graph). While two distant
 communities will be dissimilar, there is no telling how dissimilar two close
-communities will be.
+communities will be. Note this relationship for SS varies significantly with the spatial distribution of microsites (not shown). At one extreme, if all patches hold the same average conditions, then we should expect no relationship between dissimilarity and distance. On the other hand, if the average conditions are highly variable among localities (as in here), then we should expect two communities close to be potentially dissimilar (if conditions are different) or similar (if they are the same). The variance should thus be larger. A distance-dissimilarity relationship arises in the situation where dispersal promotes a mass effect (as in here). Such results emphasize the interaction between spatial contingencies (here connectivity and distribution of environmental conditions).  
 
 To a vast extent, these relationships are preseved when looking at the
-topological distances, i.e. along how many edges should one travel to connect
+topological distances (Fiig. 4), i.e. along how many edges should one travel to connect
 two patchs. Interestingly enough, the distance-dissimilarity relationship for
 the neutral model is markedly hump-shaped, with sites being at a medium distance
 having the maximal dissimilarity.
@@ -508,17 +520,21 @@ having the maximal dissimilarity.
 %========================================================%
 \section{Discussion}
 
+%TP:
 Contrasting the three perspectives: what do we learn?
 
+%TP OR DG
 Network approach brings spatial variation in coexistence mechanisms; emergent properties
 	- role of the degree distribution
-
+%DG
 Making the theory operational
 	- how to parameterize neutral models
 	- making predictions for specific landscapes
 
+%PDP
 Working with more realistic landscapes
 
+%TP
 How to add other types of interactions
 	- Wootton: variation arises from unaccounted interactions
 
