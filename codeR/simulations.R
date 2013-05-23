@@ -1,6 +1,6 @@
 ########################################################################
 # Source for the figures 1-4 in the paper
-# Gravel, Poisot and Desjardins. 2013. XXX. J. Limnology. 
+# Gravel, Poisot and Desjardins. 2013. Using neutral theory to reveal the contribution of dispersal to community assembly in complex landscapes. J. Limnology. 
 #
 # By: Dominique Gravel (dominique_gravel@uqar.ca) 
 # April 2013
@@ -195,25 +195,37 @@ t = matrix(c(1:4),nr = 2, nc = 2, byrow = T)
 layout(t)
 layout.show(4)
 
+apply(patchGeograph[[1]],2,sum)
+
+maxPatchGeograph = max(apply(patchGeograph[[1]],1,sum))
+maxNeutralGeograph = max(apply(neutralGeograph[[1]],1,sum))
+maxSSGeograph = max(apply(ssGeograph[[1]],1,sum))
+
+maxPatchGeotree = max(apply(patchGeotree[[1]],1,sum))
+maxNeutralGeotree = max(apply(neutralGeotree[[1]],1,sum))
+maxSSGeotree = max(apply(ssGeotree[[1]],1,sum))
+
 par(mar=c(3,6,4,1))
-plot(degGeograph,apply(patchGeograph[[1]],1,sum),pch = 19, xlab = "", ylab = "Species richness", ylim = c(0,S),cex.lab = 1.5, cex.axis = 1.25)
-points(degGeograph,apply(neutralGeograph[[1]],1,sum),pch = 21, bg = "red")
-points(degGeograph,apply(ssGeograph[[1]],1,sum),pch = 21, bg = "blue")
+plot(degGeograph,apply(patchGeograph[[1]],1,sum)/maxPatchGeograph,pch = 19, xlab = "", ylab = "Species richness 
+(scaled)", ylim = c(0,1),cex.lab = 1.5, cex.axis = 1.25)
+points(degGeograph,apply(neutralGeograph[[1]],1,sum)/maxNeutralGeograph,pch = 21, bg = "red")
+points(degGeograph,apply(ssGeograph[[1]],1,sum)/maxSSGeograph,pch = 21, bg = "blue")
 
 par(mar=c(3,4,4,3))
-plot(eigGeograph,apply(patchGeograph[[1]],1,sum),pch = 19, xlab = "", ylab = "", ylim = c(0,S),cex.lab = 1.5, cex.axis = 1.25)
-points(eigGeograph,apply(neutralGeograph[[1]],1,sum),pch = 21, bg = "red")
-points(eigGeograph,apply(ssGeotree[[1]],1,sum),pch = 21, bg = "blue")
+plot(eigGeograph,apply(patchGeograph[[1]],1,sum)/maxPatchGeograph,pch = 19, xlab = "", ylab = "", ylim = c(0,1),cex.lab = 1.5, cex.axis = 1.25)
+points(eigGeograph,apply(neutralGeograph[[1]],1,sum)/maxNeutralGeograph,pch = 21, bg = "red")
+points(eigGeograph,apply(ssGeotree[[1]],1,sum)/maxSSGeograph,pch = 21, bg = "blue")
 
 par(mar=c(6,6,1,1))
-plot(degGeotree,apply(patchGeotree[[1]],1,sum),pch = 19, xlab = "Degree centrality", ylab = "Species richness", ylim = c(0,S),cex.lab = 1.5, cex.axis = 1.25)
-points(degGeotree,apply(neutralGeotree[[1]],1,sum),pch = 21, bg = "red")
-points(degGeotree,apply(ssGeotree[[1]],1,sum),pch = 21, bg = "blue")
+plot(degGeotree,apply(patchGeotree[[1]],1,sum)/maxPatchGeotree,pch = 19, xlab = "Degree centrality", ylab = "Species richness
+(scaled)", ylim = c(0,1),cex.lab = 1.5, cex.axis = 1.25)
+points(degGeotree,apply(neutralGeotree[[1]],1,sum)/maxNeutralGeotree,pch = 21, bg = "red")
+points(degGeotree,apply(ssGeotree[[1]],1,sum)/maxSSGeotree,pch = 21, bg = "blue")
 
 par(mar=c(6,4,1,3))
-plot(eigGeotree,apply(patchGeotree[[1]],1,sum),pch = 19, xlab = "Eigen centrality", ylab = "", ylim = c(0,S),cex.lab = 1.5, cex.axis = 1.25)
-points(eigGeotree,apply(neutralGeotree[[1]],1,sum),pch = 21, bg = "red")
-points(eigGeotree,apply(ssGeotree[[1]],1,sum),pch = 21, bg = "blue")
+plot(eigGeotree,apply(patchGeotree[[1]],1,sum)/maxPatchGeotree,pch = 19, xlab = "Eigen centrality", ylab = "", ylim = c(0,1),cex.lab = 1.5, cex.axis = 1.25)
+points(eigGeotree,apply(neutralGeotree[[1]],1,sum)/maxNeutralGeotree,pch = 21, bg = "red")
+points(eigGeotree,apply(ssGeotree[[1]],1,sum)/maxSSGeotree,pch = 21, bg = "blue")
 
 dev.copy2pdf(file = "Centrality.pdf")
 
