@@ -2,10 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ms.aux
 The style file: biblatex.bst
-White space in argument---line 64 of file ms.aux
- : \citation{app97
- :                 b}
-I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -17,109 +13,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 16832 items from 5000.
+Reallocated field_info (elt_size=4) to 16424 items from 5000.
 Database file #1: ms-blx.bib
-Database file #2: ./library.bib
-Warning--I didn't find a database entry for "Leibold2004a"
-Warning--I didn't find a database entry for "Leibold2004b"
-Warning--I didn't find a database entry for "Hubbell2001"
-Warning--I didn't find a database entry for "Wennekes2011"
-Warning--I didn't find a database entry for "Schmueli2010"
-Warning--I didn't find a database entry for "Peterson2013"
-Warning--I didn't find a database entry for "Peres-Neto2013"
-Warning--I didn't find a database entry for "Desjardins2012a"
-Warning--I didn't find a database entry for "Desjardins2012b"
-Warning--I didn't find a database entry for "Altermat2012"
-Warning--I didn't find a database entry for "new10"
-Warning--I didn't find a database entry for "gro06"
-Warning--I didn't find a database entry for "sed01"
-Warning--I didn't find a database entry for "wri21"
-Warning--I didn't find a database entry for "kob94"
-Warning--I didn't find a database entry for "dij59"
-Warning--I didn't find a database entry for "app97a"
-Warning--I didn't find a database entry for "app02a"
-Warning--I didn't find a database entry for "app02b"
-Warning--I didn't find a database entry for "pen03"
-Warning--I didn't find a database entry for "min07"
-Warning--I didn't find a database entry for "fal07"
-Warning--I didn't find a database entry for "min08"
-Warning--I didn't find a database entry for "gar08"
-Warning--I didn't find a database entry for "urb09"
-Warning--I didn't find a database entry for "dal10"
-Warning--I didn't find a database entry for "eco08"
-Warning--I didn't find a database entry for "eco10"
-Warning--I didn't find a database entry for "des12"
-Warning--I didn't find a database entry for "des12b"
+Database file #2: library.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--I didn't find a database entry for "("
-Warning--I didn't find a database entry for "Holt1996"
-Warning--I didn't find a database entry for "Klausmeier1998"
-Warning--I didn't find a database entry for "Hanski1998"
-Warning--I didn't find a database entry for "Nee1994"
-Warning--I didn't find a database entry for "Rybicki2013"
-Warning--I didn't find a database entry for "Gravel2006"
-Warning--I didn't find a database entry for "Ricklefs2003"
-Warning--I didn't find a database entry for "Etienne2007"
-Warning--I didn't find a database entry for "Rosindell2009"
-Warning--I didn't find a database entry for "Mouquet2002"
-Warning--I didn't find a database entry for "Mouquet2003"
-Warning--I didn't find a database entry for "Tilman2004"
-Warning--I didn't find a database entry for "Schwilk2005"
-Warning--I didn't find a database entry for "Venail2008"
-Warning--I didn't find a database entry for "Gilarranz2012"
-Warning--I didn't find a database entry for "Legendre2005"
-Warning--I didn't find a database entry for "Desjardins2012"
-Warning--I didn't find a database entry for "Mouquet2013"
-Warning--I didn't find a database entry for "Gotelli1996"
-Warning--I didn't find a database entry for "Borcard1992"
-Warning--I didn't find a database entry for "Borcard2002"
-Warning--I didn't find a database entry for "Leduc1992"
-Warning--I didn't find a database entry for "Legendre1993"
-Warning--I didn't find a database entry for "Svenning2004"
-Warning--I didn't find a database entry for "McGill200"
-Warning--I didn't find a database entry for "Hubbell2008"
-Warning--I didn't find a database entry for "coy04"
-Warning--I didn't find a database entry for "Wootoon2005"
 Biblatex version: 1.5
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 28 entries,
+You've used 83 entries,
             5995 wiz_defined-function locations,
-            1521 strings with 39160 characters,
-and the built_in function-call counts, 91820 in all, are:
-= -- 2915
-> -- 3080
-< -- 785
-+ -- 885
-- -- 1311
-* -- 8334
-:= -- 5606
+            1855 strings with 67727 characters,
+and the built_in function-call counts, 277643 in all, are:
+= -- 9412
+> -- 9456
+< -- 2449
++ -- 2797
+- -- 3837
+* -- 24705
+:= -- 16629
 add.period$ -- 0
-call.type$ -- 28
-change.case$ -- 320
-chr.to.int$ -- 178
-cite$ -- 54
-duplicate$ -- 10455
-empty$ -- 10142
-format.name$ -- 1907
-if$ -- 20235
+call.type$ -- 83
+change.case$ -- 1124
+chr.to.int$ -- 304
+cite$ -- 164
+duplicate$ -- 31652
+empty$ -- 30068
+format.name$ -- 6087
+if$ -- 61915
 int.to.chr$ -- 0
-int.to.str$ -- 62
+int.to.str$ -- 205
 missing$ -- 0
-newline$ -- 1137
-num.names$ -- 1151
-pop$ -- 8327
+newline$ -- 3061
+num.names$ -- 3692
+pop$ -- 25658
 preamble$ -- 1
-purify$ -- 399
+purify$ -- 1386
 quote$ -- 0
-skip$ -- 4897
+skip$ -- 15354
 stack$ -- 0
-substring$ -- 1596
-swap$ -- 4311
-text.length$ -- 776
-text.prefix$ -- 34
+substring$ -- 4932
+swap$ -- 12229
+text.length$ -- 2311
+text.prefix$ -- 97
 top$ -- 1
-type$ -- 1052
+type$ -- 3142
 warning$ -- 0
-while$ -- 733
+while$ -- 1915
 width$ -- 0
-write$ -- 1108
-(There was 1 error message)
+write$ -- 2977
+(There was 1 warning)

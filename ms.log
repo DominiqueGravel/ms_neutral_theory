@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  27 MAY 2013 20:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  27 MAY 2013 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1236,147 +1236,21 @@ Overfull \hbox (10.72815pt too wide) in paragraph at lines 46--72
 ap-pro-pri-ate con-cep-tual frame-
  []
 
-[2]
-
-LaTeX Warning: Citation 'Leibold2004a' on page 3 undefined on input line 79.
-
-
-LaTeX Warning: Citation 'Leibold2004b' on page 3 undefined on input line 86.
-
-
-LaTeX Warning: Citation 'Hubbell2001' on page 3 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'Etienne2011' on page 3 undefined on input line 96.
-
-[3]
-
-LaTeX Warning: Citation 'Wennekes2011' on page 4 undefined on input line 123.
-
-
-LaTeX Warning: Citation 'Schmueli2010' on page 4 undefined on input line 130.
-
-
-LaTeX Warning: Citation 'Wennekes2011' on page 4 undefined on input line 132.
-
-
-LaTeX Warning: Citation 'Gravel2011a' on page 4 undefined on input line 137.
-
-[4]
-
-LaTeX Warning: Citation 'Peterson2013' on page 5 undefined on input line 155.
-
-
-LaTeX Warning: Citation 'Peres-Neto2013' on page 5 undefined on input line 161.
-
-
-
-LaTeX Warning: Citation 'Desjardins2012a' on page 5 undefined on input line 166
-.
-
-
-LaTeX Warning: Citation 'Desjardins2012b' on page 5 undefined on input line 166
-.
-
-
-LaTeX Warning: Citation 'Altermat2012' on page 5 undefined on input line 167.
-
-[5]
-
-LaTeX Warning: Citation 'new10' on page 6 undefined on input line 182.
-
-
-LaTeX Warning: Citation 'gro06' on page 6 undefined on input line 184.
-
-
-LaTeX Warning: Citation 'sed01' on page 6 undefined on input line 185.
-
-
-LaTeX Warning: Citation 'wri21' on page 6 undefined on input line 189.
-
-
-LaTeX Warning: Citation 'new10' on page 6 undefined on input line 189.
-
-
-LaTeX Warning: Citation 'kob94' on page 6 undefined on input line 191.
-
-
-LaTeX Warning: Citation 'dij59' on page 6 undefined on input line 199.
-
-[6]
-
-LaTeX Warning: Citation 'sed01' on page 7 undefined on input line 219.
-
-
-LaTeX Warning: Citation 'app97a' on page 7 undefined on input line 226.
-
-
-LaTeX Warning: Citation 'app97 b' on page 7 undefined on input line 226.
-
-
-LaTeX Warning: Citation 'app02a' on page 7 undefined on input line 226.
-
-
-LaTeX Warning: Citation 'app02b' on page 7 undefined on input line 226.
-
-
-LaTeX Warning: Citation 'pen03' on page 7 undefined on input line 226.
-
-
-LaTeX Warning: Citation 'dij59' on page 7 undefined on input line 234.
-
-[7]
-
-LaTeX Warning: Citation 'min07' on page 8 undefined on input line 241.
-
-
-LaTeX Warning: Citation 'fal07' on page 8 undefined on input line 241.
-
-
-LaTeX Warning: Citation 'min08' on page 8 undefined on input line 241.
-
-
-LaTeX Warning: Citation 'gar08' on page 8 undefined on input line 241.
-
-
-LaTeX Warning: Citation 'urb09' on page 8 undefined on input line 241.
-
-
-LaTeX Warning: Citation 'dal10' on page 8 undefined on input line 241.
-
-
-LaTeX Warning: Citation 'eco08' on page 8 undefined on input line 242.
-
-
-LaTeX Warning: Citation 'eco10' on page 8 undefined on input line 242.
-
-
-LaTeX Warning: Citation 'des12' on page 8 undefined on input line 245.
-
-
-LaTeX Warning: Citation 'des12b' on page 8 undefined on input line 245.
-
-
+[2] [3] [4] [5] [6] [7]
 Overfull \hbox (4.06061pt too wide) in paragraph at lines 250--263
 \OT1/jkp/m/n/12 meta-com-mu-nity ecol-ogy: patch dy-nam-ics, neu-tral dy-nam-ic
 s and species sort-ing. While
  []
 
+[8]
 
-LaTeX Warning: Citation '(' on page 8 undefined on input line 268.
-
-
-LaTeX Warning: Citation '(' on page 8 undefined on input line 269.
+LaTeX Warning: Citation '(' on page 9 undefined on input line 268.
 
 
-LaTeX Warning: Citation '(' on page 8 undefined on input line 287.
+LaTeX Warning: Citation '(' on page 9 undefined on input line 269.
 
 
-LaTeX Warning: Citation 'Holt1996' on page 8 undefined on input line 291.
-
-
-LaTeX Warning: Citation 'Klausmeier1998' on page 8 undefined on input line 291.
-
+LaTeX Warning: Citation '(' on page 9 undefined on input line 287.
 
 
 Overfull \hbox (18.63222pt too wide) in paragraph at lines 267--293
@@ -1384,211 +1258,55 @@ Overfull \hbox (18.63222pt too wide) in paragraph at lines 267--293
 -la-tion model ([])Levins1969)
  []
 
-[8]
-
-LaTeX Warning: Citation 'Hanski1998' on page 9 undefined on input line 300.
-
-
-LaTeX Warning: Citation 'Nee1994' on page 9 undefined on input line 321.
-
-
-LaTeX Warning: Citation 'Rybicki2013' on page 9 undefined on input line 321.
-
-[9]
-
-LaTeX Warning: Citation 'Hubbell2001' on page 10 undefined on input line 328.
-
-[10]
-
-LaTeX Warning: Citation 'Gravel2006' on page 11 undefined on input line 342.
-
-
-LaTeX Warning: Citation 'Gravel2006' on page 11 undefined on input line 348.
-
-
-LaTeX Warning: Citation 'Hubbell2001' on page 11 undefined on input line 362.
-
-[11]
-
-LaTeX Warning: Citation 'Gravel2011a' on page 12 undefined on input line 374.
-
-
-LaTeX Warning: Citation 'Hubbell2001' on page 12 undefined on input line 374.
-
-
-LaTeX Warning: Citation 'Hubbell2001' on page 12 undefined on input line 378.
-
-
-LaTeX Warning: Citation 'Ricklefs2003' on page 12 undefined on input line 386.
-
-
-LaTeX Warning: Citation 'Etienne2007' on page 12 undefined on input line 386.
-
-
-LaTeX Warning: Citation 'Rosindell2009' on page 12 undefined on input line 388.
-
-
-
-LaTeX Warning: Citation 'Desjardins2012a' on page 12 undefined on input line 38
-8.
-
-
-LaTeX Warning: Citation 'Desjardins2012b' on page 12 undefined on input line 39
-1.
-
-[12]
-
-LaTeX Warning: Citation 'Leibold2004a' on page 13 undefined on input line 398.
-
-
-LaTeX Warning: Citation 'Mouquet2002' on page 13 undefined on input line 399.
-
-
-LaTeX Warning: Citation 'Mouquet2003' on page 13 undefined on input line 415.
-
-
-LaTeX Warning: Citation 'Tilman2004' on page 13 undefined on input line 415.
-
-
-LaTeX Warning: Citation 'Gravel2006' on page 13 undefined on input line 415.
-
-[13]
-
-LaTeX Warning: Citation 'Tilman2004' on page 14 undefined on input line 438.
-
-
-LaTeX Warning: Citation 'Gravel2006' on page 14 undefined on input line 438.
-
-
-LaTeX Warning: Citation 'Schwilk2005' on page 14 undefined on input line 443.
-
-
-LaTeX Warning: Citation 'Mouquet2003' on page 14 undefined on input line 455.
-
-
-LaTeX Warning: Citation 'Venail2008' on page 14 undefined on input line 456.
-
-[14] [15] [16]
-
-LaTeX Warning: Citation 'Gilarranz2012' on page 17 undefined on input line 542.
-
-
-
-LaTeX Warning: Citation 'Legendre2005' on page 17 undefined on input line 545.
-
-
-LaTeX Warning: Citation 'Peterson2013' on page 17 undefined on input line 546.
-
-[17]
-
-LaTeX Warning: Citation 'Hubbell2001' on page 18 undefined on input line 553.
-
-
-LaTeX Warning: Citation 'Mouquet2002' on page 18 undefined on input line 553.
-
-
-LaTeX Warning: Citation 'Desjardins2012' on page 18 undefined on input line 557
-.
-
-
-LaTeX Warning: Citation 'Altermat2012' on page 18 undefined on input line 558.
-
-
-LaTeX Warning: Citation 'Mouquet2013' on page 18 undefined on input line 562.
-
-[18]
-
-LaTeX Warning: Citation 'Hanski1998' on page 19 undefined on input line 590.
-
-
-LaTeX Warning: Citation 'Gotelli1996' on page 19 undefined on input line 595.
-
-
-LaTeX Warning: Citation 'Borcard1992' on page 19 undefined on input line 599.
-
-
-LaTeX Warning: Citation 'Borcard2002' on page 19 undefined on input line 599.
-
-
-LaTeX Warning: Citation 'Leduc1992' on page 19 undefined on input line 604.
-
-
-LaTeX Warning: Citation 'Borcard1992' on page 19 undefined on input line 604.
-
-
-LaTeX Warning: Citation 'Legendre1993' on page 19 undefined on input line 604.
-
-
-LaTeX Warning: Citation 'Svenning2004' on page 19 undefined on input line 607.
-
-
-LaTeX Warning: Citation 'Hardy2004' on page 19 undefined on input line 607.
-
-
-LaTeX Warning: Citation 'Gilbert2004' on page 19 undefined on input line 607.
-
-
-LaTeX Warning: Citation 'Cottenie2005' on page 19 undefined on input line 607.
-
-
-LaTeX Warning: Citation 'McGill200' on page 19 undefined on input line 609.
-
-
-LaTeX Warning: Citation 'Hubbell2008' on page 19 undefined on input line 616.
-
-
-Overfull \hbox (19.42502pt too wide) in paragraph at lines 598--620
-[]\OT1/jkp/m/n/12 The mul-ti-vari-ate vari-ance par-ti-tion-ing frame-work orig
--i-nally pro-posed by []
- []
-
-[19]
-
-LaTeX Warning: Citation 'coy04' on page 20 undefined on input line 625.
-
-
-LaTeX Warning: Citation 'eco08' on page 20 undefined on input line 630.
-
-
-LaTeX Warning: Citation 'Wootoon2005' on page 20 undefined on input line 636.
-
-[20] [21] [22] [23] [24] <Networks.pdf, id=89, 215.80624pt x 432.61626pt>
+[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23]
+[24] [25] [26]
+
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.661 
+      
+? 
+[27] [28] [29] <Networks.pdf, id=105, 215.80624pt x 432.61626pt>
 File: Networks.pdf Graphic file (type pdf)
 
 <use Networks.pdf>
-Package pdftex.def Info: Networks.pdf used on input line 698.
+Package pdftex.def Info: Networks.pdf used on input line 697.
 (pdftex.def)             Requested size: 136.16039pt x 272.95895pt.
- [25 <./Networks.pdf>]
-<Centrality.pdf, id=98, 432.61626pt x 432.61626pt>
+ [30 <./Networks.pdf>]
+<Centrality.pdf, id=113, 432.61626pt x 432.61626pt>
 File: Centrality.pdf Graphic file (type pdf)
  <use Centrality.pdf>
-Package pdftex.def Info: Centrality.pdf used on input line 707.
+Package pdftex.def Info: Centrality.pdf used on input line 706.
 (pdftex.def)             Requested size: 340.39752pt x 340.40985pt.
 
-[26 <./Centrality.pdf>] <BetaGeoDist.pdf, id=108, 432.61626pt x 324.21124pt>
+[31 <./Centrality.pdf>] <BetaGeoDist.pdf, id=124, 432.61626pt x 324.21124pt>
 File: BetaGeoDist.pdf Graphic file (type pdf)
 
 <use BetaGeoDist.pdf>
-Package pdftex.def Info: BetaGeoDist.pdf used on input line 716.
+Package pdftex.def Info: BetaGeoDist.pdf used on input line 715.
 (pdftex.def)             Requested size: 295.0084pt x 221.09395pt.
- [27 <./BetaGeoDist.pdf>]
-<BetaTopoDist.pdf, id=116, 432.61626pt x 324.21124pt>
+ [32 <./BetaGeoDist.pdf>]
+<BetaTopoDist.pdf, id=132, 432.61626pt x 324.21124pt>
 File: BetaTopoDist.pdf Graphic file (type pdf)
  <use BetaTopoDist.pdf>
-Package pdftex.def Info: BetaTopoDist.pdf used on input line 725.
+Package pdftex.def Info: BetaTopoDist.pdf used on input line 724.
 (pdftex.def)             Requested size: 295.0084pt x 221.09395pt.
 
-[28 <./BetaTopoDist.pdf>]
-Underfull \hbox (badness 1242) in paragraph at lines 754--756
+[33 <./BetaTopoDist.pdf>]
+Underfull \hbox (badness 1242) in paragraph at lines 753--755
 []\OT1/jkp/m/n/12 The num-ber of short-est paths from all
  []
 
 
-Overfull \hbox (46.02014pt too wide) in paragraph at lines 766--804
+Overfull \hbox (46.02014pt too wide) in paragraph at lines 765--803
  [][] 
  []
 
-[29] [30] (./ms.aux)
+[34] [35] (./ms.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1602,13 +1320,13 @@ Package logreq Info: Writing requests to 'ms.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9385 strings out of 493633
- 143462 string characters out of 3143378
- 301757 words of memory out of 3000000
- 12507 multiletter control sequences out of 15000+200000
+ 9723 strings out of 493633
+ 149714 string characters out of 3143378
+ 354190 words of memory out of 3000000
+ 12845 multiletter control sequences out of 15000+200000
  28809 words of font info for 66 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 39i,10n,57p,811b,992s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,57p,809b,1027s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.en
 c}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2011/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texli
@@ -1622,10 +1340,10 @@ type1/public/kpfonts/jkpmite.pfb></usr/local/texlive/2011/texmf-dist/fonts/type
 blic/kpfonts/jkpmne.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/
 kpfonts/jkpssmn8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/kp
 fonts/jkpsy.pfb>
-Output written on ms.pdf (30 pages, 205955 bytes).
+Output written on ms.pdf (35 pages, 215154 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+ 185 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

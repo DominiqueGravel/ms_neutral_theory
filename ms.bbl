@@ -16,6 +16,111 @@
   {}
 \endgroup
 
+\entry{app02b}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Appel}{A.}%
+     {M.~J.~B.}{M.~J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Najim}{N.}%
+     {C.~A.}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Russo}{R.}%
+     {R.~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AMJBNCARRP1}
+  \strng{fullhash}{AMJBNCARRP1}
+  \field{labelyear}{2002}
+  \field{sortinit}{A}
+  \field{pages}{1\bibrangedash 10}
+  \field{title}{Limit laws for the diameter of a random point set}
+  \field{volume}{34}
+  \field{journaltitle}{Advances in Applied Probability}
+  \field{year}{2002}
+\endentry
+
+\entry{app97a}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Appel}{A.}%
+     {M.~J.~B.}{M.~J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Russo}{R.}%
+     {R.~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AMJBRRP1}
+  \strng{fullhash}{AMJBRRP1}
+  \field{labelyear}{1997}
+  \field{extrayear}{1}
+  \field{sortinit}{A}
+  \field{pages}{567\bibrangedash 581}
+  \field{title}{The maximum vertex degree of a graph on uniform points in $[0,
+  1]^d$}
+  \field{volume}{29}
+  \field{journaltitle}{Advances in Applied Probability}
+  \field{year}{1997}
+\endentry
+
+\entry{app97b}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Appel}{A.}%
+     {M.~J.~B.}{M.~J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Russo}{R.}%
+     {R.~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AMJBRRP1}
+  \strng{fullhash}{AMJBRRP1}
+  \field{labelyear}{1997}
+  \field{extrayear}{2}
+  \field{sortinit}{A}
+  \field{pages}{582\bibrangedash 594}
+  \field{title}{The minimum vertex degree of a graph on uniform points in $[0,
+  1]^d$}
+  \field{volume}{29}
+  \field{journaltitle}{Advances in Applied Probability}
+  \field{year}{1997}
+\endentry
+
+\entry{app02a}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Appel}{A.}%
+     {M.~J.~B.}{M.~J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Russo}{R.}%
+     {R.~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AMJBRRP1}
+  \strng{fullhash}{AMJBRRP1}
+  \field{labelyear}{2002}
+  \field{sortinit}{A}
+  \field{pages}{351\bibrangedash 357}
+  \field{title}{The connectivity of a graph on uniform points in $[0,1]^d$}
+  \field{volume}{60}
+  \field{journaltitle}{Statistics \& Probability Letters}
+  \field{year}{2002}
+\endentry
+
 \entry{Bahn2007}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -115,7 +220,7 @@
   \verb Bell - 2000 - The Distribution of Abundance in Neutral Communities..pdf
   \verb :pdf
   \endverb
-  \field{journaltitle}{The American naturalist}
+  \field{journaltitle}{The American Naturalist}
   \field{month}{05}
   \field{year}{2000}
 \endentry
@@ -170,6 +275,115 @@
   \field{year}{2001}
 \endentry
 
+\entry{Borcard2002}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Borcard}{B.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Legendre}{L.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{geographic distances among sampling sites,principal coordinate
+  analysis,scale,spatial analysis,variation partitioning}
+  \strng{namehash}{BDLP1}
+  \strng{fullhash}{BDLP1}
+  \field{labelyear}{2002}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Spatial heterogeneity of ecological structures originates either from the
+  physical forcing of environmental variables or from community processes. In
+  both cases, spatial structuring plays a functional role in ecosystems.
+  Ecological models should explicitly take into account the spatial structure
+  of ecosystems. In previous work, we used a polynomial function of the
+  geographic coordinates of the sampling sites to model broad-scale spatial
+  variation in a canonical (regression-type) modelling context. In this paper,
+  we propose a method for detecting and quantifying spatial patterns over a
+  wide range of scales. This is obtained by eigenvalue decomposition of a
+  truncated matrix of geographic distances among the sampling sites. The
+  eigenvectors corresponding to positive eigenvalues are used as spatial
+  descriptors in regression or canonical analysis. This method can be applied
+  to any set of sites providing a good coverage of the geographic sampling
+  area. This paper investigates the behaviour of the method using numerical
+  simulations and an artificial pseudo-ecological data set of known
+  properties.%
+  }
+  \verb{doi}
+  \verb 10.1016/S0304-3800(01)00501-4
+  \endverb
+  \field{issn}{03043800}
+  \field{number}{1-2}
+  \field{pages}{51\bibrangedash 68}
+  \field{title}{{All-scale spatial analysis of ecological data by means of
+  principal coordinates of neighbour matrices}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1016/S0304-3800(01)00501-4
+  \endverb
+  \field{volume}{153}
+  \field{journaltitle}{Ecological Modelling}
+  \field{month}{07}
+  \field{year}{2002}
+\endentry
+
+\entry{Borcard1992}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Borcard}{B.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Legendre}{L.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Drapeau}{D.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {EN}%
+  }
+  \strng{namehash}{BDLPDP1}
+  \strng{fullhash}{BDLPDP1}
+  \field{labelyear}{1992}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  A method is proposed to partition the variation of species abundance data
+  into independent components: pure spatial, pure environmental, spatial
+  component of environmental influence, and undetermined. The new method uses
+  pre—existing techniques and computer programs of canonical ordination. The
+  intrinsic spatial component of community structure is partialled out of the
+  species—environment relationship in order to see if the environmental
+  control model still holds. The method is illustrated using oribatid mites in
+  a peat blanket, forest vegetation data, and aquatic heterotrophic bacteria.
+  In this latter example, the new method is shown to be complementary to
+  another approach based on partial Mantel tests. See full-text article at
+  JSTOR%
+  }
+  \verb{doi}
+  \verb 10.2307/1940179
+  \endverb
+  \field{issn}{00129658}
+  \field{number}{3}
+  \field{pages}{1045}
+  \field{title}{{Partialling out the Spatial Component of Ecological
+  Variation}}
+  \verb{url}
+  \verb http://www.esajournals.org/doi/abs/10.2307/1940179
+  \endverb
+  \field{volume}{73}
+  \field{journaltitle}{Ecology}
+  \field{month}{06}
+  \field{year}{1992}
+\endentry
+
 \entry{Boulangeat2012}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -216,19 +430,20 @@
   \verb 10.1111/j.1461-0248.2012.01772.x
   \endverb
   \field{issn}{1461-0248}
-  \field{pages}{1\bibrangedash 10}
+  \field{pages}{584\bibrangedash 593}
   \field{title}{{Accounting for dispersal and biotic interactions to
   disentangle the drivers of species distributions and their abundances.}}
   \verb{url}
   \verb http://www.ncbi.nlm.nih.gov/pubmed/22462813
   \endverb
+  \field{volume}{15}
   \verb{file}
   \verb :Users/DGravel/Library/Application Support/Mendeley Desktop/Downloaded/
   \verb Boulangeat, Gravel, Thuiller - 2012 - Accounting for dispersal and biot
   \verb ic interactions to disentangle the drivers of species distributions and
   \verb  their abundances.pdf:pdf
   \endverb
-  \field{journaltitle}{Ecology letters}
+  \field{journaltitle}{Ecology Letters}
   \field{month}{03}
   \field{year}{2012}
 \endentry
@@ -293,6 +508,73 @@
   \endverb
   \field{journaltitle}{PLoS ONE}
   \field{month}{08}
+  \field{year}{2012}
+\endentry
+
+\entry{Carrara2012}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Carrara}{C.}%
+     {Francesco}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Altermatt}{A.}%
+     {Florian}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodriguez-Iturbe}{R.-I.}%
+     {Ignacio}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rinaldo}{R.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Biota,Models, Biological,Probability,Species Specificity}
+  \strng{namehash}{CF+1}
+  \strng{fullhash}{CFAFRIIRA1}
+  \field{labelyear}{2012}
+  \field{sortinit}{C}
+  \field{abstract}{%
+  Biological communities often occur in spatially structured habitats where
+  connectivity directly affects dispersal and metacommunity processes. Recent
+  theoretical work suggests that dispersal constrained by the connectivity of
+  specific habitat structures, such as dendrites like river networks, can
+  explain observed features of biodiversity, but direct evidence is still
+  lacking. We experimentally show that connectivity per se shapes diversity
+  patterns in microcosm metacommunities at different levels. Local dispersal in
+  isotropic lattice landscapes homogenizes local species richness and leads to
+  pronounced spatial persistence. On the contrary, dispersal along dendritic
+  landscapes leads to higher variability in local diversity and among-community
+  composition. Although headwaters exhibit relatively lower species richness,
+  they are crucial for the maintenance of regional biodiversity. Our results
+  establish that spatially constrained dendritic connectivity is a key factor
+  for community composition and population persistence.%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.1119651109
+  \endverb
+  \field{issn}{1091-6490}
+  \field{number}{15}
+  \field{pages}{5761\bibrangedash 6}
+  \field{title}{{Dendritic connectivity controls biodiversity patterns in
+  experimental metacommunities.}}
+  \verb{url}
+  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3326484\&tool
+  \verb =pmcentrez\&rendertype=abstract
+  \endverb
+  \field{volume}{109}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Carrara2012
+  \verb .pdf:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{month}{04}
   \field{year}{2012}
 \endentry
 
@@ -402,6 +684,189 @@
   \field{year}{2005}
 \endentry
 
+\entry{coy04}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Coyne}{C.}%
+     {J.~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Orr}{O.}%
+     {H.~A.}{H.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Sinauer Associates}%
+  }
+  \strng{namehash}{CJAOHA1}
+  \strng{fullhash}{CJAOHA1}
+  \field{labelyear}{2004}
+  \field{sortinit}{C}
+  \field{title}{Speciation}
+  \field{year}{2004}
+\endentry
+
+\entry{dal10}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dale}{D.}%
+     {M.~R.~T.}{M.~R.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fortin}{F.}%
+     {M.-J.}{M.-J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DMRTFMJ1}
+  \strng{fullhash}{DMRTFMJ1}
+  \field{labelyear}{2010}
+  \field{sortinit}{D}
+  \field{pages}{21\bibrangedash 38}
+  \field{title}{From Graphs to Spatial Graphs}
+  \field{volume}{41}
+  \field{journaltitle}{Annual Review of Ecology, Evolution, and Systematics}
+  \field{year}{2010}
+\endentry
+
+\entry{Desjardins2012b}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Desjardins-Proulx}{D.-P.}%
+     {Philippe}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gravel}{G.}%
+     {Dominique}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{biodiversity,ecology,isolation,networks,neutral,speciation}
+  \strng{namehash}{DPPGD1}
+  \strng{fullhash}{DPPGD1}
+  \field{labelyear}{2012}
+  \field{extrayear}{1}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb 10.1002/ece3.292
+  \endverb
+  \field{issn}{20457758}
+  \field{number}{8}
+  \field{pages}{1781\bibrangedash 1790}
+  \field{title}{{A complex speciation-richness relationship in a simple neutral
+  model}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1002/ece3.292
+  \endverb
+  \field{volume}{2}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Reprints/Desjardins2012\_EcoEvo.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology and Evolution}
+  \field{month}{08}
+  \field{year}{2012}
+\endentry
+
+\entry{Desjardins2012a}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Desjardins-Proulx}{D.-P.}%
+     {Philippe}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gravel}{G.}%
+     {Dominique}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{allopatry,gene flow,metacommunity,neutral theory,ogy,spatial
+  ecol-,speciation}
+  \strng{namehash}{DPPGD1}
+  \strng{fullhash}{DPPGD1}
+  \field{labelyear}{2012}
+  \field{extrayear}{2}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  Patterns of biodiversity predicted by the neutral theory rely on a simple
+  phenomenological model of speciation. To further investigate the effect of
+  speciation on neutral biodiversity, we analyze a spatially explicit neutral
+  model based on population genetics. We define the metacommunity as a system
+  of populations exchanging migrants, and we use this framework to introduce
+  speciation with little or no gene flow (allopatric and parapatric
+  speciation). We find that with realistic mutation rates, our metacommunity
+  model driven by neutral processes cannot support more than a few species.
+  Adding natural selection in the population genetics of speciation increases
+  the number of species in the metacommunity, but the level of diversity found
+  in the Barro Colorado Island is difficult to reach.%
+  }
+  \verb{doi}
+  \verb 10.1086/663196
+  \endverb
+  \field{issn}{1537-5323}
+  \field{number}{1}
+  \field{pages}{137\bibrangedash 44}
+  \field{title}{{How likely is speciation in neutral ecology?}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/22173467
+  \endverb
+  \field{volume}{179}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Reprints/Desjardins2012\_AmNat.pdf:pdf
+  \endverb
+  \field{journaltitle}{The American Naturalist}
+  \field{month}{01}
+  \field{year}{2012}
+\endentry
+
+\entry{dij59}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dijkstra}{D.}%
+     {E.~W.}{E.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DEW1}
+  \strng{fullhash}{DEW1}
+  \field{labelyear}{1959}
+  \field{sortinit}{D}
+  \field{pages}{269\bibrangedash 271}
+  \field{title}{A note on two problems in connexion with graphs}
+  \field{volume}{1}
+  \field{journaltitle}{Numer. Math.}
+  \field{year}{1959}
+\endentry
+
+\entry{eco10}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Economo}{E.}%
+     {E.~P.}{E.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keitt}{K.}%
+     {T.~H.}{T.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EEPKTH1}
+  \strng{fullhash}{EEPKTH1}
+  \field{labelyear}{2010}
+  \field{sortinit}{E}
+  \field{pages}{1\bibrangedash 9}
+  \field{title}{Network isolation and local diversity in neutral
+  metacommunities}
+  \field{volume}{10}
+  \field{journaltitle}{Oikos}
+  \field{year}{2010}
+\endentry
+
 \entry{Economo2011}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -410,8 +875,8 @@
      {}{}%
      {}{}}%
   }
-  \keyw{Biodiversity,Biota,Conservation of Natural Resources,Ecosystem,Models,
-  Biological}
+  \keyw{Biodiversity,Biological,Biota,Conservation of Natural
+  Resources,Ecosystem,Models}
   \strng{namehash}{EEP1}
   \strng{fullhash}{EEP1}
   \field{labelyear}{2011}
@@ -454,7 +919,7 @@
   \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Economo\_20
   \verb 11.pdf:pdf
   \endverb
-  \field{journaltitle}{The American naturalist}
+  \field{journaltitle}{The American Naturalist}
   \field{month}{06}
   \field{year}{2011}
 \endentry
@@ -472,10 +937,10 @@
      {}{}%
      {}{}}%
   }
-  \keyw{Biodiversity,Genetic Speciation,Models, Biological,Population
+  \keyw{Biodiversity,Biological,Genetic Speciation,Models,Population
   Density,Population Dynamics}
-  \strng{namehash}{EEPKTH1}
-  \strng{fullhash}{EEPKTH1}
+  \strng{namehash}{EEPKTH2}
+  \strng{fullhash}{EEPKTH2}
   \field{labelyear}{2008}
   \field{sortinit}{E}
   \field{abstract}{%
@@ -512,7 +977,7 @@
   \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Economo\_Ke
   \verb itt\_2008.pdf:pdf
   \endverb
-  \field{journaltitle}{Ecology letters}
+  \field{journaltitle}{Ecology Letters}
   \field{month}{01}
   \field{year}{2008}
 \endentry
@@ -584,6 +1049,180 @@
   \field{journaltitle}{PloS one}
   \field{month}{01}
   \field{year}{2011}
+\endentry
+
+\entry{Etienne2007}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Etienne}{E.}%
+     {Rampal~S.}{R.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Apol}{A.}%
+     {M.~Emile~F.}{M.~E.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olff}{O.}%
+     {Han}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weissing}{W.}%
+     {Franz~J.}{F.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ERS+1}
+  \strng{fullhash}{ERSAMEFOHWFJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{E}
+  \verb{doi}
+  \verb 10.1111/j.2007.0030-1299.15438.x
+  \endverb
+  \field{issn}{0030-1299}
+  \field{number}{2}
+  \field{pages}{241\bibrangedash 258}
+  \field{title}{{Modes of speciation and the neutral theory of biodiversity}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1111/j.2007.0030-1299.15438.x
+  \endverb
+  \field{volume}{116}
+  \verb{file}
+  \verb :Users/DGravel/Desktop/Etienne2007.pdf:pdf
+  \endverb
+  \field{journaltitle}{Oikos}
+  \field{month}{02}
+  \field{year}{2007}
+\endentry
+
+\entry{fal07}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Fall}{F.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fortin}{F.}%
+     {M.~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manseau}{M.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {O'Brian}{O.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FA+1}
+  \strng{fullhash}{FAFMJMMOD1}
+  \field{labelyear}{2007}
+  \field{sortinit}{F}
+  \field{pages}{448\bibrangedash 461}
+  \field{title}{Spatial graphs: principles and applications for habitat
+  connectivity}
+  \field{volume}{10}
+  \field{journaltitle}{Ecosystems}
+  \field{year}{2007}
+\endentry
+
+\entry{gar08}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Garroway}{G.}%
+     {C.~J.}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bowman}{B.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carr}{C.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilson}{W.}%
+     {P.~J.}{P.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GCJ+1}
+  \strng{fullhash}{GCJBJCDWPJ1}
+  \field{labelyear}{2008}
+  \field{sortinit}{G}
+  \field{pages}{620\bibrangedash 630}
+  \field{title}{Applications of graph theory to landscape genetics}
+  \field{volume}{1}
+  \field{journaltitle}{Evol. Appl.}
+  \field{year}{2008}
+\endentry
+
+\entry{Gilarranz2012}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gilarranz}{G.}%
+     {Luis~J}{L.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \keyw{Animals,Ecosystem,Extinction, Biological,Models, Biological,Population
+  Density,Population Dynamics}
+  \strng{namehash}{GLJBJ1}
+  \strng{fullhash}{GLJBJ1}
+  \field{labelyear}{2012}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  We explore the relationship between network structure and dynamics by
+  relating the topology of spatial networks with its underlying metapopulation
+  abundance. Metapopulation abundance is largely affected by the architecture
+  of the spatial network, although this effect depends on demographic
+  parameters here represented by the extinction-to-colonization ratio (e/c).
+  Thus, for moderate to large e/c-values, regional abundance grows with the
+  heterogeneity of the network, with uniform or random networks having the
+  lowest regional abundances, and scale-free networks having the largest
+  abundance. However, the ranking is reversed for low extinction probabilities,
+  with heterogeneous networks showing the lowest relative abundance. We further
+  explore the mechanisms underlying such results by relating a node's incidence
+  (average number of time steps the node is occupied) with its degree, and with
+  the average degree of the nodes it interacts with. These results demonstrate
+  the importance of spatial network structure to understanding metapopulation
+  abundance, and serve to determine under what circumstances information on
+  network structure should be complemented with information on the species
+  life-history traits to understand persistence in heterogeneous environments.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.jtbi.2011.11.027
+  \endverb
+  \field{issn}{1095-8541}
+  \field{pages}{11\bibrangedash 6}
+  \field{title}{{Spatial network structure and metapopulation persistence.}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/22155351
+  \endverb
+  \field{volume}{297}
+  \verb{file}
+  \verb :Users/DGravel/Desktop/Gilarranz2012.pdf:pdf
+  \endverb
+  \field{journaltitle}{Journal of theoretical biology}
+  \field{month}{03}
+  \field{year}{2012}
 \endentry
 
 \entry{Gilbert2004}{article}{}
@@ -725,6 +1364,33 @@
   \field{year}{2000}
 \endentry
 
+\entry{Gotelli1996}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gotelli}{G.}%
+     {N.J.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Graves}{G.}%
+     {G.R.}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Smithsonian Institution Press}%
+  }
+  \strng{namehash}{GNGG1}
+  \strng{fullhash}{GNGG1}
+  \field{labelyear}{1996}
+  \field{sortinit}{G}
+  \field{title}{{Null models in ecology}}
+  \list{location}{1}{%
+    {Washington, D.C.}%
+  }
+  \field{year}{1996}
+\endentry
+
 \entry{Gravel2008}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -799,7 +1465,71 @@
   \field{year}{2008}
 \endentry
 
-\entry{Gravel2010}{article}{}
+\entry{Gravel2011a}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Gravel}{G.}%
+     {Dominique}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guichard}{G.}%
+     {Fr\'{e}d\'{e}ric}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hochberg}{H.}%
+     {Michael~E}{M.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Biodiversity,Biological,Extinction,Fertility,Models,Population
+  Dynamics,Statistical}
+  \strng{namehash}{GDGFHME1}
+  \strng{fullhash}{GDGFHME1}
+  \field{labelyear}{2011}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  The contribution of deterministic and stochastic processes to species
+  coexistence is widely debated. With the introduction of powerful statistical
+  techniques, we can now better characterise different sources of uncertainty
+  when quantifying niche differentiation. The theoretical literature on the
+  effect of stochasticity on coexistence, however, is often ignored by field
+  ecologists because of its technical nature and difficulties in its
+  application. In this review, we examine how different sources of variability
+  in population dynamics contribute to coexistence. Unfortunately, few general
+  rules emerge among the different models that have been studied to date.
+  Nonetheless, we believe that a greater understanding is possible, based on
+  the integration of coexistence and population extinction risk theories. There
+  are two conditions for coexistence in the presence of environmental and
+  demographic variability: (1) the average per capita growth rates of all
+  coexisting species must be positive when at low densities, and (2) these
+  growth rates must be strong enough to overcome negative random events
+  potentially pushing densities to extinction. We propose that critical tests
+  for species coexistence must account for niche differentiation arising from
+  this variability and should be based explicitly on notions of stability and
+  ecological drift.%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1461-0248.2011.01643.x
+  \endverb
+  \field{issn}{1461-0248}
+  \field{number}{8}
+  \field{pages}{828\bibrangedash 39}
+  \field{title}{{Species coexistence in a variable world.}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/21682832
+  \endverb
+  \field{volume}{14}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Reprints/Gravel2011a\_EcoLett.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology letters}
+  \field{month}{08}
+  \field{year}{2011}
+\endentry
+
+\entry{Gravel2006}{article}{}
   \name{author}{4}{}{%
     {{}%
      {Gravel}{G.}%
@@ -808,7 +1538,7 @@
      {}{}}%
     {{}%
      {Canham}{C.}%
-     {Charles~D.}{C.~D.}%
+     {Charles~D}{C.~D.}%
      {}{}%
      {}{}}%
     {{}%
@@ -822,31 +1552,116 @@
      {}{}%
      {}{}}%
   }
+  \keyw{Adaptation,Animals,Biodiversity,Ecology,Environment,Models,Movement,Physiological,Population
+  Density,Population Dynamics,Theoretical}
   \strng{namehash}{GD+1}
   \strng{fullhash}{GDCCDBMMC1}
+  \field{labelyear}{2006}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  In this study, we ask if instead of being fundamentally opposed, niche and
+  neutral theories could simply be located at the extremes of a continuum.
+  First, we present a model of recruitment probabilities that combines both
+  niche and neutral processes. From this model, we predict and test whether the
+  relative importance of niche vs. neutral processes in controlling community
+  dynamics will vary depending on community species richness, niche overlap and
+  dispersal capabilities of species (both local and long distance). Results
+  demonstrate that niche and neutrality form ends of a continuum from
+  competitive to stochastic exclusion. In the absence of immigration,
+  competitive exclusion tends to create a regular spacing of niches. However,
+  immigration prevents the establishment of a limiting similarity. The
+  equilibrium community consists of a set of complementary and redundant
+  species, with their abundance determined, respectively, by the distribution
+  of environmental conditions and the amount of immigration.%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1461-0248.2006.00884.x
+  \endverb
+  \field{issn}{1461-0248}
+  \field{number}{4}
+  \field{pages}{399\bibrangedash 409}
+  \field{title}{{Reconciling niche and neutrality: the continuum hypothesis.}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/16623725
+  \endverb
+  \field{volume}{9}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Reprints/Gravel2006\_EcoLett.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology Letters}
+  \field{month}{04}
+  \field{year}{2006}
+\endentry
+
+\entry{Gravel2010a}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Gravel}{G.}%
+     {Dominique}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guichard}{G.}%
+     {Fr\'{e}d\'{e}ric}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loreau}{L.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mouquet}{M.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Ecosystem,Models, Biological}
+  \strng{namehash}{GD+1}
+  \strng{fullhash}{GDGFLMMN1}
   \field{labelyear}{2010}
   \field{sortinit}{G}
-  \verb{doi}
-  \verb 10.1111/j.1600-0706.2009.17441.x
-  \endverb
-  \field{issn}{00301299}
-  \field{number}{3}
-  \field{pages}{475\bibrangedash 484}
-  \field{title}{{Shade tolerance, canopy gaps and mechanisms of coexistence of
-  forest trees}}
+  \field{abstract}{%
+  We present a theory extending the source-sink concept with an ecosystem
+  perspective. We analyze a model for meta-ecosystem dynamics in a
+  heterogeneous environment to study how the spatial flows of materials such as
+  inorganic nutrients and nutrients sequestered into producers, herbivores, and
+  detritus affect the community dynamics. We show that spatial flows of an
+  inorganic nutrient (direct nutrient flow) and organic matter (indirect
+  nutrient flow) through detritus, producer, or herbivore compartments can
+  reverse the source-sink dynamics of a local ecosystem. More precisely, the
+  balance between such direct and indirect nutrient flows determines the net
+  direction of nutrient flows between two ecosystems of contrasted
+  productivities. It allows a sink to turn into a source and vice versa. This
+  effect of nutrient flows on source and sink dynamics is robust to the
+  ecosystem structure (with and without herbivores) and to specific ecosystem
+  compartments contributing to nutrient flows (primary producers, herbivores,
+  or detritus). Ecosystems in distinct localities thus interact together with
+  the structure at one place influencing that of the other. In meta-ecosystems,
+  the source-sink dynamics of an organism is not only constrained by its
+  dispersal from the source to the sink, but also by the fertility and
+  community composition in the neighborhood responsible for spatial flows of
+  nutrients and energy. The meta-ecosystem perspective provides a powerful
+  theoretical framework to address novel questions in spatial ecosystem
+  ecology.%
+  }
+  \field{issn}{0012-9658}
+  \field{number}{7}
+  \field{pages}{2172\bibrangedash 84}
+  \field{title}{{Source and sink dynamics in meta-ecosystems.}}
   \verb{url}
-  \verb http://doi.wiley.com/10.1111/j.1600-0706.2009.17441.x
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/20715639
   \endverb
-  \field{volume}{119}
+  \field{volume}{91}
   \verb{file}
-  \verb :Users/DGravel/Documents/Reprints/Gravel2010\_OIKOS.pdf:pdf
+  \verb :Users/DGravel/Documents/Reprints/Gravel2010\_Ecology.pdf:pdf
   \endverb
-  \field{journaltitle}{Oikos}
-  \field{month}{03}
+  \field{journaltitle}{Ecology}
+  \field{month}{07}
   \field{year}{2010}
 \endentry
 
-\entry{Gravel2011a}{article}{}
+\entry{Gravel2011b}{article}{}
   \name{author}{4}{}{%
     {{}%
      {Gravel}{G.}%
@@ -869,11 +1684,10 @@
      {}{}%
      {}{}}%
   }
-  \keyw{Biota,Computer Simulation,Food Chain,Models, Biological}
+  \keyw{Biological,Biota,Computer Simulation,Food Chain,Models}
   \strng{namehash}{GD+1}
   \strng{fullhash}{GDCEGFMN1}
   \field{labelyear}{2011}
-  \field{extrayear}{1}
   \field{sortinit}{G}
   \field{abstract}{%
   We are interested in understanding if metacommunity dynamics contribute to
@@ -904,75 +1718,57 @@
   \field{year}{2011}
 \endentry
 
-\entry{Gravel2011b}{article}{}
-  \name{author}{5}{}{%
+\entry{gro06}{book}{}
+  \name{author}{2}{}{%
     {{}%
-     {Gravel}{G.}%
-     {Dominique}{D.}%
+     {Gross}{G.}%
+     {J.~L.}{J.~L.}%
      {}{}%
      {}{}}%
     {{}%
-     {Massol}{M.}%
-     {Fran\c{c}ois}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Canard}{C.}%
-     {Elsa}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Mouillot}{M.}%
-     {David}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Mouquet}{M.}%
-     {Nicolas}{N.}%
+     {Yellen}{Y.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
-  \keyw{Animals,Biodiversity,Biological,Computer Simulation,Diet,Food
-  Chain,Geography,Models,Phylogeography}
-  \strng{namehash}{GD+1}
-  \strng{fullhash}{GDMFCEMDMN1}
-  \field{labelyear}{2011}
-  \field{extrayear}{2}
+  \list{publisher}{1}{%
+    {Chapman \& Hall}%
+  }
+  \strng{namehash}{GJLYJ1}
+  \strng{fullhash}{GJLYJ1}
+  \field{labelyear}{2006}
   \field{sortinit}{G}
-  \field{abstract}{%
-  MacArthur and Wilson's Theory of Island Biogeography (TIB) is among the most
-  well-known process-based explanations for the distribution of species
-  richness. It helps understand the species-area relationship, a fundamental
-  pattern in ecology and an essential tool for conservation. The classic TIB
-  does not, however, account for the complex structure of ecological systems.
-  We extend the TIB to take into account trophic interactions and derive a
-  species-specific model for occurrence probability. We find that the
-  properties of the regional food web influence the species-area relationship,
-  and that, in return, immigration and extinction dynamics affect local food
-  web properties. We compare the accuracy of the classic TIB to our trophic TIB
-  to predict community composition of real food webs and find strong support
-  for our trophic extension of the TIB. Our approach provides a parsimonious
-  explanation to species distributions and open new perspectives to integrate
-  the complexity of ecological interactions into simple species distribution
-  models.%
+  \field{edition}{2nd}
+  \field{title}{Graph Theory and its Applications}
+  \field{year}{2006}
+\endentry
+
+\entry{Hanski1998}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hanski}{H.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
   }
+  \strng{namehash}{HI1}
+  \strng{fullhash}{HI1}
+  \field{labelyear}{1998}
+  \field{sortinit}{H}
   \verb{doi}
-  \verb 10.1111/j.1461-0248.2011.01667.x
+  \verb 10.1016/0169-5347(89)90061-X
   \endverb
-  \field{issn}{1461-0248}
-  \field{number}{10}
-  \field{pages}{1010\bibrangedash 6}
-  \field{title}{{Trophic theory of island biogeography.}}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/21806744
-  \endverb
-  \field{volume}{14}
+  \field{issn}{0169-5347}
+  \field{pages}{41\bibrangedash 49}
+  \field{title}{{Metapopulation dynamics}}
+  \field{volume}{396}
   \verb{file}
-  \verb :Users/DGravel/Documents/Reprints/Gravel2011b\_EcoLett.pdf:pdf
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Hanski\_199
+  \verb 8.pdf:pdf
   \endverb
-  \field{journaltitle}{Ecology letters}
-  \field{month}{10}
-  \field{year}{2011}
+  \field{journaltitle}{Nature}
+  \field{month}{04}
+  \field{year}{1998}
 \endentry
 
 \entry{Hanski1997}{article}{}
@@ -1057,6 +1853,415 @@
   \field{year}{2004}
 \endentry
 
+\entry{Holt1996}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Holt}{H.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Polis}{P.}%
+     {Gary~A}{G.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Winemiller}{W.}%
+     {Kirk~O}{K.~O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Chapman}%
+    {Hall}%
+  }
+  \strng{namehash}{H1}
+  \strng{fullhash}{H1}
+  \field{labelyear}{1996}
+  \field{sortinit}{H}
+  \field{booktitle}{Food webs: contemporary perspectives}
+  \field{pages}{313\bibrangedash 323}
+  \field{title}{{Food webs in space: an island biogeographic perspective}}
+  \list{location}{1}{%
+    {London, UK}%
+  }
+  \field{year}{1996}
+\endentry
+
+\entry{Hubbell2001}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hubbell}{H.}%
+     {S.P.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Press}{P.}%
+     {Princeton~University}{P.~U.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HS1}
+  \strng{fullhash}{HS1}
+  \field{labelyear}{2001}
+  \field{sortinit}{H}
+  \field{title}{{The Unified Neutral Theory of Biodiversity and Biogeography}}
+  \list{location}{1}{%
+    {Princeton, NJ}%
+  }
+  \field{year}{2001}
+\endentry
+
+\entry{Hubbell2008}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Hubbell}{H.}%
+     {SP}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {He}{H.}%
+     {Fangliang}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Condit}{C.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agua}{A.}%
+     {L}{L}%
+     {Borda-de}{B.-d.}%
+     {}{}}%
+    {{}%
+     {Kellner}{K.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Steege}{S.}%
+     {H}{H}%
+     {ter}{t.}%
+     {}{}}%
+  }
+  \strng{namehash}{HS+1}
+  \strng{fullhash}{HSHFCRALBdKJSHt1}
+  \field{labelyear}{2008}
+  \field{sortinit}{H}
+  \field{pages}{11498\bibrangedash 11504}
+  \field{title}{{How many tree species are there in the Amazon and how many of
+  them will go extinct?}}
+  \verb{url}
+  \verb http://www.pnas.org/content/105/suppl.1/11498.short
+  \endverb
+  \field{volume}{105}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Hubbell\_al
+  \verb \_2008.pdf:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2008}
+\endentry
+
+\entry{Klausmeier1998}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Klausmeier}{K.}%
+     {Christopher~A}{C.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{competi-,extinction,habitat destruction,spatial model}
+  \strng{namehash}{KCA1}
+  \strng{fullhash}{KCA1}
+  \field{labelyear}{1998}
+  \field{sortinit}{K}
+  \field{pages}{303\bibrangedash 310}
+  \field{title}{{Models of Habitat Destruction}}
+  \field{volume}{152}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Klausmeier\
+  \verb _1998a.pdf:pdf
+  \endverb
+  \field{journaltitle}{The American Naturalist}
+  \field{year}{1998}
+\endentry
+
+\entry{kob94}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kobayashi}{K.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KK1}
+  \strng{fullhash}{KK1}
+  \field{labelyear}{1994}
+  \field{sortinit}{K}
+  \field{number}{3}
+  \field{pages}{511\bibrangedash 517}
+  \field{title}{On the spatial graph}
+  \field{volume}{17}
+  \field{journaltitle}{Kodai Mathematical Journal}
+  \field{year}{1994}
+\endentry
+
+\entry{Leduc1992}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Leduc}{L.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Drapeau}{D.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bergeron}{B.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Legendre}{L.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LA+1}
+  \strng{fullhash}{LADPBYLP1}
+  \field{labelyear}{1992}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.2307/3236000
+  \endverb
+  \field{issn}{11009233}
+  \field{number}{1}
+  \field{pages}{69\bibrangedash 78}
+  \field{title}{{Study of spatial components of forest cover using partial
+  Mantel tests and path analysis}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.2307/3236000
+  \endverb
+  \field{volume}{3}
+  \field{journaltitle}{Journal of Vegetation Science}
+  \field{month}{02}
+  \field{year}{1992}
+\endentry
+
+\entry{Legendre1993}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Legendre}{L.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Legendre1993}
+  \strng{namehash}{LP1}
+  \strng{fullhash}{LP1}
+  \field{labelyear}{1993}
+  \field{sortinit}{L}
+  \field{pages}{1659\bibrangedash 1673}
+  \field{title}{{Spatial autocorrelation: trouble or new paradigm?}}
+  \field{volume}{74}
+  \verb{file}
+  \verb :Users/DGravel/Desktop/Legendre1993.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology}
+  \field{year}{1993}
+\endentry
+
+\entry{Legendre2005}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Legendre}{L.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borcard}{B.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Peres-Neto}{P.-N.}%
+     {Pedro~R.}{P.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {EN}%
+  }
+  \keyw{Mantel test,PCNM analysis,beta diversity,canonical ordination,community
+  composition,regression on distance matrices,simulation study,spatial
+  variation,variation partitioning}
+  \strng{namehash}{LPBDPNPR1}
+  \strng{fullhash}{LPBDPNPR1}
+  \field{labelyear}{2005}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  Robert H. Whittaker defined beta diversity as the variation in species
+  composition among sites in a geographic area. Beta diversity is a key concept
+  for understanding the functioning of ecosystems, for the conservation of
+  biodiversity, and for ecosystem management. This paper explains how
+  hypotheses about the origin of beta diversity can be tested by partitioning
+  the spatial variation of community composition data (presence– absence or
+  abundance data) with respect to environmental variables and spatial base
+  functions. We compare two statistical methods to accomplish that. The
+  sum-of-squares of a community composition data table, which is one possible
+  measure of beta diversity, is correctly partitioned by canonical ordination;
+  hence, canonical partitioning produces correct estimates of the different
+  portions of community composition variation. In recent years, several authors
+  interested in the variation in community composition among sites (beta
+  diversity) have used another method, variation partitioning o...%
+  }
+  \verb{doi}
+  \verb 10.1890/05-0549
+  \endverb
+  \field{issn}{0012-9615}
+  \field{number}{4}
+  \field{pages}{435\bibrangedash 450}
+  \field{title}{{Analyzing beta diversity: partitioning the spatial variation
+  of composition data}}
+  \verb{url}
+  \verb http://www.esajournals.org/doi/abs/10.1890/05-0549
+  \endverb
+  \field{volume}{75}
+  \field{journaltitle}{Ecological Monographs}
+  \field{month}{11}
+  \field{year}{2005}
+\endentry
+
+\entry{Leibold2004b}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Leibold}{L.}%
+     {MA}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Norberg}{N.}%
+     {Jon}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LMNJ1}
+  \strng{fullhash}{LMNJ1}
+  \field{labelyear}{2004}
+  \field{sortinit}{L}
+  \field{number}{4}
+  \field{pages}{1278\bibrangedash 1289}
+  \field{title}{{Biodiversity in metacommunities : Plankton as complex adaptive
+  systems ?}}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Biodive
+  \verb rsity+in+metacommunities+:+Plankton+as+complex+adaptive+systems+?\#0
+  \endverb
+  \field{volume}{49}
+  \verb{file}
+  \verb :Users/DGravel/Desktop/Leibold2004b.pdf:pdf
+  \endverb
+  \field{journaltitle}{Limnology and Oceanography}
+  \field{year}{2004}
+\endentry
+
+\entry{Leibold2004a}{article}{}
+  \name{author}{12}{}{%
+    {{}%
+     {Leibold}{L.}%
+     {MA}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holyoak}{H.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mouquet}{M.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amarasekare}{A.}%
+     {Priyanga}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chase}{C.}%
+     {Jonathan~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoopes}{H.}%
+     {M.F.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holt}{H.}%
+     {Robert~D.}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shurin}{S.}%
+     {Jonathan~B.}{J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Law}{L.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tilman}{T.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loreau}{L.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gonzalez}{G.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{2002,2004,601,613,7,ecology letters,however,mass
+  effects,metacommunity,much of formal community,neutral model,patch
+  dynamics,remarkably,species sorting}
+  \strng{namehash}{LM+1}
+  \strng{fullhash}{LMHMMNAPCJMHMHRDSJBLRTDLMGA1}
+  \field{labelyear}{2004}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1111/j.1461-0248.2004.00608.x
+  \endverb
+  \field{pages}{601\bibrangedash 613}
+  \field{title}{{The metacommunity concept : a framework for multi-scale
+  community ecology}}
+  \verb{url}
+  \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2004.00608.x/ful
+  \verb l
+  \endverb
+  \field{volume}{7}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Leibold\_al
+  \verb \_2004.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology Letters}
+  \field{year}{2004}
+\endentry
+
 \entry{Logue2011}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -1098,68 +2303,504 @@
   \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Logue\_et\_
   \verb al\_2011\_TREE.pdf:pdf
   \endverb
-  \field{journaltitle}{Trends in ecology \& evolution}
+  \field{journaltitle}{Trends in Ecology \& Evolution}
   \field{year}{2011}
 \endentry
 
-\entry{Ricklefs2012}{article}{}
+\entry{McGill2003}{article}{}
   \name{author}{1}{}{%
+    {{}%
+     {McGill}{M.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MB1}
+  \strng{fullhash}{MB1}
+  \field{labelyear}{2003}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1034/j.1600-0706.2003.12617.x
+  \endverb
+  \field{issn}{0030-1299}
+  \field{number}{3}
+  \field{pages}{679\bibrangedash 685}
+  \field{title}{{Strong and weak tests of macroecological theory}}
+  \verb{url}
+  \verb http://www.blackwell-synergy.com/links/doi/10.1034/j.1600-0706.2003.126
+  \verb 17.x
+  \endverb
+  \field{volume}{102}
+  \field{journaltitle}{Oikos}
+  \field{month}{09}
+  \field{year}{2003}
+\endentry
+
+\entry{min07}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Minor}{M.}%
+     {E.~S.}{E.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Urban}{U.}%
+     {D.~L.}{D.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MESUDL1}
+  \strng{fullhash}{MESUDL1}
+  \field{labelyear}{2007}
+  \field{sortinit}{M}
+  \field{number}{6}
+  \field{pages}{1771\bibrangedash 1782}
+  \field{title}{Graph theory as a proxy for spatially explicit population
+  models in conservation planning}
+  \field{volume}{17}
+  \field{journaltitle}{Ecological Applications}
+  \field{year}{2007}
+\endentry
+
+\entry{min08}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Minor}{M.}%
+     {E.~S.}{E.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Urban}{U.}%
+     {D.~L.}{D.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MESUDL1}
+  \strng{fullhash}{MESUDL1}
+  \field{labelyear}{2008}
+  \field{sortinit}{M}
+  \field{number}{2}
+  \field{pages}{297\bibrangedash 307}
+  \field{title}{A graph theory framework for evaluating landscape connectivity
+  and conservation planning}
+  \field{volume}{22}
+  \field{journaltitle}{Conservation Biology}
+  \field{year}{2008}
+\endentry
+
+\entry{Mouquet2002}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mouquet}{M.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loreau}{L.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{aration between small- and,been studied with
+  a,coexistence,emigration,immigration,large-scale
+  processes,metacommunity,regional similarity,sep-,source-sink
+  model,species,species richness,species richness has historically}
+  \strng{namehash}{MNLM1}
+  \strng{fullhash}{MNLM1}
+  \field{labelyear}{2002}
+  \field{sortinit}{M}
+  \field{number}{4}
+  \field{pages}{420\bibrangedash 426}
+  \field{title}{{Coexistence in Metacommunities : The Regional Similarity
+  Hypothesis}}
+  \field{volume}{159}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Mouquet\_Lo
+  \verb reau\_2002.pdf:pdf
+  \endverb
+  \field{journaltitle}{The American Naturalist}
+  \field{year}{2002}
+\endentry
+
+\entry{Mouquet2003}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mouquet}{M.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loreau}{L.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{at,dispersal,it is well established,local and regional
+  species,metacommunity,multiple scales and
+  that,ness,productivity,rich-,source-sink,species abundance patterns,that
+  communities are organized,the interactions between these}
+  \strng{namehash}{MNLM1}
+  \strng{fullhash}{MNLM1}
+  \field{labelyear}{2003}
+  \field{sortinit}{M}
+  \field{pages}{544\bibrangedash 557}
+  \field{title}{{Community Patterns in Source-Sink Metacommunities}}
+  \field{volume}{162}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Mouquet\_Lo
+  \verb reau\_2003.pdf:pdf
+  \endverb
+  \field{journaltitle}{The American Naturalist}
+  \field{year}{2003}
+\endentry
+
+\entry{Mouquet2013}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Mouquet}{M.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gravel}{G.}%
+     {Dominique}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Massol}{M.}%
+     {Fran\c{c}ois}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calcagno}{C.}%
+     {Vincent}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{burden,dispersal,habitat
+  destruction,keystone,metacommunity,metaecosystem,patch dynamics,source}
+  \strng{namehash}{MN+1}
+  \strng{fullhash}{MNGDMFCV1}
+  \field{labelyear}{2013}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  Keystone species are defined as having disproportionate importance in their
+  community. This concept has proved useful and is now often used in
+  conservation ecology. Here, we introduce the concept of keystone communities
+  (and ecosystems) within metacommunities (and metaecosystems). We define
+  keystone and burden communities as communities with impacts
+  disproportionately large (positive or negative respectively) relative to
+  their weight in the metacommunity. We show how a simple metric, based on the
+  effects of single-community removals, can characterise communities along a
+  'keystoneness' axis. We illustrate the usefulness of this approach with
+  examples from two different theoretical models. We further distinguish
+  environmental heterogeneity from species trait heterogeneity as determinants
+  of keystoneness. We suggest that the concept of keystone
+  communities/ecosystems will be highly beneficial, not only as a fundamental
+  step towards understanding species interactions in a spatial context, but
+  also as a tool for the management of disturbed landscapes.%
+  }
+  \verb{doi}
+  \verb 10.1111/ele.12014
+  \endverb
+  \field{issn}{1461-0248}
+  \field{number}{1}
+  \field{pages}{1\bibrangedash 8}
+  \field{title}{{Extending the concept of keystone species to communities and
+  ecosystems.}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/23062191
+  \endverb
+  \field{volume}{16}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Reprints/Mouquet2013\_EcoLett.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology Letters}
+  \field{month}{01}
+  \field{year}{2013}
+\endentry
+
+\entry{new10}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Newman}{N.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{NM1}
+  \strng{fullhash}{NM1}
+  \field{labelyear}{2010}
+  \field{sortinit}{N}
+  \field{title}{Networks: An Introduction}
+  \field{year}{2010}
+\endentry
+
+\entry{pen03}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Penrose}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{PM1}
+  \strng{fullhash}{PM1}
+  \field{labelyear}{2003}
+  \field{sortinit}{P}
+  \field{title}{Random Geometric Graphs}
+  \field{year}{2003}
+\endentry
+
+\entry{Peres-Neto2012}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Peres-Neto}{P.-N.}%
+     {PR}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leibold}{L.}%
+     {MA}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dray}{D.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{community phylogenetics,comparative biology,gradient
+  analysis,metacommunity,multi-,multivariate analyses,scale analyses,spatial
+  analysis,stochastic simulation,trait-based community}
+  \strng{namehash}{PNPLMDS1}
+  \strng{fullhash}{PNPLMDS1}
+  \field{labelyear}{2012}
+  \field{sortinit}{P}
+  \field{number}{8}
+  \field{pages}{14\bibrangedash 30}
+  \field{title}{{Assessing the effects of spatial contingency and environmental
+  filtering on metacommunity phylogenetics}}
+  \verb{url}
+  \verb http://www.esajournals.org/doi/abs/10.1890/11-0494.1
+  \endverb
+  \field{volume}{93}
+  \verb{file}
+  \verb :Users/DGravel/Desktop/Peres-Neto2012.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology}
+  \field{year}{2012}
+\endentry
+
+\entry{Peterson2013}{article}{}
+  \name{author}{15}{}{%
+    {{}%
+     {Peterson}{P.}%
+     {Erin~E}{E.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ver Hoef}}{V.}%
+     {Jay~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Isaak}{I.}%
+     {Dan~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Falke}{F.}%
+     {Jeffrey~a}{J.~a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fortin}{F.}%
+     {Marie-Jos\'{e}e}{M.-J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordan}{J.}%
+     {Chris~E}{C.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McNyset}{M.}%
+     {Kristina}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Monestiez}{M.}%
+     {Pascal}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruesch}{R.}%
+     {Aaron~S}{A.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sengupta}{S.}%
+     {Aritra}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Som}{S.}%
+     {Nicholas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Steel}{S.}%
+     {E~Ashley}{E.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Theobald}{T.}%
+     {David~M}{D.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Torgersen}{T.}%
+     {Christian~E}{C.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wenger}{W.}%
+     {Seth~J}{S.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{16,2013,707,719,connectivity,dendritic ecological
+  network,directionality,ecology letters,network,network
+  analysis,scales,spatial statistics,stream,taxonomy of network analyses}
+  \strng{namehash}{PEE+1}
+  \strng{fullhash}{PEEVJMIDJFJaFMJJCEMKMPRASSASNSEATDMTCEWSJ1}
+  \field{labelyear}{2013}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  Dendritic ecological networks (DENs) are a unique form of ecological networks
+  that exhibit a dendritic network topology (e.g. stream and cave networks or
+  plant architecture). DENs have a dual spatial representation; as points
+  within the network and as points in geographical space. Consequently, some
+  analytical methods used to quantify relationships in other types of
+  ecological networks, or in 2-D space, may be inadequate for studying the
+  influence of structure and connectivity on ecological processes within DENs.
+  We propose a conceptual taxonomy of network analysis methods that account for
+  DEN characteristics to varying degrees and provide a synthesis of the
+  different approaches within the context of stream ecology. Within this
+  context, we summarise the key innovations of a new family of spatial
+  statistical models that describe spatial relationships in DENs. Finally, we
+  discuss how different network analyses may be combined to address more
+  complex and novel research questions. While our main focus is streams, the
+  taxonomy of network analyses is also relevant anywhere spatial patterns in
+  both network and 2-D space can be used to explore the influence of
+  multi-scale processes on biota and their habitat (e.g. plant morphology and
+  pest infestation, or preferential migration along stream or road corridors).%
+  }
+  \verb{doi}
+  \verb 10.1111/ele.12084
+  \endverb
+  \field{issn}{1461-0248}
+  \field{number}{5}
+  \field{pages}{707\bibrangedash 19}
+  \field{title}{{Modelling dendritic ecological networks in space: an
+  integrated network perspective.}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/23458322
+  \endverb
+  \field{volume}{16}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Peterson201
+  \verb 3.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology letters}
+  \field{month}{05}
+  \field{year}{2013}
+\endentry
+
+\entry{Ricklefs2003}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ricklefs}{R.}%
+     {Robert~E.}{R.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RRE1}
+  \strng{fullhash}{RRE1}
+  \field{labelyear}{2003}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb 10.1034/j.1600-0706.2003.12018.x
+  \endverb
+  \field{issn}{0030-1299}
+  \field{number}{1}
+  \field{pages}{185\bibrangedash 192}
+  \field{title}{{A comment on Hubbell's zero-sum ecological drift model}}
+  \verb{url}
+  \verb http://www.blackwell-synergy.com/links/doi/10.1034/j.1600-0706.2003.120
+  \verb 18.x
+  \endverb
+  \field{volume}{100}
+  \field{journaltitle}{Oikos}
+  \field{month}{01}
+  \field{year}{2003}
+\endentry
+
+\entry{Ricklefs2012}{article}{}
+  \name{author}{2}{}{%
     {{}%
      {Ricklefs}{R.}%
      {Robert~E}{R.~E.}%
      {}{}%
      {}{}}%
+    {{}%
+     {Renner}{R.}%
+     {Susanne~S}{S.~S.}%
+     {}{}%
+     {}{}}%
   }
-  \keyw{community ecology,competition,e,host-path-,neutral theory,niche
-  relationships,niche theory,o,ogen relationships,species richness,taxon
-  cycle,wilson}
-  \strng{namehash}{RRE1}
-  \strng{fullhash}{RRE1}
+  \keyw{Africa,Asia,Biodiversity,Biological,Biological
+  Evolution,Ecosystem,Extinction,Genetic Speciation,Geography,South
+  America,Southeastern,Trees,Tropical Climate,Western}
+  \strng{namehash}{RRERSS1}
+  \strng{fullhash}{RRERSS1}
   \field{labelyear}{2012}
   \field{sortinit}{R}
   \field{abstract}{%
-  Abstract In this essay, I argue that natural history-observing the natural
-  world and deciphering its patterns-is as essential today as it was during
-  Darwin's lifetime to the continuing development of ecology and evolutionary
-  biology. This tradition, which I illustrate through the example of E. O.
-  Wilson's discovery of the taxon cycle 50 years ago, is still very much alive,
-  but there is a growing tendency for observation to serve theory rather
-  provide new insight or to test the predictions of theory. This tendency
-  manifests itself in the failure of ideas about the diversity, distribution,
-  and abundance of species to be informed by patterns in nature that are
-  readily apparent. On the one hand, supporters of neutral theory have
-  sidestepped the unrealistically slow dynamics of random processes in large
-  metacommunities, and they have failed to note global correlations in species
-  numbers and population sizes within taxa. On the other hand, proponents of
-  niche theory have disregarded the implications of variation in distribution
-  and abundance among close relatives, which implies population regulation
-  largely by species-specific agents, such as pathogens. Nor has community
-  niche theory addressed the independence of distribution and abundance with
-  respect to number of close relatives (and presumed competitors). The
-  diversity, abundances, and distributions of species represent the unfolding
-  of many processes over a historically and geographically contingent
-  landscape, for which experimental methods of scientific inquiry are poorly
-  suited. To interpret patterns of diversity, we must continue to depend on
-  inductive reasoning inspired by the data of natural history.%
+  Patterns of species richness and relative abundance at some scales cannot be
+  distinguished from predictions of null models, including zero-sum neutral
+  models of population change and random speciation-extinction models of
+  evolutionary diversification. Both models predict that species richness or
+  population abundance produced by independent iterations of the same processes
+  in different regions should be uncorrelated. We find instead that the number
+  of species and individuals in families of trees in forest plots are strongly
+  correlated across Southeast Asia, Africa, and tropical America. These
+  correlations imply that deterministic processes influenced by evolutionarily
+  conservative family-level traits constrain the number of confamilial tree
+  species and individuals that can be supported in regional species pools and
+  local assemblages in humid tropical forests.%
   }
   \verb{doi}
-  \verb 10.1086/664622
+  \verb 10.1126/science.1215182
   \endverb
-  \field{issn}{1537-5323}
-  \field{number}{4}
-  \field{pages}{423\bibrangedash 35}
-  \field{title}{{Naturalists, natural history, and the nature of biological
-  diversity (american society of naturalists address) *.}}
+  \field{issn}{1095-9203}
+  \field{number}{6067}
+  \field{pages}{464\bibrangedash 7}
+  \field{title}{{Global correlations in tropical tree species richness and
+  abundance reject neutrality.}}
   \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/22437173
+  \verb http://www.sciencemag.org/content/335/6067/464.abstract
   \endverb
-  \field{volume}{179}
-  \verb{file}
-  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Ricklefs201
-  \verb 2.pdf:pdf
-  \endverb
-  \field{journaltitle}{The American naturalist}
-  \field{month}{04}
+  \field{volume}{335}
+  \field{journaltitle}{Science (New York, N.Y.)}
+  \field{month}{01}
   \field{year}{2012}
 \endentry
 
@@ -1177,8 +2818,8 @@
      {}{}}%
   }
   \keyw{Animals,Biodiversity,Birds,Birds: genetics,Birds: physiology,Genetic
-  Speciation,Geography,Introduced Species,Models, Theoretical,Social
-  Isolation,Time Factors}
+  Speciation,Geography,Introduced Species,Models,Social
+  Isolation,Theoretical,Time Factors}
   \strng{namehash}{RJPAB1}
   \strng{fullhash}{RJPAB1}
   \field{labelyear}{2011}
@@ -1216,9 +2857,71 @@
   \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Rosindell\_
   \verb Phillmore\_2011.pdf:pdf
   \endverb
-  \field{journaltitle}{Ecology letters}
+  \field{journaltitle}{Ecology Letters}
   \field{month}{06}
   \field{year}{2011}
+\endentry
+
+\entry{Rosindell2010}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Rosindell}{R.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cornell}{C.}%
+     {Stephen~J}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hubbell}{H.}%
+     {Stephen~P}{S.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Etienne}{E.}%
+     {Rampal~S}{R.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Biodiversity,Biological,Computer Simulation,Genetic
+  Speciation,Models,Phylogeny,Population Dynamics}
+  \strng{namehash}{RJ+1}
+  \strng{fullhash}{RJCSJHSPERS1}
+  \field{labelyear}{2010}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  Understanding the maintenance and origin of biodiversity is a formidable
+  task, yet many ubiquitous ecological patterns are predicted by a surprisingly
+  simple and widely studied neutral model that ignores functional differences
+  between species. However, this model assumes that new species arise
+  instantaneously as singletons and consequently makes unrealistic predictions
+  about species lifetimes, speciation rates and number of rare species. Here,
+  we resolve these anomalies - without compromising any of the original model's
+  existing achievements and retaining computational and analytical tractability
+  - by modelling speciation as a gradual, protracted, process rather than an
+  instantaneous event. Our model also makes new predictions about the diversity
+  of 'incipient' species and rare species in the metacommunity. We show that it
+  is both necessary and straightforward to incorporate protracted speciation in
+  future studies of neutral models, and argue that non-neutral models should
+  also model speciation as a gradual process rather than an instantaneous one.%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1461-0248.2010.01463.x
+  \endverb
+  \field{issn}{1461-0248}
+  \field{number}{6}
+  \field{pages}{716\bibrangedash 27}
+  \field{title}{{Protracted speciation revitalizes the neutral theory of
+  biodiversity.}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/20584169
+  \endverb
+  \field{volume}{13}
+  \field{journaltitle}{Ecology Letters}
+  \field{month}{06}
+  \field{year}{2010}
 \endentry
 
 \entry{Rosindell2012}{article}{}
@@ -1283,7 +2986,7 @@
   \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Rosindell e
   \verb t al. 2012.pdf:pdf
   \endverb
-  \field{journaltitle}{Trends in ecology \& evolution}
+  \field{journaltitle}{Trends in Ecology \& Evolution}
   \field{month}{02}
   \field{year}{2012}
 \endentry
@@ -1301,9 +3004,9 @@
      {}{}%
      {}{}}%
   }
-  \keyw{Competitive Behavior,Ecosystem,Environment,Food Chain,Introduced
-  Species,Models, Biological,Phytoplankton,Phytoplankton: physiology,Population
-  Dynamics}
+  \keyw{Biological,Competitive Behavior,Ecosystem,Environment,Food
+  Chain,Introduced Species,Models,Phytoplankton,Phytoplankton:
+  physiology,Population Dynamics}
   \strng{namehash}{RABBB1}
   \strng{fullhash}{RABBB1}
   \field{labelyear}{2011}
@@ -1340,9 +3043,230 @@
   \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Ryabov\_Bla
   \verb sius\_2011.pdf:pdf
   \endverb
-  \field{journaltitle}{Ecology letters}
+  \field{journaltitle}{Ecology Letters}
   \field{month}{03}
   \field{year}{2011}
+\endentry
+
+\entry{Rybicki2013}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rybicki}{R.}%
+     {Joel}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanski}{H.}%
+     {Ilkka}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Enquist}{E.}%
+     {Brian}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RJHI1}
+  \strng{fullhash}{RJHI1}
+  \field{labelyear}{2013}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  The species-area relationship (SAR) has been used to predict the numbers of
+  species going extinct due to habitat loss, but other researchers have
+  maintained that SARs overestimate extinctions and instead one should use the
+  endemics-area relationship (EAR) to predict extinctions. Here, we employ
+  spatially explicit simulations of large numbers of species in spatially
+  heterogeneous landscapes to investigate SARs and extinctions in a dynamic
+  context. The EAR gives the number of species going extinct immediately after
+  habitat loss, but typically many other species have unviable populations in
+  the remaining habitat and go extinct soon afterwards. We conclude that the
+  EAR underestimates extinctions due to habitat loss, the continental SAR (with
+  slope \~{}0.1 or somewhat less) gives a good approximation of short-term
+  extinctions, while the island SAR calculated for discrete fragments of
+  habitat (with slope \~{}0.25) predicts the long-term extinctions. However,
+  when the remaining area of land-covering habitat such as forest is roughly
+  less than 20\% of the total landscape and the habitat is highly fragmented,
+  all current SARs underestimate extinction rate. We show how the
+  'fragmentation effect' can be incorporated into a predictive SAR model. When
+  the remaining habitat is highly fragmented, an effective way to combat the
+  fragmentation effect is to aggregate habitat fragments into clusters rather
+  than to place them randomly across the landscape.%
+  }
+  \verb{doi}
+  \verb 10.1111/ele.12065
+  \endverb
+  \field{issn}{1461023X}
+  \field{pages}{27\bibrangedash 38}
+  \field{title}{{Species-area relationships and extinctions caused by habitat
+  loss and fragmentation}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/23452159
+  \endverb
+  \field{volume}{16}
+  \field{journaltitle}{Ecology Letters}
+  \field{month}{05}
+  \field{year}{2013}
+\endentry
+
+\entry{Schwilk2005}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Schwilk}{S.}%
+     {DW}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ackerly}{A.}%
+     {DD}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{climate,community assembly,diversity,gradients,limiting
+  similarity,neutral theory}
+  \strng{namehash}{SDAD1}
+  \strng{fullhash}{SDAD1}
+  \field{labelyear}{2005}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1111/j.1461-0248.2004.00720.x
+  \endverb
+  \field{pages}{272\bibrangedash 281}
+  \field{title}{{Limiting similarity and functional diversity along
+  environmental gradients}}
+  \verb{url}
+  \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2004.00720.x/ful
+  \verb l
+  \endverb
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Schwilk\_Ac
+  \verb kerly\_2005.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology Letters}
+  \field{year}{2005}
+\endentry
+
+\entry{sed01}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sedgewick}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley Professional}%
+  }
+  \strng{namehash}{SR1}
+  \strng{fullhash}{SR1}
+  \field{labelyear}{2001}
+  \field{sortinit}{S}
+  \field{edition}{3rd}
+  \field{title}{Algorithms in C++ Part 5: Graph Algorithms.}
+  \field{year}{2001}
+\endentry
+
+\entry{Shmueli2010}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Shmueli}{S.}%
+     {Galit}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{and phrases,causality,data mining,eling,explanatory modeling,predictive
+  mod-,predictive power,scientific research,statistical strategy}
+  \strng{namehash}{SG1}
+  \strng{fullhash}{SG1}
+  \field{labelyear}{2010}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1214/10-STS330
+  \endverb
+  \field{issn}{0883-4237}
+  \field{number}{3}
+  \field{pages}{289\bibrangedash 310}
+  \field{title}{{To Explain or to Predict?}}
+  \verb{url}
+  \verb http://projecteuclid.org/euclid.ss/1294167961
+  \endverb
+  \field{volume}{25}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Shmueli2010
+  \verb .pdf:pdf
+  \endverb
+  \field{journaltitle}{Statistical Science}
+  \field{month}{08}
+  \field{year}{2010}
+\endentry
+
+\entry{Svenning2004}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Svenning}{S.}%
+     {J.-C.}{J.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kinner}{K.}%
+     {D.~A.}{D.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stallard}{S.}%
+     {R.~F.}{R.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Engelbrecht}{E.}%
+     {B.~M.~J.}{B.~M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wright}{W.}%
+     {S.~J.}{S.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {EN}%
+  }
+  \keyw{Barro Colorado Island,dispersal limitation,mesoscale plant
+  distributions,niche differences,oligarchy hypothesis,partial RDA,plant
+  community assembly,redundancy analysis,shade tolerance,spatial
+  autocorrelation,tropical forest,variance decomposition}
+  \strng{namehash}{SJC+1}
+  \strng{fullhash}{SJCKDASRFEBMJWSJ1}
+  \field{labelyear}{2004}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  The ecological mechanisms hypothesized to structure species-rich communities
+  range from strict local determinism to neutral ecological drift. We assessed
+  the degree of ecological determinism in tropical plant community structure by
+  analyses of published demographic data; a broad range of spatial, historical,
+  and environmental variables; and the distributions of 33 herbaceous species
+  (plot size = 0.02 ha) and 61 woody species (plot size = 0.09 ha) among 350
+  plots in a 16-km2 forest landscape (Barro Colorado Island, Panam\'{a}). We
+  found a strong degree of cross-landscape dominance by a subset of species
+  whose identities were predictable from sapling survivorship rates under
+  shade. Using canonical ordination we found that spatial and
+  environmental–historical factors were of comparable importance for
+  controlling within-landscape variability in species composition. Past land
+  use had a strong impact on species composition despite ceasing 100–200
+  years ago. Furthermore, edaphic–hydrological factors, treefall gaps, ...%
+  }
+  \field{isbn}{10.1890/03-0396}
+  \field{pages}{2526\bibrangedash 2538}
+  \field{title}{{Ecological determinism in plant community structure across a
+  tropical forest landscape}}
+  \verb{url}
+  \verb http://www.esajournals.org/doi/abs/10.1890/03-0396
+  \endverb
+  \field{volume}{85}
+  \field{journaltitle}{Ecology}
+  \field{month}{09}
+  \field{year}{2004}
 \endentry
 
 \entry{Thuiller2013}{article}{}
@@ -1399,7 +3323,7 @@
   \field{journaltitle}{Ecology Letters}
 \endentry
 
-\entry{Tilman1994}{article}{}
+\entry{Tilman1994a}{article}{}
   \name{author}{1}{}{%
     {{}%
      {Tilman}{T.}%
@@ -1426,6 +3350,262 @@
   \endverb
   \field{journaltitle}{Ecology}
   \field{year}{1994}
+\endentry
+
+\entry{Tilman2004}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tilman}{T.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Computer Simulation,Ecosystem,Models, Theoretical,Stochastic
+  Processes,Temperature}
+  \strng{namehash}{TD1}
+  \strng{fullhash}{TD1}
+  \field{labelyear}{2004}
+  \field{sortinit}{T}
+  \field{abstract}{%
+  Stochastic niche theory resolves many of the differences between neutral
+  theory and classical tradeoff-based niche theories of resource competition
+  and community structure. In stochastic niche theory, invading species become
+  established only if propagules can survive stochastic mortality while growing
+  to maturity on the resources left unconsumed by established species. The
+  theory makes three predictions about community structure. First, stochastic
+  niche assembly creates communities in which species dominate approximately
+  equally wide "slices" of the habitat's spatial heterogeneity. These niche
+  widths generate realistic distributions of species relative abundances for
+  which, contrary to neutral theory but consistent with numerous observations,
+  there are strong correlations among species traits, species abundances, and
+  environmental conditions. Second, slight decreases in resource levels are
+  predicted to cause large decreases in the probability that a propagule would
+  survive to be an adult. These decreases cause local diversity to be limited
+  by the inhibitory effects of resource use by established species on the
+  establishment (recruitment) of potential invaders. If resource pulses or
+  disturbance allowed invaders to overcome this recruitment limitation, many
+  more species could indefinitely coexist. Third, the low invasibility of high
+  diversity communities is predicted to result not from diversity per se, but
+  from the uniformly low levels of resources that occur in high-diversity
+  communities created by stochastic competitive assembly. This prediction
+  provides a potential solution to the invasion paradox, which is the tendency
+  for highly diverse regions to be more heavily invaded.%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.0403458101
+  \endverb
+  \field{issn}{0027-8424}
+  \field{number}{30}
+  \field{pages}{10854\bibrangedash 61}
+  \field{title}{{Niche tradeoffs, neutrality, and community structure: a
+  stochastic theory of resource competition, invasion, and community
+  assembly.}}
+  \verb{url}
+  \verb http://www.pnas.org/content/101/30/10854.short
+  \endverb
+  \field{volume}{101}
+  \verb{file}
+  \verb ::
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{month}{07}
+  \field{year}{2004}
+\endentry
+
+\entry{Tilman1994b}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Tilman}{T.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {May}{M.}%
+     {Robert~M.}{R.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehman}{L.}%
+     {Clarence~L.}{C.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nowak}{N.}%
+     {Martin~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TD+1}
+  \strng{fullhash}{TDMRMLCLNMA1}
+  \field{labelyear}{1994}
+  \field{sortinit}{T}
+  \verb{doi}
+  \verb 10.1038/371065a0
+  \endverb
+  \field{issn}{0028-0836}
+  \field{number}{6492}
+  \field{pages}{65\bibrangedash 66}
+  \field{shorttitle}{Nature}
+  \field{title}{{Habitat destruction and the extinction debt}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/371065a0
+  \endverb
+  \field{volume}{371}
+  \field{journaltitle}{Nature}
+  \field{month}{09}
+  \field{year}{1994}
+\endentry
+
+\entry{urb09}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Urban}{U.}%
+     {D.~L.}{D.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Minor}{M.}%
+     {E.~S.}{E.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Treml}{T.}%
+     {E.~A.}{E.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schick}{S.}%
+     {R.~S.}{R.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{UDL+1}
+  \strng{fullhash}{UDLMESTEASRS1}
+  \field{labelyear}{2009}
+  \field{sortinit}{U}
+  \field{pages}{260\bibrangedash 273}
+  \field{title}{Graph models of habitat mosaics}
+  \field{volume}{12}
+  \field{journaltitle}{Ecology Letters}
+  \field{year}{2009}
+\endentry
+
+\entry{Venail2008}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Venail}{V.}%
+     {PA}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {MacLean}{M.}%
+     {RC}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bouvier}{B.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VPMRBT1}
+  \strng{fullhash}{VPMRBT1}
+  \field{labelyear}{2008}
+  \field{sortinit}{V}
+  \verb{doi}
+  \verb 10.1038/nature06554
+  \endverb
+  \field{pages}{2010\bibrangedash 2014}
+  \field{title}{{Diversity and productivity peak at intermediate dispersal rate
+  in evolving metacommunities}}
+  \verb{url}
+  \verb http://www.nature.com/nature/journal/vaop/ncurrent/full/nature06554.htm
+  \verb l
+  \endverb
+  \field{volume}{452}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Venail\_al\
+  \verb _2008.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nature}
+  \field{year}{2008}
+\endentry
+
+\entry{Wennekes2012}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Wennekes}{W.}%
+     {Paul~L}{P.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosindell}{R.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Etienne}{E.}%
+     {Rampal~S.}{R.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WPLRJERS1}
+  \strng{fullhash}{WPLRJERS1}
+  \field{labelyear}{2012}
+  \field{sortinit}{W}
+  \field{pages}{257\bibrangedash 271}
+  \field{title}{{The Neutral ­-Niche Debate : A philosophical perspective}}
+  \field{volume}{60}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Wennekes\_a
+  \verb l.pdf:pdf
+  \endverb
+  \field{journaltitle}{Acta Biotheoretica}
+  \field{year}{2012}
+\endentry
+
+\entry{Wootton2005}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wootton}{W.}%
+     {J~Timothy}{J.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WJT1}
+  \strng{fullhash}{WJT1}
+  \field{labelyear}{2005}
+  \field{sortinit}{W}
+  \field{pages}{309\bibrangedash 312}
+  \field{title}{{Field parameterization and experimental test of the neutral
+  theory of biodiversity}}
+  \field{volume}{433}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Wooton\_200
+  \verb 5.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nature}
+  \field{year}{2005}
+\endentry
+
+\entry{wri21}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wright}{W.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WS1}
+  \strng{fullhash}{WS1}
+  \field{labelyear}{1921}
+  \field{sortinit}{W}
+  \field{pages}{557\bibrangedash 585}
+  \field{title}{Correlation and causation}
+  \field{volume}{20}
+  \field{journaltitle}{Journal of Agricultural Research}
+  \field{year}{1921}
 \endentry
 
 \lossort

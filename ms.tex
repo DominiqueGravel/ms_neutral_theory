@@ -4,7 +4,7 @@
 \usepackage{graphicx}
 \usepackage[top=2.4cm,left=2.4cm,top=2.4cm,bottom=2.4cm,includefoot]{geometry}
 \usepackage[style=bes]{biblatex}
-\bibliography{./library}
+\bibliography{library}
 
 % TODO:
 % DG: Finish figures
@@ -83,7 +83,7 @@ adaptation, and regional scale processes such as dispersal, gene flow and
 speciation. It is particularly relevant to limnology, where exchanges of
 organisms and nutrients affect community and ecosystem properties from the local
 (e.g. vertical mixing \parencite{Ryabov2011}) to the regional (e.g. connection
-of lakes \parencite{Leibold2004b, Gravel2010} scales. It emphasizes the
+of lakes \parencite{Leibold2004b, Gravel2010a} scales. It emphasizes the
 importance of dispersal relative to pairwise interactions in the organization of
 ecological communities.
 
@@ -120,16 +120,16 @@ organization.
 
 Neutral theory has also been proposed as a useful tool to understand and predict
 some aspects of community dynamics. It links to an old philosophical debate
-between realism and instrumentalism \parencite{Wennekes2011}. Because every
+between realism and instrumentalism \parencite{Wennekes2012}. Because every
 ecological model is a simplification of reality, scientists have to subjectively
 decide the level of details they put in, leaving out some elements they consider
 unimportant. The realism perspective requires that all assumptions of the theory
 must be true, while the utility of the theory is more important to
 instrumentalism. The utilitarian value of a theory could either be for
 understanding or for prediction (another old philosophical debate, see
-\textcite{Schmueli2010}). Obviously neutral theory could only be instrumental.
+\textcite{Shmueli2010}). Obviously neutral theory could only be instrumental.
 The question then is if such a 'general, large-scale, but vague' theory
-\parencite{Wennekes2011} is a satisfying approximation.
+\parencite{Wennekes2012} is a satisfying approximation.
 
 The instrumentalist view of neutral theory raises the question of why it should
 be a satisfying approximation despite knowing the pieces are wrong? Perhaps
@@ -158,13 +158,13 @@ predictions of a neutral model to other metacommunity perspectives.
 
 Our main objective is to use neutral theory to stress the importance of
 landscape network structure on the distribution of diversity. We refer to the
-landscape organization as a \emph{spatial contingency} \parencite{Peres-Neto2013}
+landscape organization as a \emph{spatial contingency} \parencite{Peres-Neto2012}
 that could potentially affect the coexistence mechanisms at play. We will
 therefore move from a perspective where dispersal is either global or spatially
 explicit (e.g. over a lattice), and spatial constant, to a perspective focusing
 on the variance of dispersal. A second generation of neutral models (e.g.
-\textcite{Economo2008, Economo2011,Desjardins2012a,Desjardins2012b}, and even
-experiments \parencite{Altermat2012}, recently introduced more realistic
+\textcite{Economo2008, Economo2011,Desjardins2012a,Desjardins2012b}), and even
+experiments \parencite{Carrara2012}, recently introduced more realistic
 landscapes and found surprising contributions of spatial contingencies. We start
 with a short review of the main approaches to describe spatial networks. Then we
 describe three simple toy models of metacommunity dynamics, using this
@@ -179,16 +179,16 @@ framework.
 \section*{Network representation of landscapes}
 
 A network is a discrete mathematical object made of two sets: a set of nodes
-(or vertices) and a set of edges connecting the nodes \cite{new10}. The
+(or vertices) and a set of edges connecting the nodes \parencite{new10}. The
 term ``graph'' is often preferred in computer science and mathematics
-\cite{gro06}, with graph algorithms being an important and active area of
-research \cite{sed01}. A network is a combinatorial object: it is used to study
+\parencite{gro06}, with graph algorithms being an important and active area of
+research \parencite{sed01}. A network is a combinatorial object: it is used to study
 how discrete entities are connected and how they combine together to create
 complex structures. They are used to study molecules, food webs, social
 networks, or even the relationship between variables in statistics
-\cite{wri21,new10}. We are especially interested in spatial networks, a special
+\parencite{wri21,new10}. We are especially interested in spatial networks, a special
 kind of network mixing the combinatorial properties of networks with a
-topological space \cite{kob94}. Thus, the vertices in a spatial graph are
+topological space \parencite{kob94}. Thus, the vertices in a spatial graph are
 embedded in some other space, most often the two or three- dimensional Euclidean
 space. This object brings a rich representation to spatial ecology and is
 particularly suited for systems of lakes and rivers, which can easily be
@@ -196,7 +196,7 @@ represented by vertices and edges. There are two notions of distance in spatial
 networks. Euclidean distance represents the geographical distance between the
 nodes $(i, j)$, i.e.: $\sqrt{(x_i - x_j)^2 + (y_i - y_ j)^2}$. Geodesic
 distance is the distance in the graph space, i.e.: the length of the shortest
-path \cite{dij59}. For example, two lakes could be very close on a map (short
+path \parencite{dij59}. For example, two lakes could be very close on a map (short
 Euclidean distance) but the geodesic distance could be great if they are not
 directly linked by a river.
 
@@ -216,14 +216,14 @@ connection, so a node connected to well-connected nodes will have higher
 centrality than a node connected to isolated nodes.
 
 For simulations, spatial networks can easily be generated with the random
-geometric graph algorithm \cite{sed01}. In this algorithm, all nodes are
+geometric graph algorithm \parencite{sed01}. In this algorithm, all nodes are
 assigned to a position in some two-dimensional space, most often the unit
 square. Then, all pairs of nodes within some threshold Euclidean distance $r$
 are connected with an edge. The resulting networks have the desirable property
 of locality: if a node $A$ is connected to two vertices $B$ and $C$. then $B$
 and $C$ are more likely to be connected than two random vertices. Random
-geometric networks have been extensively studied \cite{app97a,app97
-b,app02a,app02b,pen03} and we provide a R function to generate them. The
+geometric networks have been extensively studied \parencite{app97a,app97b,app02a,app02b,pen03} 
+and we provide a R function to generate them. The
 position of nodes is typically random, but we could also imagine alterations
 where they are either more aggregated or segregated than expected by chance
 alone.
@@ -231,18 +231,18 @@ alone.
 We also provide the code for a second structure that we call a random geometric
 tree. The algorithm first builds a random geometric graph, then select a node
 from which to start the tree. It then calculaes the the shortest path tree
-\cite{dij59} from this node to all other ones. Edges that are not located along
+\parencite{dij59} from this node to all other ones. Edges that are not located along
 this tree are pruned. This random geometric tree does not exactly represent
 dendritic landscapes but is a convenient model to simulate lake connected by
 rivers to a series of smaller lakes.
 
 Spatial graphs are increasingly popular in spatial ecology and conservation
 biology, where patterns of connections can be used to study and influence the
-flow of organisms \cite{min07,fal07,min08,gar08,urb09,dal10}. In the neutral
-theory, networks were pioneered by Economo and Keitt \cite{eco08, eco10}. They
+flow of organisms \parencite{min07,fal07,min08,gar08,urb09,dal10}. In the neutral
+theory, networks were pioneered by Economo and Keitt \parencite{Economo2008, eco10}. They
 used networks to study how different spatial structures influenced diversity.
 They were also used to study how the spatial structure influenced nonsympatric
-speciation \cite{des12,des12b}.
+speciation \parencite{Desjardins2012a,Desjardins2012b}.
 
 %========================================================%
 \section*{Model description}
@@ -288,7 +288,7 @@ independent metapopulation models \parencite(Hanski1997). There are no
 interactions in this simple model, which means there is no limit to local
 species richness and no carrying capacity. Competitive, mutualistic and
 predator-prey interactions have been added to this framework (e.g.
-\textcite{Tilman1994,Holt1996,Klausmeier1998,Gravel2011b}) but we will keep this
+\textcite{Tilman1994a,Holt1996,Klausmeier1998,Gravel2011b}) but we will keep this
 model minimal for the sake of comparison with the neutral model.
 
 Predictions of the patch dynamics metacommunity model are quite straightforward.
@@ -318,7 +318,7 @@ metapopulation models also reveals interesting predictions on other aspects of
 community organization at various spatial scales such as the species-area
 relationship \parencite{Hanski1997}, and proved to be useful in conservation
 ecology with predictions of extinctions following habitat destruction
-\parencite{Nee1994,Rybicki2013}.
+\parencite{Tilman1994b,Rybicki2013}.
 
 %------------------------
 \subsection*{Neutral dynamics}
@@ -385,7 +385,7 @@ ecological equivalence assumption, one of the most criticized aspect of neutral
 models is the realism of the speciation process and the required speciation
 rates to sustain species richness \parencite{Ricklefs2003,Etienne2007}. Recent
 neutral models with more credible speciation models
-\parencite{Rosindell2009,Desjardins2012a} revealed the difficulty to maintain
+\parencite{Rosindell2010,Desjardins2012a} revealed the difficulty to maintain
 diversity in neutral models over macro-evolutionary time scales. These models
 nonetheless proposed interesting predictions on endemic species richness and
 island biogeography \parencite{Rosindell2011,Desjardins2012b}.
@@ -549,13 +549,13 @@ The network approach to the study of spatially explicit landscapes is a major
 advancement in metacommunity ecology. It is a first step to make the concept
 operational because it accounts for more realistic landscape structures and
 dispersal kernels. It makes a significant departure to simple island-mainland or
-global dispersal approaches used previously (e.g. \parencite{Tilman1994,
+global dispersal approaches used previously (e.g. \parencite{Tilman1994a,
 Hubbell2001, Mouquet2002}). But dispersal is also spatially explicit in a
 lattice model and it does not make the landscape more realistic. We believe the
 fundamental contribution of this approach is the consideration of spatial
 heterogeneity of dispersal. In agreement with previous theoretical
-\parencite{Economo2011, Desjardins2012} and experimemental studies
-\parencite{Altermat2012}, the simulations show that the degree centrality has a
+\parencite{Economo2011, Desjardins2012b} and experimemental studies
+\parencite{Carrara2012}, the simulations show that the degree centrality has a
 significant impact on $\alpha$ diversity. Central nodes might also contribute
 more to maintain $\gamma$ diversity, as they are essential for species to spread
 throughout the landscape. The nodes could be potentially quantified as keystone
@@ -606,7 +606,7 @@ widely used over the last decade as a test of the neutral theory, its underlying
 assumption and a quantification of dispersal limitations (e.g.
 \textcite{Svenning2004, Hardy2004, Gilbert2004, Cottenie2005}. One problem of
 this approach is however that it makes a weak test of neutrality
-\parencite{McGill200}, based on the description of spatial community structure,
+\parencite{McGill2003}, based on the description of spatial community structure,
 rather than hypothesis testing. The different models we reviewed in this article
 could be better employed if used to generate null expectations of species
 distribution based on different hypotheses and then compare them. But most of
@@ -627,13 +627,13 @@ relationship between spatial structures and biodiversity is not resolved, but
 networks provide powerful tools to analyze landscapes and generate testable
 predictions on the relationship between community assembly and spatial
 structures. For example, the neutral theory predict less diversity in isolated
-communities and constant speciation (regardless of isolation) \cite{eco08}.
+communities and constant speciation (regardless of isolation) \parencite{Economo2008}.
 Adding the effect of gene flow changes the predictions, but the neutral theory
 do not predict adaptive radiation and might thus face problems for predicting
 many long-term ecological processes.
 
 Finally, our analyses emphasize the need to expand on the canonial neutral
-theory. As pointed out by \textcite{Wootoon2005}, most of the unexplained
+theory. As pointed out by \textcite{Wootton2005}, most of the unexplained
 deviation of empirical community from the prediction of accurately calibrated
 neutral models can be attributed to non-competitive interactions. \textcite{Canard2012}
 proposed that neutral processes can explain the network structure of trophic
@@ -660,7 +660,6 @@ fellowship.
 \printbibliography
 
 \newpage
-
 %========================================================%
 \section*{Figure legends}
 

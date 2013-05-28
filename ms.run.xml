@@ -84,7 +84,7 @@
       <file>ms-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>./library.bib</file>
+      <file>library.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
