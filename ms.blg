@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ms.aux
 The style file: biblatex.bst
-White space in argument---line 49 of file ms.aux
+White space in argument---line 64 of file ms.aux
  : \citation{app97
  :                 b}
 I'm skipping whatever remains of this command
@@ -17,16 +17,14 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 15336 items from 5000.
+Reallocated field_info (elt_size=4) to 16832 items from 5000.
 Database file #1: ms-blx.bib
 Database file #2: ./library.bib
 Warning--I didn't find a database entry for "Leibold2004a"
 Warning--I didn't find a database entry for "Leibold2004b"
 Warning--I didn't find a database entry for "Hubbell2001"
-Warning--I didn't find a database entry for "Etiennee2011"
 Warning--I didn't find a database entry for "Wennekes2011"
 Warning--I didn't find a database entry for "Schmueli2010"
-Warning--I didn't find a database entry for "Gravel2011"
 Warning--I didn't find a database entry for "Peterson2013"
 Warning--I didn't find a database entry for "Peres-Neto2013"
 Warning--I didn't find a database entry for "Desjardins2012a"
@@ -71,49 +69,57 @@ Warning--I didn't find a database entry for "Gilarranz2012"
 Warning--I didn't find a database entry for "Legendre2005"
 Warning--I didn't find a database entry for "Desjardins2012"
 Warning--I didn't find a database entry for "Mouquet2013"
+Warning--I didn't find a database entry for "Gotelli1996"
+Warning--I didn't find a database entry for "Borcard1992"
+Warning--I didn't find a database entry for "Borcard2002"
+Warning--I didn't find a database entry for "Leduc1992"
+Warning--I didn't find a database entry for "Legendre1993"
+Warning--I didn't find a database entry for "Svenning2004"
+Warning--I didn't find a database entry for "McGill200"
 Warning--I didn't find a database entry for "Hubbell2008"
 Warning--I didn't find a database entry for "coy04"
+Warning--I didn't find a database entry for "Wootoon2005"
 Biblatex version: 1.5
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 23 entries,
+You've used 28 entries,
             5995 wiz_defined-function locations,
-            1452 strings with 32763 characters,
-and the built_in function-call counts, 75485 in all, are:
-= -- 2416
-> -- 2542
-< -- 644
-+ -- 744
-- -- 1081
-* -- 6848
-:= -- 4658
+            1521 strings with 39160 characters,
+and the built_in function-call counts, 91820 in all, are:
+= -- 2915
+> -- 3080
+< -- 785
++ -- 885
+- -- 1311
+* -- 8334
+:= -- 5606
 add.period$ -- 0
-call.type$ -- 23
-change.case$ -- 265
-chr.to.int$ -- 148
-cite$ -- 44
-duplicate$ -- 8575
-empty$ -- 8293
-format.name$ -- 1586
-if$ -- 16629
+call.type$ -- 28
+change.case$ -- 320
+chr.to.int$ -- 178
+cite$ -- 54
+duplicate$ -- 10455
+empty$ -- 10142
+format.name$ -- 1907
+if$ -- 20235
 int.to.chr$ -- 0
-int.to.str$ -- 50
+int.to.str$ -- 62
 missing$ -- 0
-newline$ -- 934
-num.names$ -- 943
-pop$ -- 6816
+newline$ -- 1137
+num.names$ -- 1151
+pop$ -- 8327
 preamble$ -- 1
-purify$ -- 332
+purify$ -- 399
 quote$ -- 0
-skip$ -- 4032
+skip$ -- 4897
 stack$ -- 0
-substring$ -- 1329
-swap$ -- 3508
-text.length$ -- 639
-text.prefix$ -- 28
+substring$ -- 1596
+swap$ -- 4311
+text.length$ -- 776
+text.prefix$ -- 34
 top$ -- 1
-type$ -- 862
+type$ -- 1052
 warning$ -- 0
-while$ -- 604
+while$ -- 733
 width$ -- 0
-write$ -- 910
+write$ -- 1108
 (There was 1 error message)

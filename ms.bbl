@@ -366,6 +366,42 @@
   \field{year}{2012}
 \endentry
 
+\entry{Cottenie2005}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cottenie}{C.}%
+     {Karl}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{body size,community theory,dispersal,environmental heterogeneity,mass
+  effects,meta-,meta-analysis,neutral theory,patch dynamics,species
+  sorting,variation decompo-}
+  \strng{namehash}{CK1}
+  \strng{fullhash}{CK1}
+  \field{labelyear}{2005}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1111/j.1461-0248.2005.00820.x
+  \endverb
+  \field{issn}{1461023X}
+  \field{number}{11}
+  \field{pages}{1175\bibrangedash 1182}
+  \field{title}{{Integrating environmental and spatial processes in ecological
+  community dynamics}}
+  \verb{url}
+  \verb http://blackwell-synergy.com/doi/abs/10.1111/j.1461-0248.2005.00820.x
+  \endverb
+  \field{volume}{8}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Cottenie\_2
+  \verb 005.pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology Letters}
+  \field{month}{11}
+  \field{year}{2005}
+\endentry
+
 \entry{Economo2011}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -479,6 +515,141 @@
   \field{journaltitle}{Ecology letters}
   \field{month}{01}
   \field{year}{2008}
+\endentry
+
+\entry{Etienne2011}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Etienne}{E.}%
+     {Rampal~S}{R.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosindell}{R.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Biodiversity,Computer Simulation,Models, Biological,Regression
+  Analysis,Species Specificity}
+  \strng{namehash}{ERSRJ1}
+  \strng{fullhash}{ERSRJ1}
+  \field{labelyear}{2011}
+  \field{sortinit}{E}
+  \field{abstract}{%
+  The unified neutral theory of biodiversity and biogeography is increasingly
+  accepted as an informative null model of community composition and dynamics.
+  It has successfully produced macro-ecological patterns such as species-area
+  relationships and species abundance distributions. However, the models
+  employed make many unrealistic auxiliary assumptions. For example, the
+  popular spatially implicit version assumes a local plot exchanging migrants
+  with a large panmictic regional source pool. This simple structure allows
+  rigorous testing of its fit to data. In contrast, spatially explicit models
+  assume that offspring disperse only limited distances from their parents, but
+  one cannot as yet test the significance of their fit to data. Here we compare
+  the spatially explicit and the spatially implicit model, fitting the
+  most-used implicit model (with two levels, local and regional) to data
+  simulated by the most-used spatially explicit model (where offspring are
+  distributed about their parent on a grid according to either a radially
+  symmetric Gaussian or a 'fat-tailed' distribution). Based on these fits, we
+  express spatially implicit parameters in terms of spatially explicit
+  parameters. This suggests how we may obtain estimates of spatially explicit
+  parameters from spatially implicit ones. The relationship between these
+  parameters, however, makes no intuitive sense. Furthermore, the spatially
+  implicit model usually fits observed species-abundance distributions better
+  than those calculated from the spatially explicit model's simulated data.
+  Current spatially explicit neutral models therefore have limited descriptive
+  power. However, our results suggest that a fatter tail of the dispersal
+  kernel seems to improve the fit, suggesting that dispersal kernels with even
+  fatter tails should be studied in future. We conclude that more advanced
+  spatially explicit models and tools to analyze them need to be developed.%
+  }
+  \verb{doi}
+  \verb 10.1371/journal.pone.0014717
+  \endverb
+  \field{issn}{1932-6203}
+  \field{number}{3}
+  \field{pages}{e14717}
+  \field{title}{{The spatial limitations of current neutral models of
+  biodiversity.}}
+  \verb{url}
+  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3056651\&tool
+  \verb =pmcentrez\&rendertype=abstract
+  \endverb
+  \field{volume}{6}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Etienne\_Ro
+  \verb sindell\_2011.pdf:pdf
+  \endverb
+  \field{journaltitle}{PloS one}
+  \field{month}{01}
+  \field{year}{2011}
+\endentry
+
+\entry{Gilbert2004}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gilbert}{G.}%
+     {Benjamin}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lechowicz}{L.}%
+     {Martin~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Analysis of Variance,Carex Plant,Data Interpretation,
+  Statistical,Ecology,Environment,Trees}
+  \strng{namehash}{GBLMJ1}
+  \strng{fullhash}{GBLMJ1}
+  \field{labelyear}{2004}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  A fundamental goal of ecology is to understand what controls the distribution
+  and abundance of species. Both environmental niches and trade-offs among
+  species in dispersal and competitive ability have traditionally been cited as
+  determinants of plant community composition. More recently, neutral models
+  have shown that communities of species with identical life-history
+  characteristics and no adaptation to environmental niches can form spatial
+  distribution patterns similar to those found in nature, so long as the
+  species have a limited dispersal distance. If there is a strong correlation
+  between geographic distance and change in environmental conditions, however,
+  such spatial patterns can arise through either neutral or niche-based
+  processes. To test these competing theories, we developed a sampling design
+  that decoupled distance and environment in the understory plant communities
+  of an old-growth, temperate forest. We found strong evidence of
+  niche-structuring but almost no support for neutral predictions. Dispersal
+  limitation acted in conjunction with environmental gradients to determine
+  species' distributions, and both functional and phylogenetic constraints
+  appear to contribute to the niche differentiation that structures community
+  assembly. Our results indicate that testing a neutral hypothesis without
+  accounting for environmental gradients will at best cause unexplained
+  variation in plant distributions and may well provide misleading support for
+  neutrality because of a correlation between geographic distance and
+  environment.%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.0400814101
+  \endverb
+  \field{issn}{0027-8424}
+  \field{number}{20}
+  \field{pages}{7651\bibrangedash 6}
+  \field{title}{{Neutrality, niches, and dispersal in a temperate forest
+  understory.}}
+  \verb{url}
+  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=419661\&tool=
+  \verb pmcentrez\&rendertype=abstract
+  \endverb
+  \field{volume}{101}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Gilbert\&Le
+  \verb chowicz2004.pdf:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{month}{05}
+  \field{year}{2004}
 \endentry
 
 \entry{Gotelli2006}{article}{}
@@ -675,6 +846,64 @@
   \field{year}{2010}
 \endentry
 
+\entry{Gravel2011a}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Gravel}{G.}%
+     {Dominique}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Canard}{C.}%
+     {Elsa}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guichard}{G.}%
+     {Fr\'{e}d\'{e}ric}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mouquet}{M.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Biota,Computer Simulation,Food Chain,Models, Biological}
+  \strng{namehash}{GD+1}
+  \strng{fullhash}{GDCEGFMN1}
+  \field{labelyear}{2011}
+  \field{extrayear}{1}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  We are interested in understanding if metacommunity dynamics contribute to
+  the persistence of complex spatial food webs subject to
+  colonization-extinction dynamics. We study persistence as a measure of
+  stability of communities within discrete patches, and ask how do species
+  diversity, connectance, and topology influence it in spatially structured
+  food webs.%
+  }
+  \verb{doi}
+  \verb 10.1371/journal.pone.0019374
+  \endverb
+  \field{issn}{1932-6203}
+  \field{number}{5}
+  \field{pages}{e19374}
+  \field{title}{{Persistence increases with diversity and connectance in
+  trophic metacommunities.}}
+  \verb{url}
+  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3103501\&tool
+  \verb =pmcentrez\&rendertype=abstract
+  \endverb
+  \field{volume}{6}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Reprints/Gravel2011\_PLOS\_One.pdf:pdf
+  \endverb
+  \field{journaltitle}{PloS one}
+  \field{month}{01}
+  \field{year}{2011}
+\endentry
+
 \entry{Gravel2011b}{article}{}
   \name{author}{5}{}{%
     {{}%
@@ -708,6 +937,7 @@
   \strng{namehash}{GD+1}
   \strng{fullhash}{GDMFCEMDMN1}
   \field{labelyear}{2011}
+  \field{extrayear}{2}
   \field{sortinit}{G}
   \field{abstract}{%
   MacArthur and Wilson's Theory of Island Biogeography (TIB) is among the most
@@ -789,6 +1019,42 @@
   \field{journaltitle}{Science (New York, N.Y.)}
   \field{month}{01}
   \field{year}{1997}
+\endentry
+
+\entry{Hardy2004}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hardy}{H.}%
+     {O}{O}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{alpha- and beta-diversity,cameroon,community ecology,isolation by
+  distance,neutral model,tropical forest}
+  \strng{namehash}{HO1}
+  \strng{fullhash}{HO1}
+  \field{labelyear}{2004}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.1016/j.foreco.2004.05.014
+  \endverb
+  \field{issn}{03781127}
+  \field{number}{1-3}
+  \field{pages}{191\bibrangedash 202}
+  \field{title}{{Spatial pattern analysis of tree species distribution in a
+  tropical rain forest of Cameroon: assessing the role of limited dispersal and
+  niche differentiation}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0378112704003263
+  \endverb
+  \field{volume}{197}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Hardy\_Somk
+  \verb e\_2004.pdf:pdf
+  \endverb
+  \field{journaltitle}{Forest Ecology and Management}
+  \field{month}{08}
+  \field{year}{2004}
 \endentry
 
 \entry{Logue2011}{article}{}
