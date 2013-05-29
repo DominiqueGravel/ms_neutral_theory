@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  28 MAY 2013 08:29
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  28 MAY 2013 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1022,51 +1022,50 @@ File: english.lbx 2011/06/08 v1.5 biblatex localization
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'firstinits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 14.
+(biblatex)                Setting 'uniquename=init' on input line 9.
 
 (./ms.aux)
 \openout1 = `ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 14.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 14.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 9.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 9.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 14.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 14.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 9.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 14.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 14.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 9.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 14.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 14.
-
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 9.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Try loading font information for OT1+jkp on input line 14.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 9.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
@@ -1173,87 +1172,87 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ms.bbl' found.
 (./ms.bbl)
-Package biblatex Info: Reference section=0 on input line 14.
-Package biblatex Info: Reference segment=0 on input line 14.
+Package biblatex Info: Reference section=0 on input line 9.
+Package biblatex Info: Reference segment=0 on input line 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+jkpss on input line 20
+LaTeX Font Info:    Try loading font information for OT1+jkpss on input line 15
 .
 (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/ot1jkpss.fd
 File: ot1jkpss.fd 2007/07/16 Fontinst v1.928 font definitions for OT1/jkpss.
 )
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 21.
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 16.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 21.
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 16.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 21.
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 16.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 21.
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 16.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 [1
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (10.72815pt too wide) in paragraph at lines 46--72
+Overfull \hbox (10.72815pt too wide) in paragraph at lines 41--67
 \OT1/jkp/m/n/12 The meta-com-mu-nity per-spec-tive ap-pears nat-u-rally as the 
 ap-pro-pri-ate con-cep-tual frame-
  []
 
 [2] [3] [4] [5] [6] [7]
-Overfull \hbox (4.06061pt too wide) in paragraph at lines 250--263
+Overfull \hbox (4.06061pt too wide) in paragraph at lines 245--258
 \OT1/jkp/m/n/12 meta-com-mu-nity ecol-ogy: patch dy-nam-ics, neu-tral dy-nam-ic
 s and species sort-ing. While
  []
 
 [8]
 
-LaTeX Warning: Citation '(' on page 9 undefined on input line 268.
+LaTeX Warning: Citation '(' on page 9 undefined on input line 263.
 
 
-LaTeX Warning: Citation '(' on page 9 undefined on input line 269.
+LaTeX Warning: Citation '(' on page 9 undefined on input line 264.
 
 
-LaTeX Warning: Citation '(' on page 9 undefined on input line 287.
+LaTeX Warning: Citation '(' on page 9 undefined on input line 282.
 
 
-Overfull \hbox (18.63222pt too wide) in paragraph at lines 267--293
+Overfull \hbox (18.63222pt too wide) in paragraph at lines 262--288
 \OT1/jkp/m/n/12 la-tion mod-els ([])Hanski1999). The stan-dard Levins metapop-u
 -la-tion model ([])Levins1969)
  []
@@ -1267,42 +1266,42 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.661 
+l.656 
       
 ? 
 [27] [28] [29] <Networks.pdf, id=105, 215.80624pt x 432.61626pt>
 File: Networks.pdf Graphic file (type pdf)
 
 <use Networks.pdf>
-Package pdftex.def Info: Networks.pdf used on input line 697.
+Package pdftex.def Info: Networks.pdf used on input line 692.
 (pdftex.def)             Requested size: 136.16039pt x 272.95895pt.
  [30 <./Networks.pdf>]
 <Centrality.pdf, id=113, 432.61626pt x 432.61626pt>
 File: Centrality.pdf Graphic file (type pdf)
  <use Centrality.pdf>
-Package pdftex.def Info: Centrality.pdf used on input line 706.
+Package pdftex.def Info: Centrality.pdf used on input line 701.
 (pdftex.def)             Requested size: 340.39752pt x 340.40985pt.
 
 [31 <./Centrality.pdf>] <BetaGeoDist.png, id=124, 513.8397pt x 395.3169pt>
 File: BetaGeoDist.png Graphic file (type png)
 
 <use BetaGeoDist.png>
-Package pdftex.def Info: BetaGeoDist.png used on input line 715.
+Package pdftex.def Info: BetaGeoDist.png used on input line 710.
 (pdftex.def)             Requested size: 295.0084pt x 226.96765pt.
  [32 <./BetaGeoDist.png>]
 <BetaTopoDist.png, id=130, 513.8397pt x 395.3169pt>
 File: BetaTopoDist.png Graphic file (type png)
  <use BetaTopoDist.png>
-Package pdftex.def Info: BetaTopoDist.png used on input line 724.
+Package pdftex.def Info: BetaTopoDist.png used on input line 719.
 (pdftex.def)             Requested size: 295.0084pt x 226.96765pt.
 
 [33 <./BetaTopoDist.png>]
-Underfull \hbox (badness 1242) in paragraph at lines 753--755
+Underfull \hbox (badness 1242) in paragraph at lines 748--750
 []\OT1/jkp/m/n/12 The num-ber of short-est paths from all
  []
 
 
-Overfull \hbox (46.02014pt too wide) in paragraph at lines 765--803
+Overfull \hbox (46.02014pt too wide) in paragraph at lines 760--798
  [][] 
  []
 
