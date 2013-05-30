@@ -11,9 +11,9 @@
 \linenumbers 
 \modulolinenumbers[1]
 
-\textbf{Title:}  Using neutral theory to reveal the contribution of dispersal to community assembly in complex landscapes\\
+\textbf{Title:} Using neutral theory to reveal the contribution of meta-community processes to assembly in complex landscapes\\
 
-\textbf{Authors:}  Dominique Gravel$^{1,2,*}$, Timoth\'ee Poisot$^{1,2}$, Philippe Desjardins-Proulx$^{1,2}$\\
+\textbf{Authors:} Dominique Gravel$^{1,2,*}$, Timoth\'ee Poisot$^{1,2}$, Philippe Desjardins-Proulx$^{1,2}$\\
 
 1: Canada Research Chair on Terrestrial Ecosystems. D\'epartement de biologie, chimie et g\'eographique, Universit\'e du Qu\'ebec \`a Rimouski, 300 All\'ee des Ursulines, Qu\'ebec, Canada. G5L 3A1.\\
 
@@ -21,32 +21,31 @@
 
 \textbf{Keywords:} metacommunity; neutral theory; species sorting; metapopulation; spatial network; centrality \\
 
-\textbf{Words in the abstract:}      
+\textbf{Words in the abstract:}   
 
-\textbf{Words in the main text:}    
+\textbf{Words in the main text:}  
 
-\textbf{Words in the legends:}    
+\textbf{Words in the legends:}  
 
 \textbf{Figures:} 4 
 
-\textbf{Tables:} 2                    
+\textbf{Tables:} 2          
 
-\textbf{References:}             
+\textbf{References:}       
 
 \newpage
 \doublespacing
 
 %========================================================%
 \section*{Abstract}
-The metacommunity perspective appears naturally as the appropriate conceptual
-framework to make ecology more predictive, integrating elements of theoretical
-ecology. The recent development of neutral theory appears as a step back in that
+The metacommunity perspective appears as an appropriate conceptual
+framework to make ecology more predictive. The recent development of neutral theory appears as a step back in that
 direction because of the assumption of ecological equivalence and the absence of
 any effect of the environment on community organization. A remarkable strength
 of neutral theory is nonetheless to provide a general theory of diversity that
 accounts for a wide range of empirical observations. In this paper, we argue
-that neutral theory can be a useful tool to understand the impact of dispersal
-on community organization in landscapes of various complexities. Our main
+that neutral theory can be useful to understand the impact of dispersal
+on community assembly in landscapes of various complexities. Our main
 objective is to use neutral theory to stress the importance of complex landscape
 network structure on the distribution of diversity. We refer to the landscape
 organization as a "spatial contingency" that could potentially affect the
@@ -118,8 +117,8 @@ some aspects of community dynamics. It links to an old philosophical debate
 between realism and instrumentalism \parencite{Wennekes2012}. Because every
 ecological model is a simplification of reality, scientists have to subjectively
 decide the level of details they put in, leaving out some elements they consider
-unimportant. The realism perspective requires that all assumptions of the theory
-must be true, while the utility of the theory is more important to
+unimportant. The realist perspective requires all assumptions of the theory
+to be true, while the utility of the theory is more important to
 instrumentalism. The utilitarian value of a theory could either be for
 understanding or for prediction (another old philosophical debate, see
 \textcite{Shmueli2010}). Obviously neutral theory could only be instrumental.
@@ -471,7 +470,7 @@ between models. The model parameterization is responsible for differences in
 both $\alpha$ and $\gamma$ diversity, meaning that only the shape of the
 relationship between centrality and richness ought to be looked at. It appears
 that both in the geographical and tree graph, the path dynamics model has a
-much more considerable variation in $\alpha$ diversity.  However, in all
+much more considerable variation in $\alpha$ diversity. However, in all
 cases the $\alpha$ diversity increases with the node degree centrality, meaning
 that nodes with more connections also host a more diverse community.
 Eigen-centrality gave a far less clear-cut result, which can probably be
@@ -508,7 +507,7 @@ between spatial contingencies (here connectivity and distribution of
 environmental conditions) and dispersal.
 
 To a vast extent, these relationships are preserved when looking at the
-geodesic distances (Fiig. 4), i.e. along how many edges should one travel to
+geodesic distances (Fig. 4), i.e. along how many edges should one travel to
 connect two patchs. Interestingly enough, the distance-dissimilarity
 relationship for the neutral model is markedly hump-shaped, with sites being at
 a medium distance having the maximal dissimilarity.
@@ -552,7 +551,7 @@ heterogeneity of dispersal. In agreement with previous theoretical
 \parencite{Carrara2012}, the simulations show that the degree centrality has a
 significant impact on $\alpha$ diversity. Central nodes might also contribute
 more to maintain $\gamma$ diversity, as they are essential for species to spread
-throughout the landscape. The nodes could be potentially quantified as keystone
+throughout the landscape. Such nodes could be potentially quantified as keystone
 for the metacommunity \parencite{Mouquet2013}. Interestingly, but not
 surprisingly, this effect is weaker with species sorting dynamics. We could even
 hypothesize it will vanish in the extreme case of niche differentiation (with
@@ -737,7 +736,7 @@ $\overline{E_R} = 50$, $\sigma{E_R} = 5$. Simulations run 1000 time steps
 		Order & Total number of nodes \\
 		Size & Total number of edges \\
 		Connectivity & A measure of robustness: the minimum number of elements to remove to isolate the nodes \\
-		Components &  The number of connected subsets\\
+		Components & The number of connected subsets\\
 
 		\textbf{Node-level metrics} & \\
 		Degree & The number of edges of a node \\
@@ -760,17 +759,17 @@ $\overline{E_R} = 50$, $\sigma{E_R} = 5$. Simulations run 1000 time steps
 	\hline
 	& Definition & Patch dynamics & Neutral & Species-sorting \\
 	\hline
-	\textbf{Variables} &     &    &    &   \\
-	$p$ & Occupancy  & X &    &   \\
-	$N$ & Local population size &    & X & X \\
-	$Z$ & Local rel. abund. &  & X & X \\
-	$P$ & Rel. abund. in the neighborhood &  & X & X \\
+	\textbf{Variables} &   &  &  &  \\
+	$p$ & Occupancy & X &  &  \\
+	$N$ & Local population size &  & X & X \\
+	$Z$ & Local rel. abund. & & X & X \\
+	$P$ & Rel. abund. in the neighborhood & & X & X \\
 	$s$ & Local species richness & X & X & X \\
 	$d$ & Node degree & X & X & X \\
-	$C$ & Prob. of a colonization event & X &  &  \\
-	$I$ & Prob. of a colonization event & X &  &  \\
-	$Pr$ & Recruitment prob. &  & X & X \\
-	$\lambda$ & Survival prob. &  &  & X \\
+	$C$ & Prob. of a colonization event & X & & \\
+	$I$ & Prob. of a colonization event & X & & \\
+	$Pr$ & Recruitment prob. & & X & X \\
+	$\lambda$ & Survival prob. & & & X \\
 
 	\textbf{Indices} & & & &\\
 	$x,y$ & Node location & X & X & X \\
