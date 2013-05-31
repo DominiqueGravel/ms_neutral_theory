@@ -22,43 +22,43 @@ Biblatex version: 1.5
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 83 entries,
             5995 wiz_defined-function locations,
-            1855 strings with 67727 characters,
-and the built_in function-call counts, 277643 in all, are:
-= -- 9412
-> -- 9456
-< -- 2449
-+ -- 2797
-- -- 3837
-* -- 24705
-:= -- 16629
+            1851 strings with 67664 characters,
+and the built_in function-call counts, 276840 in all, are:
+= -- 9370
+> -- 9443
+< -- 2443
++ -- 2789
+- -- 3835
+* -- 24588
+:= -- 16583
 add.period$ -- 0
 call.type$ -- 83
-change.case$ -- 1124
+change.case$ -- 1115
 chr.to.int$ -- 304
 cite$ -- 164
-duplicate$ -- 31652
-empty$ -- 30068
-format.name$ -- 6087
-if$ -- 61915
+duplicate$ -- 31544
+empty$ -- 29996
+format.name$ -- 6066
+if$ -- 61767
 int.to.chr$ -- 0
-int.to.str$ -- 205
+int.to.str$ -- 200
 missing$ -- 0
-newline$ -- 3061
-num.names$ -- 3692
+newline$ -- 3038
+num.names$ -- 3673
 pop$ -- 25658
 preamble$ -- 1
-purify$ -- 1386
+purify$ -- 1377
 quote$ -- 0
-skip$ -- 15354
+skip$ -- 15320
 stack$ -- 0
-substring$ -- 4932
-swap$ -- 12229
-text.length$ -- 2311
+substring$ -- 4891
+swap$ -- 12179
+text.length$ -- 2309
 text.prefix$ -- 97
 top$ -- 1
 type$ -- 3142
 warning$ -- 0
-while$ -- 1915
+while$ -- 1910
 width$ -- 0
-write$ -- 2977
+write$ -- 2954
 (There was 1 warning)

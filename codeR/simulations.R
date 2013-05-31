@@ -1,5 +1,5 @@
 ########################################################################
-# Source for the figures 1-4 in the paper
+# Source code for the figures 1-4 in the paper
 # Gravel, Poisot and Desjardins. 2013. Using neutral theory to reveal the contribution of dispersal to community assembly in complex landscapes. J. Limnology. 
 #
 # By: Dominique Gravel (dominique_gravel@uqar.ca) 
@@ -110,17 +110,17 @@ betaPatchGeotree = as.matrix(vegdist(patchGeotree[[1]],method = "bray",diag=T,up
 # Specific parameters
 m = 0.2
 M = 0.01
-d = 0.1
+k = 0.1
 J = 100
 sdN = Inf
 sdE = 5
 nsteps = 1000
 
 # Simulations
-neutralConnected = lottery_model(m,M,d,S,J,sdE,sdN,connected,nsteps)
-neutralLattice = lottery_model(m,M,d,S,J,sdE,sdN,lattice,nsteps)
-neutralGeograph = lottery_model(m,M,d,S,J,sdE,sdN,geograph,nsteps)
-neutralGeotree = lottery_model(m,M,d,S,J,sdE,sdN,geotree,nsteps)
+neutralConnected = lottery_model(m,M,k,S,J,sdE,sdN,connected,nsteps)
+neutralLattice = lottery_model(m,M,k,S,J,sdE,sdN,lattice,nsteps)
+neutralGeograph = lottery_model(m,M,k,S,J,sdE,sdN,geograph,nsteps)
+neutralGeotree = lottery_model(m,M,k,S,J,sdE,sdN,geotree,nsteps)
 
 # Alpha diversity
 alphaNeutralConnected = alpha_fn(neutralConnected[[1]])
@@ -139,17 +139,17 @@ betaNeutralGeotree = as.matrix(vegdist(neutralGeotree[[1]],method = "bray",diag=
 # Specific parameters
 m = 0.2
 M = 0.01
-d = 0.1
+k = 0.1
 J = 100
 sdN = 15
 sdE = 5
 nsteps = 1000
 
 # Simulations
-ssConnected = lottery_model(m,M,d,S,J,sdE,sdN,connected,nsteps)
-ssLattice = lottery_model(m,M,d,S,J,sdE,sdN,lattice,nsteps)
-ssGeograph = lottery_model(m,M,d,S,J,sdE,sdN,geograph,nsteps)
-ssGeotree = lottery_model(m,M,d,S,J,sdE,sdN,geotree,nsteps)
+ssConnected = lottery_model(m,M,k,S,J,sdE,sdN,connected,nsteps)
+ssLattice = lottery_model(m,M,k,S,J,sdE,sdN,lattice,nsteps)
+ssGeograph = lottery_model(m,M,k,S,J,sdE,sdN,geograph,nsteps)
+ssGeotree = lottery_model(m,M,k,S,J,sdE,sdN,geotree,nsteps)
 
 # Alpha diversity
 alphaSSConnected = alpha_fn(ssConnected[[1]])
@@ -165,7 +165,7 @@ betaSSGeotree = as.matrix(vegdist(ssGeotree[[1]],method = "bray",diag=T,upper=T)
 
 ###############################
 # Figure 1
-quartz(height = 6, width = 3)
+quartz(height = 6.5, width = 6.5/4)
 t = matrix(c(1:4),nr = 4, nc = 1, byrow = T)
 layout(t)
 layout.show(4)

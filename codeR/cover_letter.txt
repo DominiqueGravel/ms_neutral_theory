@@ -1,0 +1,10 @@
+May 31st, 2012Rimouski, QC, CanadaDr. Boggero
+Editor of the Special 75 edition
+Journal of Limnology
+a.boggero@ise.cnr.itDear Dr. BoggeroPlease find enclosed a revised manuscript entitled "Using neutral theory to reveal the contribution of meta-community processes to assembly in complex landscapes" by D. Gravel, T. Poisot & P. Desjardins-Proulx. 
+We propose in this manuscript an original review of recent developments in neutral theory and metacommunity ecology. In this paper, we argue that neutral theory can
+be useful to understand the impact of dispersal on community assembly in
+landscapes of various complexities. Our main objective is to use neutral theory
+to stress the importance of complex landscape structure on the distribution of diversity. We briefly review the main approaches to describe spatial networks and describe three simple toy models of metacommunity dynamics. We take this opportunity to review their assumptions and main predictions. We provide all the R code in the Supplementary Material to help the reader understand the details of each model. We then conduct simulations of these models to reveal with simple examples the impact of spatial network structure on diversity distribution.
+
+We were offered the possibility to write a perspective paper on neutral theory without any other constraints. We could have written a formal review on the subject, but it has been covered in depth over the recent years and we cite the relevant references. Instead, we tried to write an accessible paper specifically to the non-theoretician audience of J. of Limnology. Even if our model analysis only touches the topic on the surface, we feel that its accessibility and the corresponding code will help introducing this exciting field to a non-familiar audience. We look forward to hearing from you regarding the acceptability of our manuscript for publication in this special issue of Journal of Limnology. Yours sincerely,Dominique Gravel, Ph.D.Université du Québec à Rimouskidominique_gravel@uqar.ca

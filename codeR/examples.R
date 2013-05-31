@@ -41,12 +41,12 @@ source("lottery_model.R")
 # Default parameters
 m = 0.2
 M = 0.01
-d = 0.1
+k = 0.1
 J = 100
 sdN = Inf
 sdE = 5
 spatial_graph = geograph_fn(n,r)
-results = lottery_model(m,M,d,S,J,sdE,sdN,spatial_graph,nsteps)
+results = lottery_model(m,M,k,S,J,sdE,sdN,spatial_graph,nsteps)
 
 # Figure 1: time series
 x11(height = 5.5, width = 6)
@@ -68,12 +68,12 @@ source("lottery_model.R")
 # Default parameters
 m = 0.2
 M = 0.01
-d = 0.1
+k = 0.1
 J = 100
 sdN = 15
 sdE = 5
 spatial_graph = geograph_fn(n,r)
-results = lottery_model(m,M,d,S,J,sdE,sdN,spatial_graph,nsteps)
+results = lottery_model(m,M,k,S,J,sdE,sdN,spatial_graph,nsteps)
 
 # Figure 1: time series
 x11(height = 5.5, width = 6)

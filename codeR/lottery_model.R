@@ -16,7 +16,7 @@ lottery_model = function(m,M,d,S,J,sdE,sdN,spatial_graph,nsteps) {
 	# Args: 
 	# 	m: immigration probability from the neighbourhood
 	#	M: immigration probability from outside the metacommunity 
-	#	d: local death rate 	
+	#	k: local death rate 	
 	# 	S: number of species
 	#	J: local community size
 	# 	sdE: within patch standard deviation of the environment
@@ -43,7 +43,6 @@ lottery_model = function(m,M,d,S,J,sdE,sdN,spatial_graph,nsteps) {
 	Env = matrix(nr=n, nc = J)
 	for(i in 1:n) Env[i,] = rnorm(J,mean = runif(1,0,100), sd = sdE) 	# For a random distribution of environments
 #	for(i in 1:n) Env[i,] = rnorm(J,mean = i/n*100, sd = 0)				# For a uniform distribution of environments		
-		
 	####################
 	# Niche optimums
 	u = runif(S, 0, 100) 	# For a random distribution of optimums
@@ -75,7 +74,7 @@ lottery_model = function(m,M,d,S,J,sdE,sdN,spatial_graph,nsteps) {
 		for(i in 1:n) {	
 			# Kill individuals at random
 			rand = runif(J,0,1)
-			localC[[i]][rand < d,] = 0
+			localC[[i]][rand < k,] = 0
 		
 			####################
 			# Calculate recruitment probability		

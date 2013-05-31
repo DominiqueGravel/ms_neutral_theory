@@ -270,7 +270,7 @@
   \verb :Users/DGravel/Library/Application Support/Mendeley Desktop/Downloaded/
   \verb Bell - 2001 - Neutral macroecology..pdf:pdf
   \endverb
-  \field{journaltitle}{Science (New York, N.Y.)}
+  \field{journaltitle}{Science}
   \field{month}{09}
   \field{year}{2001}
 \endentry
@@ -346,9 +346,6 @@
      {Pierre}{P.}%
      {}{}%
      {}{}}%
-  }
-  \list{language}{1}{%
-    {EN}%
   }
   \strng{namehash}{BDLPDP1}
   \strng{fullhash}{BDLPDP1}
@@ -481,13 +478,6 @@
      {}{}%
      {}{}}%
   }
-  \name{editor}{1}{}{%
-    {{}%
-     {Ravasi}{R.}%
-     {Timothy}{T.}%
-     {}{}%
-     {}{}}%
-  }
   \strng{namehash}{CE+1}
   \strng{fullhash}{CEMNMLGKJGDMD1}
   \field{labelyear}{2012}
@@ -506,7 +496,7 @@
   \verb{file}
   \verb :Users/DGravel/Documents/Reprints/Canard2012\_PLOS\_One.pdf:pdf
   \endverb
-  \field{journaltitle}{PLoS ONE}
+  \field{journaltitle}{PLoS One}
   \field{month}{08}
   \field{year}{2012}
 \endentry
@@ -1046,7 +1036,7 @@
   \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Etienne\_Ro
   \verb sindell\_2011.pdf:pdf
   \endverb
-  \field{journaltitle}{PloS one}
+  \field{journaltitle}{PloS One}
   \field{month}{01}
   \field{year}{2011}
 \endentry
@@ -1220,7 +1210,7 @@
   \verb{file}
   \verb :Users/DGravel/Desktop/Gilarranz2012.pdf:pdf
   \endverb
-  \field{journaltitle}{Journal of theoretical biology}
+  \field{journaltitle}{Journal of Theoretical Biology}
   \field{month}{03}
   \field{year}{2012}
 \endentry
@@ -1524,7 +1514,7 @@
   \verb{file}
   \verb :Users/DGravel/Documents/Reprints/Gravel2011a\_EcoLett.pdf:pdf
   \endverb
-  \field{journaltitle}{Ecology letters}
+  \field{journaltitle}{Ecology Letters}
   \field{month}{08}
   \field{year}{2011}
 \endentry
@@ -1713,7 +1703,7 @@
   \verb{file}
   \verb :Users/DGravel/Documents/Reprints/Gravel2011\_PLOS\_One.pdf:pdf
   \endverb
-  \field{journaltitle}{PloS one}
+  \field{journaltitle}{PloS One}
   \field{month}{01}
   \field{year}{2011}
 \endentry
@@ -1812,7 +1802,7 @@
   \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Hanski\_Gyl
   \verb lenberg\_1997.pdf:pdf
   \endverb
-  \field{journaltitle}{Science (New York, N.Y.)}
+  \field{journaltitle}{Science}
   \field{month}{01}
   \field{year}{1997}
 \endentry
@@ -2096,9 +2086,6 @@
      {Pedro~R.}{P.~R.}%
      {}{}%
      {}{}}%
-  }
-  \list{language}{1}{%
-    {EN}%
   }
   \keyw{Mantel test,PCNM analysis,beta diversity,canonical ordination,community
   composition,regression on distance matrices,simulation study,spatial
@@ -2719,7 +2706,7 @@
   \verb :Users/DGravel/Documents/Biblio/Librairie\_Gravel.Data/REFS/Peterson201
   \verb 3.pdf:pdf
   \endverb
-  \field{journaltitle}{Ecology letters}
+  \field{journaltitle}{Ecology Letters}
   \field{month}{05}
   \field{year}{2013}
 \endentry
@@ -2799,7 +2786,7 @@
   \verb http://www.sciencemag.org/content/335/6067/464.abstract
   \endverb
   \field{volume}{335}
-  \field{journaltitle}{Science (New York, N.Y.)}
+  \field{journaltitle}{Science}
   \field{month}{01}
   \field{year}{2012}
 \endentry
@@ -3061,13 +3048,6 @@
      {}{}%
      {}{}}%
   }
-  \name{editor}{1}{}{%
-    {{}%
-     {Enquist}{E.}%
-     {Brian}{B.}%
-     {}{}%
-     {}{}}%
-  }
   \strng{namehash}{RJHI1}
   \strng{fullhash}{RJHI1}
   \field{labelyear}{2013}
@@ -3228,9 +3208,6 @@
      {S.~J.}{S.~J.}%
      {}{}%
      {}{}}%
-  }
-  \list{language}{1}{%
-    {EN}%
   }
   \keyw{Barro Colorado Island,dispersal limitation,mesoscale plant
   distributions,niche differences,oligarchy hypothesis,partial RDA,plant
