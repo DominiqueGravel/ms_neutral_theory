@@ -356,7 +356,7 @@ abundance of species $i$ in the seed pool coming from patches connected to patch
 The relative abundance in the neighborhood is weighted by the degree of the
 connected nodes because some nodes will spread their seeds across a higher
 number of nodes and thus contribute less to the seed pool. We thus consider
-$P_{ix} =\frac{\sum P_{iy}d_y^{-1}}{\sum d_y^{-1}}$. We assume for simplicity
+$P_{ix} =\sum P_{iy}d_y^{-1}/\sum d_y^{-1}$. We assume for simplicity
 that the relative abundance in the metacommunity is uniform, i.e. equal to
 $S^{-1}$, but other distributions could be used. The metacommunity is usually
 modelled with a log-series (e.g. \textcite{Hubbell2001}), but it has been shown
@@ -428,7 +428,7 @@ abundance in the seed rain as $Z_{ix} = MS^{-1} + mP_{ix} +
 (1-m-M)N_{ix}J_x^{-1}$. The calculation of the relative abundance in the seed
 rain is the same as the neutral model but the recruitment probability differs
 because only a fraction of offspring survive. It is formulated as $Pr_{ix} =
-\frac{\lambda_{inx}Z_{ix}}{\sum \lambda_{jnx}Z_{jx}}$. The function describing
+\lambda_{inx}Z_{ix}/\sum \lambda_{jnx}Z_{jx}$. The function describing
 the relationship between a microsite condition and survival could take various
 forms; we used the traditional gaussian curve describing the niche,
 $\lambda_{inx} = \exp{-\frac{(E_{nx}-u_i)^2}{2\Pi b_i^2}}$, where $u_i$ is the
@@ -458,7 +458,7 @@ hand it diminishes regional coexistence. Only the best average competitors will
 remain at very high dispersal. We therefore expect
 a hump-shaped relationship between dispersal and alpha ($\alpha$) diversity,
 with a peak at intermediate dispersal. On the other hand, we expect a monotonic
-decrease of beta ($\beta$) and $\gamma$ diversity with increasing dispersal
+decrease of $\beta$ and $\gamma$ diversity with increasing dispersal
 \parencite{Mouquet2003}. This prediction has been validated in some experiments
 \parencite{Venail2008, Logue2011}.
 
@@ -467,7 +467,7 @@ decrease of beta ($\beta$) and $\gamma$ diversity with increasing dispersal
 
 In this section we provide simple simulation results to illustrate the impact of
 spatial contingencies on species distribution and coexistence. We consider four
-different landscapes, illustrated at Fig. 1. with the outcome of simulations
+different landscapes, illustrated at Fig. 1 with the outcome of simulations
 using the neutral model. All of these networks have the same number of nodes,
 but differ both in number of edges (e.g. dispersal routes between sampling
 sites) and connectivity between nodes. We ask how these differences
@@ -558,7 +558,7 @@ The network approach to the study of spatially explicit landscapes was a major
 advancement in metacommunity ecology. It is a first step to make the concept
 operational because it accounts for more realistic landscape structures and
 dispersal kernels. It is a significant departure to island-mainland or
-global dispersal approaches used previously (e.g. \parencite{Tilman1994a,
+global dispersal approaches used previously (e.g. \textcite{Tilman1994a,
 Hubbell2001, Mouquet2002}). But dispersal is also spatially explicit in a
 lattice model and it does not make the landscape more realistic. We believe the
 fundamental contribution of this approach is accounting for spatial
@@ -614,7 +614,7 @@ account the spatial autocorrelation of species distribution
 \parencite{Leduc1992, Borcard1992, Legendre1993}. This methodology has been
 widely used over the last decade as a test of the neutral theory, its underlying
 assumption and to quantify dispersal limitations (e.g. \textcite{Svenning2004,
-Hardy2004, Gilbert2004, Cottenie2005}. This approach is however only a weak test
+Hardy2004, Gilbert2004, Cottenie2005}). This approach is however only a weak test
 of neutrality \parencite{McGill2003}, based on the description of spatial
 community structure, rather than hypothesis testing. The different models we
 reviewed in this article could be better employed if used to generate null
@@ -634,12 +634,12 @@ Working with more complex representations on landscapes has several advantages.
 Real landscapes are not flat geometric objects, they are highly structured and
 diversified. This structure has long been recognized as a key component of
 biological diversity. In the 19th century, Moritz Wagner noted that patterns of
-rivers \cite{coy04} could explain how beetles diversified. Yet, to this day, the
+rivers \parencite{coy04} could explain how beetles diversified. Yet, to this day, the
 relationship between spatial structures and biodiversity is not resolved, but
 networks provide powerful tools to analyze landscapes and generate testable
 predictions on community assembly. For example, the neutral theory predicts less
 diversity in isolated communities and constant speciation (regardless of
-isolation) \parencite{Economo2008}. Adding the effect of gene flow changes the
+isolation -- \parencite{Economo2008}. Adding the effect of gene flow changes the
 predictions \parencite{Desjardins2012b}, but the neutral theory does not predict
 adaptive radiation and might thus face problems for predicting many long-term
 evolutionary processes.
@@ -689,7 +689,7 @@ two panels are simulation results conducted with the random geometric graph
 illustrated at Fig. 1 and the lower two panels are runs with the random tree
 graph. Parameters:$S = 100$, $c = 0.4$, $e = 0.1$, $J_x = 100$, $m = 0.2$, $M =
 0.01$, $k = 0.1$, $ u \epsilon [0,100]$, $b = 15$, $ E_x \epsilon [0,100]$,
-$\overline{E_R} = 50$, $\sigma{E_R} = 5$. Simulations run 1000 time steps.
+$\overline{E_R} = 50$, $\sigma{E_R} = 5$. Simulations were run 1000 time steps.
 
 %------------------------
 \subsection*{Figure 3}
